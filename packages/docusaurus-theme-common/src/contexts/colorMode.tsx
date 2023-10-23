@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -191,7 +191,7 @@ export function useColorMode(): ContextValue {
   if (context == null) {
     throw new ReactContextError(
       'ColorModeProvider',
-      'Please see https://docusaurus/docs/api/themes/configuration#use-color-mode.',
+      'Please see https://docusaurus.io/docs/api/themes/configuration#use-color-mode.',
     );
   }
   return context;

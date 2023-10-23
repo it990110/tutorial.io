@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -83,7 +83,7 @@ function MigrationAnnouncement() {
         <Translate
           values={{
             docusaurusV1Link: (
-              <Link to="https://v1.docusaurus/">
+              <Link to="https://v1.docusaurus.io/">
                 <Translate>Docusaurus v1</Translate>
               </Link>
             ),

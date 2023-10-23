@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -12,7 +12,7 @@ export default {
   organizationName: 'facebook',
   projectName: 'docusaurus',
   baseUrl: '/blog-only/',
-  url: 'https://docusaurus',
+  url: 'https://docusaurus.io',
   // We can only warn now, since we have blog pages linking to non-blog pages...
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -32,7 +32,7 @@ export default {
           postsPerPage: 3,
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} facebook, Inc.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
           },
         },
         theme: {

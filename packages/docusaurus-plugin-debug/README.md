@@ -4,4 +4,4 @@ Debug plugin for Docusaurus.
 
 ## Usage
 
-See [plugin-debug documentation](https://docusaurus/docs/api/plugins/@docusaurus/plugin-debug).
+See [plugin-debug documentation](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-debug).

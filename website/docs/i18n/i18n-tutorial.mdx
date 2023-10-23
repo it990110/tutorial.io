@@ -147,7 +147,7 @@ export default function Home() {
       <main>
         {/* highlight-start */}
         You can also visit my
-        <Link to="https://docusaurus/blog">blog</Link>
+        <Link to="https://docusaurus.io/blog">blog</Link>
         {/* highlight-end */}
         <img
           src="/img/home.png"
@@ -187,7 +187,7 @@ export default function Home() {
           description="The homepage message to ask the user to visit my blog"
           values={{
             blogLink: (
-              <Link to="https://docusaurus/blog">
+              <Link to="https://docusaurus.io/blog">
                 <Translate
                   id="homepage.visitMyBlog.linkLabel"
                   description="The label for the link to my blog">
@@ -472,8 +472,8 @@ You can now [deploy](../deployment.mdx) the `build` folder to the static hosting
 
 The Docusaurus v2 website uses this strategy:
 
-- [`https://docusaurus`](https://docusaurus)
-- [`https://docusaurus/fr`](https://docusaurus/fr)
+- [`https://docusaurus.io`](https://docusaurus.io)
+- [`https://docusaurus.io/fr`](https://docusaurus.io/fr)
 
 :::
 
@@ -515,8 +515,8 @@ It is possible to have some locales using sub-paths, and others using subdomains
 
 It is also possible to deploy each locale as a separate subdomain, assemble the subdomains in a single unified domain at the CDN level:
 
-- Deploy your site as `fr.docusaurus`
-- Configure a CDN to serve it from `docusaurus/fr`
+- Deploy your site as `fr.docusaurus.io`
+- Configure a CDN to serve it from `docusaurus.io/fr`
 
 ## Managing translations {#managing-translations}
 

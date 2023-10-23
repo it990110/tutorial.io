@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -377,7 +377,7 @@ export const ThemeConfigSchema = Joi.object<ThemeConfig>({
       Joi.array().items(FooterLinkItemSchema),
     )
       .messages({
-        'alternatives.match': `The footer must be either simple or multi-column, and not a mix of the two. See: https://docusaurus/docs/api/themes/configuration#footer-links`,
+        'alternatives.match': `The footer must be either simple or multi-column, and not a mix of the two. See: https://docusaurus.io/docs/api/themes/configuration#footer-links`,
       })
       .default([]),
   }).optional(),
@@ -419,7 +419,7 @@ export const ThemeConfigSchema = Joi.object<ThemeConfig>({
   }),
   sidebarCollapsible: Joi.forbidden().messages({
     'any.unknown':
-      'The themeConfig.sidebarCollapsible has been moved to docs plugin options. See: https://docusaurus/docs/api/plugins/@docusaurus/plugin-content-docs',
+      'The themeConfig.sidebarCollapsible has been moved to docs plugin options. See: https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs',
   }),
   tableOfContents: Joi.object({
     minHeadingLevel: Joi.number()

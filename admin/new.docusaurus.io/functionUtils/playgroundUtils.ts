@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -23,7 +23,7 @@ const PlaygroundConfigs = {
     'https://stackblitz.com/github/facebook/docusaurus/tree/main/examples/classic-typescript',
 };
 
-const PlaygroundDocumentationUrl = 'https://docusaurus/docs/playground';
+const PlaygroundDocumentationUrl = 'https://docusaurus.io/docs/playground';
 
 export type PlaygroundName = keyof typeof PlaygroundConfigs;
 

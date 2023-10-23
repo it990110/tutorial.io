@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -66,7 +66,7 @@ export const dogfoodingPluginInstances: PluginConfig[] = [
       feedOptions: {
         type: 'all',
         title: 'Docusaurus Tests Blog',
-        copyright: `Copyright © ${new Date().getFullYear()} facebook, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
       },
       readingTime: ({content, frontMatter, defaultReadingTime}) =>
         frontMatter.hide_reading_time
@@ -112,14 +112,14 @@ export const dogfoodingRedirects: {from: string[]; to: string}[] = [
   },
   {
     from: ['/home/absolute'],
-    to: 'https://docusaurus/',
+    to: 'https://docusaurus.io/',
   },
   {
     from: ['/home/absolute/qs'],
-    to: 'https://docusaurus/?a=1',
+    to: 'https://docusaurus.io/?a=1',
   },
   {
     from: ['/home/absolute/anchor'],
-    to: 'https://docusaurus/#anchor',
+    to: 'https://docusaurus.io/#anchor',
   },
 ];

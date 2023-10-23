@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -20,7 +20,7 @@ function createTestPluginContext(
 ): PluginContext {
   return {
     outDir: '/tmp',
-    baseUrl: 'https://docusaurus',
+    baseUrl: 'https://docusaurus.io',
     relativeRoutesPaths,
     options: validateOptions({validate: normalizePluginOptions, options}),
     siteConfig: {onDuplicateRoutes: 'warn', ...siteConfig} as DocusaurusConfig,
@@ -123,19 +123,19 @@ describe('collectRedirects', () => {
 
               {
                 from: '/absolute',
-                to: 'https://docusaurus/somePath',
+                to: 'https://docusaurus.io/somePath',
               },
               {
                 from: '/absoluteQS',
-                to: 'https://docusaurus/somePath?a=1&b=2',
+                to: 'https://docusaurus.io/somePath?a=1&b=2',
               },
               {
                 from: '/absoluteAnchor',
-                to: 'https://docusaurus/somePath#anchor',
+                to: 'https://docusaurus.io/somePath#anchor',
               },
               {
                 from: '/absoluteQSAnchor',
-                to: 'https://docusaurus/somePath?a=1&b=2#anchor',
+                to: 'https://docusaurus.io/somePath?a=1&b=2#anchor',
               },
             ],
           },
@@ -179,19 +179,19 @@ describe('collectRedirects', () => {
 
       {
         from: '/absolute',
-        to: 'https://docusaurus/somePath',
+        to: 'https://docusaurus.io/somePath',
       },
       {
         from: '/absoluteQS',
-        to: 'https://docusaurus/somePath?a=1&b=2',
+        to: 'https://docusaurus.io/somePath?a=1&b=2',
       },
       {
         from: '/absoluteAnchor',
-        to: 'https://docusaurus/somePath#anchor',
+        to: 'https://docusaurus.io/somePath#anchor',
       },
       {
         from: '/absoluteQSAnchor',
-        to: 'https://docusaurus/somePath?a=1&b=2#anchor',
+        to: 'https://docusaurus.io/somePath?a=1&b=2#anchor',
       },
     ]);
   });

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -123,7 +123,7 @@ describe('loadSiteConfig', () => {
     ).rejects.toThrowErrorMatchingInlineSnapshot(`
             "These field(s) ("useLessField",) are not recognized in wrong.config.js.
             If you still want these fields to be in your configuration, put them in the "customFields" field.
-            See https://docusaurus/docs/api/docusaurus-config/#customfields"
+            See https://docusaurus.io/docs/api/docusaurus-config/#customfields"
           `);
   });
 

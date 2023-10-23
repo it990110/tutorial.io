@@ -20,7 +20,7 @@ body:
         - A repro repository to inspect the code
         - An url to see the problem live (if possible)
 
-        Pro tip: create a reproducible demo of the bug with https://new.docusaurus.
+        Pro tip: create a reproducible demo of the bug with https://new.docusaurus.io.
 
   - type: checkboxes
     attributes:
@@ -38,7 +38,7 @@ body:
           required: true
         - label: I have tried the `npm run clear` or `yarn clear` command.
         - label: I have tried `rm -rf node_modules yarn.lock package-lock.json` and re-installing packages.
-        - label: I have tried creating a repro with https://new.docusaurus.
+        - label: I have tried creating a repro with https://new.docusaurus.io.
         - label: I have read the console error message carefully (if applicable).
 
   - type: textarea
@@ -52,7 +52,7 @@ body:
     attributes:
       label: Reproducible demo
       description: |
-        Paste the link to an example repo, including a `docusaurus.config.js`, and exact instructions to reproduce the issue. It can either be a playground link created from https://new.docusaurus, or a git repository.
+        Paste the link to an example repo, including a `docusaurus.config.js`, and exact instructions to reproduce the issue. It can either be a playground link created from https://new.docusaurus.io, or a git repository.
 
         > **What happens if you skip this step?** Someone will read your bug report, and maybe will be able to help you, but it’s unlikely that it will get much attention from the team. Eventually, the issue will likely get closed in favor of issues that have reproducible demos.
 

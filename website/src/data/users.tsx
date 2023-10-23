@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -21,7 +21,7 @@ import {sortBy} from '@site/src/utils/jsUtils';
  * - `title` is the project's name (no need for the "Docs" suffix)
  * - A short (≤120 characters) description of the project
  * - Use relevant tags to categorize the site (read the tag descriptions on the
- *   https://docusaurus/showcase page and some further clarifications below)
+ *   https://docusaurus.io/showcase page and some further clarifications below)
  * - Add a local image preview (decent screenshot of the Docusaurus site)
  * - The image MUST be added to the GitHub repository, and use `require("img")`
  * - The image has to have minimum width 640 and an aspect of no wider than 2:1
@@ -2224,7 +2224,7 @@ const Users: User[] = [
   },
   {
     title: 'The Diff Podcast',
-    description: 'A Podcast from facebook Open Source',
+    description: 'A Podcast from Facebook Open Source',
     preview: require('./showcase/the-diff.png'),
     website: 'https://thediffpodcast.com',
     source: null,
@@ -3125,10 +3125,10 @@ export const Tags: {[type in TagType]: Tag} = {
   meta: {
     label: translate({message: 'Meta'}),
     description: translate({
-      message: 'Docusaurus sites of Meta (formerly facebook) projects',
+      message: 'Docusaurus sites of Meta (formerly Facebook) projects',
       id: 'showcase.tag.meta.description',
     }),
-    color: '#4267b2', // facebook blue
+    color: '#4267b2', // Facebook blue
   },
 
   personal: {

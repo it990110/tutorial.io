@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -109,7 +109,7 @@ export function ActiveTeamRow(): JSX.Element {
             devto: <Link to="https://dev.to/sebastienlorber">Dev.to</Link>,
           }}>
           {
-            'React lover since 2014. Freelance, helping facebook ship Docusaurus v2. He writes regularly, on his {website} and {devto}.'
+            'React lover since 2014. Freelance, helping Facebook ship Docusaurus v2. He writes regularly, on his {website} and {devto}.'
           }
         </Translate>
       </TeamProfileCardCol>
@@ -128,7 +128,7 @@ export function ActiveTeamRow(): JSX.Element {
         twitterUrl="https://twitter.com/yangshunz">
         <Translate id="team.profile.Yangshun Tay.body">
           Full Front End Stack developer who likes working on the Jamstack.
-          Working on Docusaurus made him facebook&apos;s unofficial part-time
+          Working on Docusaurus made him Facebook&apos;s unofficial part-time
           Open Source webmaster, which is an awesome role to be in.
         </Translate>
       </TeamProfileCardCol>

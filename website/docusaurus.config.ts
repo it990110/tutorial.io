@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -122,7 +122,7 @@ export default async function createConfigAsync() {
     projectName: 'docusaurus',
     baseUrl,
     baseUrlIssueBanner: true,
-    url: 'https://docusaurus',
+    url: 'https://docusaurus.io',
     // Dogfood both settings:
     // - force trailing slashes for deploy previews
     // - avoid trailing slashes in prod
@@ -233,7 +233,7 @@ export default async function createConfigAsync() {
             title: 'Docusaurus changelog',
             description:
               'Keep yourself up-to-date about new features in every release',
-            copyright: `Copyright © ${new Date().getFullYear()} facebook, Inc.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
             language: defaultLocale,
           },
         },
@@ -429,7 +429,7 @@ export default async function createConfigAsync() {
             postsPerPage: 5,
             feedOptions: {
               type: 'all',
-              copyright: `Copyright © ${new Date().getFullYear()} facebook, Inc.`,
+              copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
             },
             blogSidebarCount: 'ALL',
             blogSidebarTitle: 'All our posts',
@@ -580,7 +580,7 @@ export default async function createConfigAsync() {
                 }),
               ),
               {
-                href: 'https://v1.docusaurus',
+                href: 'https://v1.docusaurus.io',
                 label: '1.x.x',
               },
               {

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -108,7 +108,7 @@ ${actionsTable()}
 ${logger.bold('Swizzle safety statuses')}:
 ${statusTable()}
 
-${logger.bold('Swizzle guide')}: https://docusaurus/docs/swizzling`;
+${logger.bold('Swizzle guide')}: https://docusaurus.io/docs/swizzling`;
 }
 
 export function themeComponentsTable(themeComponents: ThemeComponents): string {

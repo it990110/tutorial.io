@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -26,7 +26,7 @@ describe('useBaseUrl', () => {
     const mockUseBaseUrl = createUseBaseUrlMock({
       siteConfig: {
         baseUrl: '/',
-        url: 'https://docusaurus',
+        url: 'https://docusaurus.io',
       },
     } as DocusaurusContext);
 
@@ -45,7 +45,7 @@ describe('useBaseUrl', () => {
       'https://site.com',
     );
     expect(mockUseBaseUrl('/hello/foo', {absolute: true})).toBe(
-      'https://docusaurus/hello/foo',
+      'https://docusaurus.io/hello/foo',
     );
     expect(mockUseBaseUrl('#hello')).toBe('#hello');
   });
@@ -54,7 +54,7 @@ describe('useBaseUrl', () => {
     const mockUseBaseUrl = createUseBaseUrlMock({
       siteConfig: {
         baseUrl: '/docusaurus/',
-        url: 'https://docusaurus',
+        url: 'https://docusaurus.io',
       },
     } as DocusaurusContext);
 
@@ -75,7 +75,7 @@ describe('useBaseUrl', () => {
       'https://site.com',
     );
     expect(mockUseBaseUrl('/hello/foo', {absolute: true})).toBe(
-      'https://docusaurus/docusaurus/hello/foo',
+      'https://docusaurus.io/docusaurus/hello/foo',
     );
     expect(mockUseBaseUrl('/docusaurus')).toBe('/docusaurus/');
     expect(mockUseBaseUrl('/docusaurus/')).toBe('/docusaurus/');
@@ -95,7 +95,7 @@ describe('useBaseUrlUtils().withBaseUrl()', () => {
     const {withBaseUrl} = mockUseBaseUrlUtils({
       siteConfig: {
         baseUrl: '/',
-        url: 'https://docusaurus',
+        url: 'https://docusaurus.io',
       },
     } as DocusaurusContext);
 
@@ -114,7 +114,7 @@ describe('useBaseUrlUtils().withBaseUrl()', () => {
       'https://site.com',
     );
     expect(withBaseUrl('/hello/foo', {absolute: true})).toBe(
-      'https://docusaurus/hello/foo',
+      'https://docusaurus.io/hello/foo',
     );
     expect(withBaseUrl('#hello')).toBe('#hello');
   });
@@ -123,7 +123,7 @@ describe('useBaseUrlUtils().withBaseUrl()', () => {
     const {withBaseUrl} = mockUseBaseUrlUtils({
       siteConfig: {
         baseUrl: '/docusaurus/',
-        url: 'https://docusaurus',
+        url: 'https://docusaurus.io',
       },
     } as DocusaurusContext);
 
@@ -142,7 +142,7 @@ describe('useBaseUrlUtils().withBaseUrl()', () => {
       'https://site.com',
     );
     expect(withBaseUrl('/hello/foo', {absolute: true})).toBe(
-      'https://docusaurus/docusaurus/hello/foo',
+      'https://docusaurus.io/docusaurus/hello/foo',
     );
     expect(withBaseUrl('/docusaurus')).toBe('/docusaurus/');
     expect(withBaseUrl('/docusaurus/')).toBe('/docusaurus/');

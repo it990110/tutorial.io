@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -61,9 +61,9 @@ describe('toRedirectFiles', () => {
 
     const redirectFiles = toRedirectFiles(
       [
-        {from: '/abc', to: 'https://docusaurus/'},
-        {from: '/def', to: 'https://docusaurus/docs/intro?a=1'},
-        {from: '/ijk', to: 'https://docusaurus/docs/intro#anchor'},
+        {from: '/abc', to: 'https://docusaurus.io/'},
+        {from: '/def', to: 'https://docusaurus.io/docs/intro?a=1'},
+        {from: '/ijk', to: 'https://docusaurus.io/docs/intro#anchor'},
       ],
       pluginContext,
       undefined,
@@ -83,7 +83,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=undefined', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://docusaurus',
+      baseUrl: 'https://docusaurus.io',
     };
 
     const redirectFiles = toRedirectFiles(
@@ -110,7 +110,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=true', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://docusaurus',
+      baseUrl: 'https://docusaurus.io',
     };
 
     const redirectFiles = toRedirectFiles(
@@ -137,7 +137,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=false', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://docusaurus',
+      baseUrl: 'https://docusaurus.io',
     };
 
     const redirectFiles = toRedirectFiles(

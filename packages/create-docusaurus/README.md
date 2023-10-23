@@ -12,7 +12,7 @@ yarn create docusaurus
 
 ## Usage
 
-Please see the [installation documentation](https://docusaurus/docs/installation).
+Please see the [installation documentation](https://docusaurus.io/docs/installation).
 
 ## For maintainers
 

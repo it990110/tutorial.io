@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Docusaurus",
-  "docs": "https://docusaurus/docs/typescript-support",
+  "docs": "https://docusaurus.io/docs/typescript-support",
   "compilerOptions": {
     "allowJs": true,
     "esModuleInterop": true,

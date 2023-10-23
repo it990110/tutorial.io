@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -104,9 +104,9 @@ describe('createSidebarsUtils', () => {
       collapsible: true,
       label: 'Related',
       items: [
-        {type: 'link', href: 'https://facebook.com', label: 'facebook'},
+        {type: 'link', href: 'https://facebook.com', label: 'Facebook'},
         {type: 'link', href: 'https://reactjs.org', label: 'React'},
-        {type: 'link', href: 'https://docusaurus', label: 'Docusaurus'},
+        {type: 'link', href: 'https://docusaurus.io', label: 'Docusaurus'},
       ],
     },
     {
@@ -498,7 +498,7 @@ describe('collectSidebarLinks', () => {
               {
                 type: 'link',
                 href: 'https://facebook.com',
-                label: 'facebook',
+                label: 'Facebook',
               },
             ],
           },

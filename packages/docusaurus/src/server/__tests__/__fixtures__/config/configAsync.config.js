@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -11,5 +11,5 @@ module.exports = Promise.resolve({
   organizationName: 'endiliey',
   projectName: 'hello',
   baseUrl: '/',
-  url: 'https://docusaurus',
+  url: 'https://docusaurus.io',
 });

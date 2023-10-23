@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -115,7 +115,7 @@ describe('themeConfig', () => {
             maxWidth: 42,
           },
         },
-        copyright: `Copyright © ${new Date().getFullYear()} facebook, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
       },
       tableOfContents: {
         minHeadingLevel: 2,
@@ -185,7 +185,7 @@ describe('themeConfig', () => {
             position: 'right',
             items: [
               {
-                label: 'facebook',
+                label: 'Facebook',
                 href: 'https://.facebook.com/',
                 target: '_self',
               },
@@ -293,7 +293,7 @@ describe('themeConfig', () => {
             position: 'right',
             items: [
               {
-                label: 'facebook',
+                label: 'Facebook',
                 href: 'https://.facebook.com/',
                 target: '_self',
               },
@@ -548,7 +548,7 @@ describe('themeConfig', () => {
     expect(() =>
       testValidateThemeConfig(partialConfig),
     ).toThrowErrorMatchingInlineSnapshot(
-      `"The footer must be either simple or multi-column, and not a mix of the two. See: https://docusaurus/docs/api/themes/configuration#footer-links"`,
+      `"The footer must be either simple or multi-column, and not a mix of the two. See: https://docusaurus.io/docs/api/themes/configuration#footer-links"`,
     );
   });
 

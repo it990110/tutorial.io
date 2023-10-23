@@ -1,5 +1,5 @@
 /**
- * Copyright (c) facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -63,5 +63,5 @@ export function isTextLabelChild(
 
 export const createRule = ESLintUtils.RuleCreator(
   (name) =>
-    `https://docusaurus/docs/api/misc/@docusaurus/eslint-plugin/${name}`,
+    `https://docusaurus.io/docs/api/misc/@docusaurus/eslint-plugin/${name}`,
 );
