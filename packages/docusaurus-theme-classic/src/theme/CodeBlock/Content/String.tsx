@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -26,7 +26,7 @@ import styles from './styles.module.css';
 
 // Prism languages are always lowercase
 // We want to fail-safe and allow both "php" and "PHP"
-// See https://github.com/facebook/docusaurus/issues/9012
+// See https://github.com/it990110/docusaurus/issues/9012
 function normalizeLanguage(language: string | undefined): string | undefined {
   return language?.toLowerCase();
 }

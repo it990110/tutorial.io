@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -118,11 +118,11 @@ export default async function createConfigAsync() {
   return {
     title: 'Docusaurus',
     tagline: getLocalizedConfigValue('tagline'),
-    organizationName: 'facebook',
+    organizationName: 'it990110',
     projectName: 'docusaurus',
     baseUrl,
     baseUrlIssueBanner: true,
-    url: 'https://docusaurus.io',
+    url: 'https://gityjf.io',
     // Dogfood both settings:
     // - force trailing slashes for deploy previews
     // - avoid trailing slashes in prod
@@ -233,7 +233,7 @@ export default async function createConfigAsync() {
             title: 'Docusaurus changelog',
             description:
               'Keep yourself up-to-date about new features in every release',
-            copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+            copyright: `Copyright © ${new Date().getFullYear()} it990110, Inc.`,
             language: defaultLocale,
           },
         },
@@ -248,7 +248,7 @@ export default async function createConfigAsync() {
             if (locale !== defaultLocale) {
               return `https://crowdin.com/project/docusaurus-v2/${locale}`;
             }
-            return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
+            return `https://github.com/it990110/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
           },
           remarkPlugins: [npm2yarn],
           editCurrentVersion: true,
@@ -380,7 +380,7 @@ export default async function createConfigAsync() {
               // We want users to submit updates to the upstream/next version!
               // Otherwise we risk losing the update on the next release.
               const nextVersionDocsDirPath = 'docs';
-              return `https://github.com/facebook/docusaurus/edit/main/website/${nextVersionDocsDirPath}/${docPath}`;
+              return `https://github.com/it990110/docusaurus/edit/main/website/${nextVersionDocsDirPath}/${docPath}`;
             },
             admonitions: {
               keywords: ['my-custom-admonition'],
@@ -423,13 +423,13 @@ export default async function createConfigAsync() {
               if (locale !== defaultLocale) {
                 return `https://crowdin.com/project/docusaurus-v2/${locale}`;
               }
-              return `https://github.com/facebook/docusaurus/edit/main/website/${blogDirPath}/${blogPath}`;
+              return `https://github.com/it990110/docusaurus/edit/main/website/${blogDirPath}/${blogPath}`;
             },
             remarkPlugins: [npm2yarn],
             postsPerPage: 5,
             feedOptions: {
               type: 'all',
-              copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+              copyright: `Copyright © ${new Date().getFullYear()} it990110, Inc.`,
             },
             blogSidebarCount: 'ALL',
             blogSidebarTitle: 'All our posts',
@@ -474,7 +474,7 @@ export default async function createConfigAsync() {
       },
       announcementBar: {
         id: 'announcementBar-2', // Increment on change
-        content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/facebook/docusaurus">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Twitter ${TwitterSvg}</a>`,
+        content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/it990110/docusaurus">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Twitter ${TwitterSvg}</a>`,
       },
       prism: {
         additionalLanguages: [
@@ -580,7 +580,7 @@ export default async function createConfigAsync() {
                 }),
               ),
               {
-                href: 'https://v1.docusaurus.io',
+                href: 'https://v1.gityjf.io',
                 label: '1.x.x',
               },
               {
@@ -602,13 +602,13 @@ export default async function createConfigAsync() {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                href: 'https://github.com/facebook/docusaurus/issues/3526',
+                href: 'https://github.com/it990110/docusaurus/issues/3526',
                 label: 'Help Us Translate',
               },
             ],
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/it990110/docusaurus',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -673,7 +673,7 @@ export default async function createConfigAsync() {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/it990110/docusaurus',
               },
               {
                 label: 'Twitter',
@@ -695,15 +695,15 @@ export default async function createConfigAsync() {
             items: [
               {
                 label: 'Privacy',
-                href: 'https://opensource.facebook.com/legal/privacy/',
+                href: 'https://opensource.it990110.com/legal/privacy/',
               },
               {
                 label: 'Terms',
-                href: 'https://opensource.facebook.com/legal/terms/',
+                href: 'https://opensource.it990110.com/legal/terms/',
               },
               {
                 label: 'Cookie Policy',
-                href: 'https://opensource.facebook.com/legal/cookie-policy/',
+                href: 'https://opensource.it990110.com/legal/cookie-policy/',
               },
             ],
           },

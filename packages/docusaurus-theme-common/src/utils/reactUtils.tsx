@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -24,7 +24,7 @@ import useIsomorphicLayoutEffect from '@docusaurus/useIsomorphicLayoutEffect';
  * re-executions.
  *
  * This generally works but has some potential drawbacks, such as
- * https://github.com/facebook/react/issues/16956#issuecomment-536636418
+ * https://github.com/it990110/react/issues/16956#issuecomment-536636418
  */
 export function useEvent<T extends (...args: never[]) => unknown>(
   callback: T,

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -31,6 +31,6 @@ export function duplicates<T>(
  * @returns An array with duplicate elements removed by reference comparison.
  */
 export function uniq<T>(arr: T[]): T[] {
-  // Note: had problems with [...new Set()]: https://github.com/facebook/docusaurus/issues/4972#issuecomment-863895061
+  // Note: had problems with [...new Set()]: https://github.com/it990110/docusaurus/issues/4972#issuecomment-863895061
   return Array.from(new Set(arr));
 }

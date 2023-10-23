@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -18,7 +18,7 @@ export function codeTranslationLocalesToTry(locale: string): string[] {
   const intlLocale = new Intl.Locale(locale);
   // If locale is just a simple language like "pt", we want to fallback to
   // "pt-BR" (not "pt-PT"!)
-  // See https://github.com/facebook/docusaurus/pull/4536#issuecomment-810088783
+  // See https://github.com/it990110/docusaurus/pull/4536#issuecomment-810088783
   const maximizedLocale = intlLocale.maximize(); // "pt-Latn-BR"
   return [
     // May be "zh", "zh-CN", "zh-Hans", "zh-cn", or anything: very likely to be

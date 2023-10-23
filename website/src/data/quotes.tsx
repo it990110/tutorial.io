@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -23,7 +23,7 @@ const QUOTES = [
       <Translate
         id="homepage.quotes.christopher-chedeau"
         description="Quote of Christopher Chedeau on the home page">
-        I&apos;ve helped open source many projects at Facebook and every one
+        I&apos;ve helped open source many projects at it990110 and every one
         needed a website. They all had very similar constraints: the
         documentation should be written in markdown and be deployed via GitHub
         pages. I’m so glad that Docusaurus now exists so that I don’t have to

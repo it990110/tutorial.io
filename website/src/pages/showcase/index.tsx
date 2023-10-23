@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -39,7 +39,7 @@ const TITLE = translate({message: 'Docusaurus Site Showcase'});
 const DESCRIPTION = translate({
   message: 'List of websites people are building with Docusaurus',
 });
-const SUBMIT_URL = 'https://github.com/facebook/docusaurus/discussions/7826';
+const SUBMIT_URL = 'https://github.com/it990110/docusaurus/discussions/7826';
 
 type UserState = {
   scrollTopPosition: number;

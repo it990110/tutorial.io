@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -399,7 +399,7 @@ describe('readVersionsMetadata', () => {
       const versionsMetadata = await readVersionsMetadata({
         options: {
           ...defaultOptions,
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/it990110/docusaurus/edit/main/website/',
         },
         context: defaultContext,
       });
@@ -408,30 +408,30 @@ describe('readVersionsMetadata', () => {
         {
           ...vCurrent,
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/docs',
+            'https://github.com/it990110/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/it990110/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
         },
         {
           ...v101,
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/versioned_docs/version-1.0.1',
+            'https://github.com/it990110/docusaurus/edit/main/website/versioned_docs/version-1.0.1',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-1.0.1',
+            'https://github.com/it990110/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-1.0.1',
         },
         {
           ...v100,
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/versioned_docs/version-1.0.0',
+            'https://github.com/it990110/docusaurus/edit/main/website/versioned_docs/version-1.0.0',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-1.0.0',
+            'https://github.com/it990110/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-1.0.0',
         },
         {
           ...vWithSlugs,
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/versioned_docs/version-withSlugs',
+            'https://github.com/it990110/docusaurus/edit/main/website/versioned_docs/version-withSlugs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-withSlugs',
+            'https://github.com/it990110/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-withSlugs',
         },
       ]);
     });
@@ -443,7 +443,7 @@ describe('readVersionsMetadata', () => {
       const versionsMetadata = await readVersionsMetadata({
         options: {
           ...defaultOptions,
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/it990110/docusaurus/edit/main/website/',
           editCurrentVersion: true,
         },
         context: defaultContext,
@@ -453,30 +453,30 @@ describe('readVersionsMetadata', () => {
         {
           ...vCurrent,
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/docs',
+            'https://github.com/it990110/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/it990110/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
         },
         {
           ...v101,
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/docs',
+            'https://github.com/it990110/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/it990110/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
         },
         {
           ...v100,
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/docs',
+            'https://github.com/it990110/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/it990110/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
         },
         {
           ...vWithSlugs,
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/docs',
+            'https://github.com/it990110/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/it990110/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
         },
       ]);
     });

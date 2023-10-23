@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -11,7 +11,7 @@ import type {Props} from '@theme/CodeBlock';
 
 // This component does nothing on purpose
 // Dogfood: wrapping a theme component already enhanced by another theme
-// See https://github.com/facebook/docusaurus/pull/5983
+// See https://github.com/it990110/docusaurus/pull/5983
 export default function CodeBlockWrapper(props: Props): JSX.Element {
   return <CodeBlock {...props} />;
 }

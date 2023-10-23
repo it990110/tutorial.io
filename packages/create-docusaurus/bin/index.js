@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -48,7 +48,7 @@ program
   )
   .description('Initialize website.')
   .action((siteName, template, rootDir, options) =>
-    // See https://github.com/facebook/docusaurus/pull/6860
+    // See https://github.com/it990110/docusaurus/pull/6860
     import('../lib/index.js').then(({default: init}) =>
       init(path.resolve(rootDir ?? '.'), siteName, template, options),
     ),

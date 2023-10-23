@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -8,7 +8,7 @@
 import React, {type ReactNode} from 'react';
 
 // Workaround because it's difficult in MDX v1 to provide a MDX title as props
-// See https://github.com/facebook/docusaurus/pull/7152#issuecomment-1145779682
+// See https://github.com/it990110/docusaurus/pull/7152#issuecomment-1145779682
 function extractMDXAdmonitionTitle(children: ReactNode): {
   mdxAdmonitionTitle: ReactNode | undefined;
   rest: ReactNode;

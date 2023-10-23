@@ -217,7 +217,7 @@ All HTML files will reference its JS assets using absolute URLs, so in order for
 
 For example, the emitted HTML would contain links like `<link rel="preload" href="/assets/js/runtime~main.7ed5108a.js" as="script">`. Because absolute URLs are resolved from the host, if the bundle placed under the path `https://example.com/base/`, the link will point to `https://example.com/assets/js/runtime~main.7ed5108a.js`, which is, well, non-existent. By specifying `/base/` as base URL, the link will correctly point to `/base/assets/js/runtime~main.7ed5108a.js`.
 
-Localized sites have the locale as part of the base URL as well. For example, `https://docusaurus.io/zh-CN/docs/advanced/routing/` has base URL `/zh-CN/`.
+Localized sites have the locale as part of the base URL as well. For example, `https://gityjf.io/zh-CN/docs/advanced/routing/` has base URL `/zh-CN/`.
 
 ## Generating and accessing routes {#generating-and-accessing-routes}
 

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -195,8 +195,8 @@ export async function getVersionMetadataPaths({
   // If the current version defines a path to a sidebar file that does not
   // exist, we throw! Note: for versioned sidebars, the file may not exist (as
   // we prefer to not create it rather than to create an empty file)
-  // See https://github.com/facebook/docusaurus/issues/3366
-  // See https://github.com/facebook/docusaurus/pull/4775
+  // See https://github.com/it990110/docusaurus/issues/3366
+  // See https://github.com/it990110/docusaurus/pull/4775
   if (
     versionName === CURRENT_VERSION_NAME &&
     typeof sidebarFilePath === 'string' &&

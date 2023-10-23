@@ -28,7 +28,7 @@ jobs:
       - name: Prepare git
         run: |
           git config --global user.name "Docusaurus Canary"
-          git config --global user.email "canary@docusaurus.io"
+          git config --global user.email "canary@gityjf.io"
           git fetch
           git checkout main
           echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -16,7 +16,7 @@ import {useLocationChange} from './useLocationChange';
  * Focusing the Docusaurus Layout children is a reasonable fallback.
  *
  * __ prefix allows search crawlers (Algolia/DocSearch) to ignore anchors
- * https://github.com/facebook/docusaurus/issues/8883#issuecomment-1516328368
+ * https://github.com/it990110/docusaurus/issues/8883#issuecomment-1516328368
  */
 export const SkipToContentFallbackId = '__docusaurus_skipToContent_fallback';
 
@@ -27,7 +27,7 @@ function getSkipToContentTarget(): HTMLElement | null {
   return (
     // Try to focus the <main> in priority
     // Note: this will only work if JS is enabled
-    // See https://github.com/facebook/docusaurus/issues/6411#issuecomment-1284136069
+    // See https://github.com/it990110/docusaurus/issues/6411#issuecomment-1284136069
     document.querySelector('main:first-of-type') ??
     // Then try to focus the fallback element (usually the Layout children)
     document.getElementById(SkipToContentFallbackId)
@@ -66,7 +66,7 @@ function useSkipToContent(): {
   }, []);
 
   // "Reset" focus when navigating.
-  // See https://github.com/facebook/docusaurus/pull/8204#issuecomment-1276547558
+  // See https://github.com/it990110/docusaurus/pull/8204#issuecomment-1276547558
   useLocationChange(({location}) => {
     if (containerRef.current && !location.hash && action === 'PUSH') {
       programmaticFocus(containerRef.current);
@@ -97,7 +97,7 @@ export function SkipToContentLink(props: SkipToContentLinkProps): JSX.Element {
       <a
         {...props}
         // Note this is a fallback href in case JS is disabled
-        // It has limitations, see https://github.com/facebook/docusaurus/issues/6411#issuecomment-1284136069
+        // It has limitations, see https://github.com/it990110/docusaurus/issues/6411#issuecomment-1284136069
         href={`#${SkipToContentFallbackId}`}
         onClick={onClick}>
         {linkLabel}

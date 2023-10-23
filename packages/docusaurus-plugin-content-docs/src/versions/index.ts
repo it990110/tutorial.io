@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -121,7 +121,7 @@ export function getVersionBadge({
 }: VersionContext): VersionMetadata['badge'] {
   // If site is not versioned or only one version is included
   // we don't show the version badge by default
-  // See https://github.com/facebook/docusaurus/issues/3362
+  // See https://github.com/it990110/docusaurus/issues/3362
   const defaultVersionBadge = versionNames.length !== 1;
   return options.versions[versionName]?.badge ?? defaultVersionBadge;
 }

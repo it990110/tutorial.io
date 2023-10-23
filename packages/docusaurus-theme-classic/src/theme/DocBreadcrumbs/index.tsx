@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -45,7 +45,7 @@ function BreadcrumbsItemLink({
     // The schema doesn't seem to require `id` for each `item`, although Google
     // insist to infer one, even if it's invalid. Removing `itemProp="item
     // name"` for now, since I don't know how to properly fix it.
-    // See https://github.com/facebook/docusaurus/issues/7241
+    // See https://github.com/it990110/docusaurus/issues/7241
     <span className={className}>{children}</span>
   );
 }

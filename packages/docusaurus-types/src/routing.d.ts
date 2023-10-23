@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -101,7 +101,7 @@ export type ChunkNames = {
  * Chunk keys are routes with a hash, because 2 routes can conflict with each
  * other if they have the same path, e.g.: parent=/docs, child=/docs
  *
- * @see https://github.com/facebook/docusaurus/issues/2917
+ * @see https://github.com/it990110/docusaurus/issues/2917
  */
 export type RouteChunkNames = {
   [routePathHashed: string]: ChunkNames;

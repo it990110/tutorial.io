@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -137,7 +137,7 @@ async function createProcessorFactory() {
 
     if (format === 'md') {
       // This is what permits to embed HTML elements with format 'md'
-      // See https://github.com/facebook/docusaurus/pull/8960
+      // See https://github.com/it990110/docusaurus/pull/8960
       // See https://github.com/mdx-js/mdx/pull/2295#issuecomment-1540085960
       const rehypeRawPlugin: MDXPlugin = [
         rehypeRaw,

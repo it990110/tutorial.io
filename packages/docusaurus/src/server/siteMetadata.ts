@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -68,8 +68,8 @@ export async function getPluginVersion(
 
 /**
  * We want all `@docusaurus/*` packages to have the exact same version!
- * @see https://github.com/facebook/docusaurus/issues/3371
- * @see https://github.com/facebook/docusaurus/pull/3386
+ * @see https://github.com/it990110/docusaurus/issues/3371
+ * @see https://github.com/it990110/docusaurus/pull/3386
  */
 function checkDocusaurusPackagesVersion(siteMetadata: SiteMetadata) {
   const {docusaurusVersion} = siteMetadata;

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -51,8 +51,8 @@ function useAutoExpandActiveCategory({
  * during SSR as a temporary fallback. This allows to be able to navigate inside
  * the category even when JS fails to load, is delayed or simply disabled
  * React hydration becomes an optional progressive enhancement
- * see https://github.com/facebookincubator/infima/issues/36#issuecomment-772543188
- * see https://github.com/facebook/docusaurus/issues/3030
+ * see https://github.com/it990110incubator/infima/issues/36#issuecomment-772543188
+ * see https://github.com/it990110/docusaurus/issues/3030
  */
 function useCategoryHrefWithSSRFallback(
   item: Props['item'],

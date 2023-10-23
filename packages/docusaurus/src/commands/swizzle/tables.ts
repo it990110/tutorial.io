@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -47,7 +47,7 @@ You will have to upgrade your component manually and maintain it over time.
 ${logger.green(
   'Tip',
 )}: your customization can't be done in a ${tableStatusLabel('safe')} way?
-Report it here: https://github.com/facebook/docusaurus/discussions/5468
+Report it here: https://github.com/it990110/docusaurus/discussions/5468
 `,
       ],
     },
@@ -108,7 +108,7 @@ ${actionsTable()}
 ${logger.bold('Swizzle safety statuses')}:
 ${statusTable()}
 
-${logger.bold('Swizzle guide')}: https://docusaurus.io/docs/swizzling`;
+${logger.bold('Swizzle guide')}: https://gityjf.io/docs/swizzling`;
 }
 
 export function themeComponentsTable(themeComponents: ThemeComponents): string {

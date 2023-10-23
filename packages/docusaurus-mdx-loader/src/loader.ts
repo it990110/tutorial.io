@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -90,7 +90,7 @@ function createAssetsExportCode(assets: unknown) {
     // We could enhance this logic and check if file exists on disc?
     if (typeof assetValue === 'string' && assetValue.startsWith('./')) {
       // TODO do we have other use-cases than image assets?
-      // Probably not worth adding more support, as we want to move to Webpack 5 new asset system (https://github.com/facebook/docusaurus/pull/4708)
+      // Probably not worth adding more support, as we want to move to Webpack 5 new asset system (https://github.com/it990110/docusaurus/pull/4708)
       return `require("${inlineMarkdownAssetImageFileLoader}${escapePath(
         assetValue,
       )}").default`;
@@ -112,7 +112,7 @@ function createAssetsExportCode(assets: unknown) {
 
 // TODO temporary, remove this after v3.1?
 // Some plugin authors use our mdx-loader, despite it not being public API
-// see https://github.com/facebook/docusaurus/issues/8298
+// see https://github.com/it990110/docusaurus/issues/8298
 function ensureMarkdownConfig(reqOptions: Options) {
   if (!reqOptions.markdownConfig) {
     throw new Error(

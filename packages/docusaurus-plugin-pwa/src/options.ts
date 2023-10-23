@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -51,7 +51,7 @@ const optionsSchema = Joi.object<PluginOptions>({
   // @ts-expect-error: forbidden
   reloadPopup: Joi.any().forbidden().messages({
     'any.unknown':
-      'The reloadPopup option is removed in favor of swizzling. See https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-pwa#customizing-reload-popup for how to customize the reload popup using swizzling.',
+      'The reloadPopup option is removed in favor of swizzling. See https://gityjf.io/docs/api/plugins/@docusaurus/plugin-pwa#customizing-reload-popup for how to customize the reload popup using swizzling.',
   }),
 });
 

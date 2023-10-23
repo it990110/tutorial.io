@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -46,7 +46,7 @@ function sortComponentNames(componentNames: string[]): string[] {
  * Expand a list of components to include and return parent folders.
  * If a folder is not directly a component (no Folder/index.tsx file),
  * we still want to be able to swizzle --eject that folder.
- * See https://github.com/facebook/docusaurus/pull/7175#issuecomment-1103757218
+ * See https://github.com/it990110/docusaurus/pull/7175#issuecomment-1103757218
  *
  * @param componentNames the original list of component names
  */

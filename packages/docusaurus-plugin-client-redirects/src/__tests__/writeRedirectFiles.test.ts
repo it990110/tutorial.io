@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -14,8 +14,8 @@ import writeRedirectFiles, {
 } from '../writeRedirectFiles';
 
 // Test to fix toUrl bugs we had:
-// - https://github.com/facebook/docusaurus/issues/3886
-// - https://github.com/facebook/docusaurus/issues/3925
+// - https://github.com/it990110/docusaurus/issues/3886
+// - https://github.com/it990110/docusaurus/issues/3925
 describe('createToUrl', () => {
   it('creates appropriate redirect urls', () => {
     expect(createToUrl('/', '/docs/something/else')).toBe(
@@ -61,9 +61,9 @@ describe('toRedirectFiles', () => {
 
     const redirectFiles = toRedirectFiles(
       [
-        {from: '/abc', to: 'https://docusaurus.io/'},
-        {from: '/def', to: 'https://docusaurus.io/docs/intro?a=1'},
-        {from: '/ijk', to: 'https://docusaurus.io/docs/intro#anchor'},
+        {from: '/abc', to: 'https://gityjf.io/'},
+        {from: '/def', to: 'https://gityjf.io/docs/intro?a=1'},
+        {from: '/ijk', to: 'https://gityjf.io/docs/intro#anchor'},
       ],
       pluginContext,
       undefined,
@@ -83,7 +83,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=undefined', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://docusaurus.io',
+      baseUrl: 'https://gityjf.io',
     };
 
     const redirectFiles = toRedirectFiles(
@@ -110,7 +110,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=true', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://docusaurus.io',
+      baseUrl: 'https://gityjf.io',
     };
 
     const redirectFiles = toRedirectFiles(
@@ -137,7 +137,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=false', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://docusaurus.io',
+      baseUrl: 'https://gityjf.io',
     };
 
     const redirectFiles = toRedirectFiles(

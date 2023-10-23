@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -143,8 +143,8 @@ describe('validation schemas', () => {
   it('uRISchema', () => {
     const {testFail, testOK} = createTestHelpers({schema: URISchema});
 
-    const validURL = 'https://docusaurus.io';
-    const doubleHash = 'https://docusaurus.io#github#/:';
+    const validURL = 'https://gityjf.io';
+    const doubleHash = 'https://gityjf.io#github#/:';
     const invalidURL = 'spaces are invalid in a URL';
     const relativeURL = 'relativeURL';
     const relativeURLWithParent = '../relativeURLWithParent';
@@ -156,8 +156,8 @@ describe('validation schemas', () => {
     testOK(relativeURLWithParent);
     testOK(urlFromIssue);
 
-    const protocolRelativeUrl1 = '//docusaurus.io/path';
-    const protocolRelativeUrl2 = '//docusaurus.io/docs/doc1#hash';
+    const protocolRelativeUrl1 = '//gityjf.io/path';
+    const protocolRelativeUrl2 = '//gityjf.io/docs/doc1#hash';
     testOK(protocolRelativeUrl1);
     testOK(protocolRelativeUrl2);
   });

@@ -7,7 +7,7 @@ slug: /preparing-your-site-for-docusaurus-v3
 image: ./img/social-card.png
 ---
 
-**Docusaurus v3** is now [**in beta**](https://github.com/facebook/docusaurus/discussions/9312) and the official release is around the corner. This is the perfect time to start **preparing your site** for this new major version.
+**Docusaurus v3** is now [**in beta**](https://github.com/it990110/docusaurus/discussions/9312) and the official release is around the corner. This is the perfect time to start **preparing your site** for this new major version.
 
 Docusaurus v3 comes with a few **breaking changes**, many of which can be **handled today under Docusaurus v2**. Preparing your site ahead of time can be done incrementally, and will make it easier to upgrade to v3.
 
@@ -21,7 +21,7 @@ This article will mostly focus on how to prepare your content for this new MDX v
 
 :::warning
 
-This article mentions most Docusaurus v3 breaking changes, but is not exhaustive. Read the [v3.0.0-beta.0 release notes](https://github.com/facebook/docusaurus/discussions/9312) for an exhaustive list.
+This article mentions most Docusaurus v3 breaking changes, but is not exhaustive. Read the [v3.0.0-beta.0 release notes](https://github.com/it990110/docusaurus/discussions/9312) for an exhaustive list.
 
 :::
 
@@ -39,7 +39,7 @@ Before preparing for the Docusaurus v3 upgrade, we recommend upgrading to the la
 
 Depending on the complexity of your site, it may be a good idea to adopt the [visual regression testing workflow](/blog/upgrading-frontend-dependencies-with-confidence-using-visual-regression-testing) that we recently presented. It could help you catch unexpected visual side effects occurring during the Docusaurus v3 upgrade.
 
-We also recommend using the `.mdx` extension whenever you use JSX, `import`, or `export` (i.e. MDX features) inside a Markdown file. It is semantically more correct and improves compatibility with external tools (IDEs, formatters, linters, etc.). In future versions of Docusaurus, `.md` files will be parsed as standard [CommonMark](https://commonmark.org/), which does not support these features. In Docusaurus v3, `.md` files keep being compiled as MDX files, but it will be possible to [opt-in for CommonMark](https://github.com/facebook/docusaurus/issues/3018).
+We also recommend using the `.mdx` extension whenever you use JSX, `import`, or `export` (i.e. MDX features) inside a Markdown file. It is semantically more correct and improves compatibility with external tools (IDEs, formatters, linters, etc.). In future versions of Docusaurus, `.md` files will be parsed as standard [CommonMark](https://commonmark.org/), which does not support these features. In Docusaurus v3, `.md` files keep being compiled as MDX files, but it will be possible to [opt-in for CommonMark](https://github.com/it990110/docusaurus/issues/3018).
 
 ## Preparing content for MDX v2
 
@@ -53,7 +53,7 @@ Make sure to also read our updated [**MDX and React**](/docs/3.0.0-beta.0/markdo
 
 :::tip Ask for help
 
-We have a dedicated [MDX v2 - Upgrade Support](https://github.com/facebook/docusaurus/discussions/9053) discussion.
+We have a dedicated [MDX v2 - Upgrade Support](https://github.com/it990110/docusaurus/discussions/9053) discussion.
 
 :::
 
@@ -117,8 +117,8 @@ It will not report subtle compilation changes that do not produce errors but can
 
 We upgraded a few Docusaurus sites to Docusaurus v3 and MDX v2:
 
-- [Docusaurus PR](https://github.com/facebook/docusaurus/pull/8288)
-- [React-Native PR](https://github.com/facebook/react-native-website/pull/3780)
+- [Docusaurus PR](https://github.com/it990110/docusaurus/pull/8288)
+- [React-Native PR](https://github.com/it990110/react-native-website/pull/3780)
 - [Jest PR](https://github.com/jestjs/jest/pull/14463)
 
 These upgrades permitted us to aggregate the most common content problems, and document how to best handle them.
@@ -392,7 +392,7 @@ module.exports = async function () {
 
 :::info For plugin authors
 
-If you created custom Remark or Rehype plugins, you may need to refactor those, or eventually rewrite them completely, due to how the new AST is structured. We have created a [dedicated support discussion](https://github.com/facebook/docusaurus/discussions/9337) to help plugin authors upgrade their code.
+If you created custom Remark or Rehype plugins, you may need to refactor those, or eventually rewrite them completely, due to how the new AST is structured. We have created a [dedicated support discussion](https://github.com/it990110/docusaurus/discussions/9337) to help plugin authors upgrade their code.
 
 :::
 
@@ -492,7 +492,7 @@ This is a Docusaurus v3 `:::warning` admonition.
 
 If you previously used the undocumented `:::warning` admonition, make sure to verify for each usage if yellow is now an appropriate color. If you want to keep the red color, use `:::danger` instead.
 
-Docusaurus v3 also [deprecated the `:::caution`](https://github.com/facebook/docusaurus/pull/9308) admonition. Please refactor `:::caution` (yellow) to either `:::warning` (yellow) or `:::danger` (red).
+Docusaurus v3 also [deprecated the `:::caution`](https://github.com/it990110/docusaurus/pull/9308) admonition. Please refactor `:::caution` (yellow) to either `:::warning` (yellow) or `:::danger` (red).
 
 :::
 
@@ -500,7 +500,7 @@ Docusaurus v3 also [deprecated the `:::caution`](https://github.com/facebook/doc
 
 This breaking change will only affect **Docusaurus v2 early adopters** who versioned their docs before `v2.0.0-beta.10` (December 2021).
 
-When creating version `v1.0.0`, the sidebar file contained a prefix `version-v1.0.0/` that [Docusaurus v3 does not support anymore](https://github.com/facebook/docusaurus/pull/9310).
+When creating version `v1.0.0`, the sidebar file contained a prefix `version-v1.0.0/` that [Docusaurus v3 does not support anymore](https://github.com/it990110/docusaurus/pull/9310).
 
 ```json title="versioned_sidebars/version-v1.0.0-sidebars.json"
 {
@@ -527,11 +527,11 @@ You can remove the useless versioned prefix from your versioned sidebars.
 
 ## Try Docusaurus v3 today {#try-docusaurus-v3-today}
 
-Docusaurus v3 is now [in beta](https://github.com/facebook/docusaurus/discussions/9312), and already used in production by [React-Native](https://reactnative.dev), [Jest](https://jestjs.io), and [our own website](https://docusaurus.io/).
+Docusaurus v3 is now [in beta](https://github.com/it990110/docusaurus/discussions/9312), and already used in production by [React-Native](https://reactnative.dev), [Jest](https://jestjs.io), and [our own website](https://gityjf.io/).
 
 We think this new Docusaurus version is **robust and ready to be deployed in production**. It should be released officially soon, after receiving a positive feedback from early adopters of our community.
 
-We would really appreciate it if you try upgrading and report issues on the [3.0.0-beta.0 release discussion thread](https://github.com/facebook/docusaurus/discussions/9312).
+We would really appreciate it if you try upgrading and report issues on the [3.0.0-beta.0 release discussion thread](https://github.com/it990110/docusaurus/discussions/9312).
 
 For most sites, the upgrade should be easy. If you prepared your site ahead of time as documented here, upgrading the following dependencies should be enough:
 
@@ -562,13 +562,13 @@ For most sites, the upgrade should be easy. If you prepared your site ahead of t
 
 We will be there to help you upgrade through the following support channels:
 
-- [Docusaurus v3 - Upgrade Support](https://github.com/facebook/docusaurus/discussions/9336)
+- [Docusaurus v3 - Upgrade Support](https://github.com/it990110/docusaurus/discussions/9336)
 - [Docusaurus v3 - Discord channel #migration-v2-to-v3](https://discord.com/channels/398180168688074762/1154771869094912090)
-- [MDX v2 - Upgrade Support](https://github.com/facebook/docusaurus/discussions/9053)
-- [MDX v2 - Remark/Rehype Plugins Support](https://github.com/facebook/docusaurus/discussions/9337)
+- [MDX v2 - Upgrade Support](https://github.com/it990110/docusaurus/discussions/9053)
+- [MDX v2 - Remark/Rehype Plugins Support](https://github.com/it990110/docusaurus/discussions/9337)
 - [MDX v2 - Discord channel #migration-mdx-v2](https://discord.com/channels/398180168688074762/1116724556976111616)
 
-Alternatively, you can look for a paid [Docusaurus Service Provider](https://github.com/facebook/docusaurus/discussions/9281) to execute this upgrade for you. If your site is open source, you can also ask our community for [free, benevolent help](https://github.com/facebook/docusaurus/discussions/9283).
+Alternatively, you can look for a paid [Docusaurus Service Provider](https://github.com/it990110/docusaurus/discussions/9281) to execute this upgrade for you. If your site is open source, you can also ask our community for [free, benevolent help](https://github.com/it990110/docusaurus/discussions/9283).
 
 ## Conclusion
 

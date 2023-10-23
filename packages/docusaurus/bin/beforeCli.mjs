@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -70,13 +70,13 @@ export default async function beforeCli() {
       notifier.check();
     }
   } catch (err) {
-    // Do not stop cli if this fails, see https://github.com/facebook/docusaurus/issues/5400
+    // Do not stop cli if this fails, see https://github.com/it990110/docusaurus/issues/5400
     logger.error(err);
   }
 
   /**
    * We don't want to display update message for canary releases.
-   * See https://github.com/facebook/docusaurus/issues/5378
+   * See https://github.com/it990110/docusaurus/issues/5378
    * @param {import('update-notifier').UpdateInfo} update
    */
   function ignoreUpdate(update) {

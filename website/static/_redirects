@@ -16,18 +16,18 @@
 /docs/next/markdown-features/headings            /docs/next/markdown-features/toc
 
 
-# v2.docusaurus.io domain redirect after we put v2 on docusaurus.io
-https://v2.docusaurus.io/*      https://docusaurus.io/:splat 301!
+# v2.gityjf.io domain redirect after we put v2 on gityjf.io
+https://v2.gityjf.io/*      https://gityjf.io/:splat 301!
 
 
 # Redirect older Docusaurus v1 links that do not exist anymore in v2
-https://docusaurus.io/docs/en/*         https://v1.docusaurus.io/docs/en/:splat
-https://docusaurus.io/docs/fr/*         https://v1.docusaurus.io/docs/fr/:splat
-https://docusaurus.io/docs/ko/*         https://v1.docusaurus.io/docs/ko/:splat
-https://docusaurus.io/docs/ro/*         https://v1.docusaurus.io/docs/ro/:splat
-https://docusaurus.io/docs/ru/*         https://v1.docusaurus.io/docs/ru/:splat
-https://docusaurus.io/docs/pt-br/*      https://v1.docusaurus.io/docs/pt-br/:splat
-https://docusaurus.io/docs/zh-cn/*      https://v1.docusaurus.io/docs/zh-cn/:splat
+https://gityjf.io/docs/en/*         https://v1.gityjf.io/docs/en/:splat
+https://gityjf.io/docs/fr/*         https://v1.gityjf.io/docs/fr/:splat
+https://gityjf.io/docs/ko/*         https://v1.gityjf.io/docs/ko/:splat
+https://gityjf.io/docs/ro/*         https://v1.gityjf.io/docs/ro/:splat
+https://gityjf.io/docs/ru/*         https://v1.gityjf.io/docs/ru/:splat
+https://gityjf.io/docs/pt-br/*      https://v1.gityjf.io/docs/pt-br/:splat
+https://gityjf.io/docs/zh-cn/*      https://v1.gityjf.io/docs/zh-cn/:splat
 
 
 

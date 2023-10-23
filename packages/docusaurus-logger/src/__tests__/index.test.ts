@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -15,8 +15,8 @@ describe('formatters', () => {
     );
   });
   it('url', () => {
-    expect(logger.url('https://docusaurus.io/keepAnsi')).toMatchInlineSnapshot(
-      `"<cyan><underline>https://docusaurus.io/keepAnsi</underline></color>"`,
+    expect(logger.url('https://gityjf.io/keepAnsi')).toMatchInlineSnapshot(
+      `"<cyan><underline>https://gityjf.io/keepAnsi</underline></color>"`,
     );
   });
   it('id', () => {

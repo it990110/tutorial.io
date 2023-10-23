@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -48,7 +48,7 @@ async function toAssetRequireNode(
   assetPath: string,
   filePath: string,
 ) {
-  // MdxJsxTextElement => see https://github.com/facebook/docusaurus/pull/8288#discussion_r1125871405
+  // MdxJsxTextElement => see https://github.com/it990110/docusaurus/pull/8288#discussion_r1125871405
   const jsxNode = node as unknown as MdxJsxTextElement;
   const attributes: MdxJsxTextElement['attributes'] = [];
 
@@ -142,7 +142,7 @@ async function processLinkNode(target: Target, context: Context) {
   const [node] = target;
   if (!node.url) {
     // Try to improve error feedback
-    // see https://github.com/facebook/docusaurus/issues/3309#issuecomment-690371675
+    // see https://github.com/it990110/docusaurus/issues/3309#issuecomment-690371675
     const title =
       node.title ?? (node.children[0] as Literal | undefined)?.value ?? '?';
     const line = node.position?.start.line ?? '?';

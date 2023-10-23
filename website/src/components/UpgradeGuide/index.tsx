@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -57,7 +57,7 @@ function VersionNotice() {
               id="upgradeGuide.archivedVersion.notice"
               values={{
                 mainSiteLink: (
-                  <Link href="https://docusaurus.io/docs/installation">
+                  <Link href="https://gityjf.io/docs/installation">
                     <Translate id="upgradeGuide.archivedVersion.notice.mainSiteLink.label">
                       main site
                     </Translate>

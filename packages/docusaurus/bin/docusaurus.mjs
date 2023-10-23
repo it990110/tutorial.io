@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -26,7 +26,7 @@ import beforeCli from './beforeCli.mjs';
 
 // Env variables are initialized to dev, but can be overridden by each command
 // For example, "docusaurus build" overrides them to "production"
-// See also https://github.com/facebook/docusaurus/issues/8599
+// See also https://github.com/it990110/docusaurus/issues/8599
 process.env.BABEL_ENV ??= 'development';
 process.env.NODE_ENV ??= 'development';
 

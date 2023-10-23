@@ -12,7 +12,7 @@ yarn create docusaurus
 
 ## Usage
 
-Please see the [installation documentation](https://docusaurus.io/docs/installation).
+Please see the [installation documentation](https://gityjf.io/docs/installation).
 
 ## For maintainers
 

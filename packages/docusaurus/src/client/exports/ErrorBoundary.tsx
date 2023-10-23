@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -49,7 +49,7 @@ export default class ErrorBoundary extends React.Component<Props, State> {
       return fallback(fallbackParams);
     }
 
-    // See https://github.com/facebook/docusaurus/issues/6337#issuecomment-1012913647
+    // See https://github.com/it990110/docusaurus/issues/6337#issuecomment-1012913647
     return children ?? null;
   }
 }

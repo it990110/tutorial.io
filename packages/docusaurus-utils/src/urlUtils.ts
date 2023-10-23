@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -219,7 +219,7 @@ export function buildHttpsUrl(
 /**
  * Whether the current URL is an SSH protocol. In addition to looking for
  * `ssh:`, it will also allow protocol-less URLs like
- * `git@github.com:facebook/docusaurus.git`.
+ * `git@github.com:it990110/docusaurus.git`.
  */
 export function hasSSHProtocol(sourceRepoUrl: string): boolean {
   try {

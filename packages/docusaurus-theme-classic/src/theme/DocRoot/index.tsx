@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -20,7 +20,7 @@ export default function DocRoot(props: Props): JSX.Element {
   const currentDocRouteMetadata = useDocRootMetadata(props);
   if (!currentDocRouteMetadata) {
     // We only render the not found content to avoid a double layout
-    // see https://github.com/facebook/docusaurus/pull/7966#pullrequestreview-1077276692
+    // see https://github.com/it990110/docusaurus/pull/7966#pullrequestreview-1077276692
     return <NotFoundContent />;
   }
   const {docElement, sidebarName, sidebarItems} = currentDocRouteMetadata;

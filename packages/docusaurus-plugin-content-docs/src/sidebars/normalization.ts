@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -71,7 +71,7 @@ function normalizeSidebar(
     throw new Error(
       logger.interpolate`Invalid sidebar items collection code=${JSON.stringify(
         sidebar,
-      )} in ${place}: it must either be an array of sidebar items or a shorthand notation (which doesn't contain a code=${'type'} property). See url=${'https://docusaurus.io/docs/sidebar/items'} for all valid syntaxes.`,
+      )} in ${place}: it must either be an array of sidebar items or a shorthand notation (which doesn't contain a code=${'type'} property). See url=${'https://gityjf.io/docs/sidebar/items'} for all valid syntaxes.`,
     );
   }
 

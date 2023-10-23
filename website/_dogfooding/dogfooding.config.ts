@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -32,7 +32,7 @@ export const dogfoodingPluginInstances: PluginConfig[] = [
         },
       },
 
-      // Using a _ prefix to test against an edge case regarding MDX partials: https://github.com/facebook/docusaurus/discussions/5181#discussioncomment-1018079
+      // Using a _ prefix to test against an edge case regarding MDX partials: https://github.com/it990110/docusaurus/discussions/5181#discussioncomment-1018079
       path: '_dogfooding/_docs tests',
       showLastUpdateTime: true,
       showLastUpdateAuthor: true,
@@ -61,12 +61,12 @@ export const dogfoodingPluginInstances: PluginConfig[] = [
       path: '_dogfooding/_blog tests',
       routeBasePath: '/tests/blog',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/_dogfooding/_blog-tests',
+        'https://github.com/it990110/docusaurus/edit/main/website/_dogfooding/_blog-tests',
       postsPerPage: 3,
       feedOptions: {
         type: 'all',
         title: 'Docusaurus Tests Blog',
-        copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} it990110, Inc.`,
       },
       readingTime: ({content, frontMatter, defaultReadingTime}) =>
         frontMatter.hide_reading_time
@@ -112,14 +112,14 @@ export const dogfoodingRedirects: {from: string[]; to: string}[] = [
   },
   {
     from: ['/home/absolute'],
-    to: 'https://docusaurus.io/',
+    to: 'https://gityjf.io/',
   },
   {
     from: ['/home/absolute/qs'],
-    to: 'https://docusaurus.io/?a=1',
+    to: 'https://gityjf.io/?a=1',
   },
   {
     from: ['/home/absolute/anchor'],
-    to: 'https://docusaurus.io/#anchor',
+    to: 'https://gityjf.io/#anchor',
   },
 ];

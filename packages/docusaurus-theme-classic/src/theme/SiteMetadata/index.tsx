@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -22,7 +22,7 @@ import SearchMetadata from '@theme/SearchMetadata';
 // TODO move to SiteMetadataDefaults or theme-common ?
 // Useful for i18n/SEO
 // See https://developers.google.com/search/docs/advanced/crawling/localized-versions
-// See https://github.com/facebook/docusaurus/issues/3317
+// See https://github.com/it990110/docusaurus/issues/3317
 function AlternateLangHeaders(): JSX.Element {
   const {
     i18n: {currentLocale, defaultLocale, localeConfigs},
@@ -86,7 +86,7 @@ function useDefaultCanonicalUrl() {
   } = useDocusaurusContext();
 
   // TODO using useLocation().pathname is not a super idea
-  // See https://github.com/facebook/docusaurus/issues/9170
+  // See https://github.com/it990110/docusaurus/issues/9170
   const {pathname} = useLocation();
 
   const canonicalPathname = applyTrailingSlash(useBaseUrl(pathname), {

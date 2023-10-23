@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -55,7 +55,7 @@ export default function ThemedComponent({
     // We need to render both components on the server / hydration to avoid:
     // - a flash of wrong theme before hydration
     // - React hydration mismatches
-    // See https://github.com/facebook/docusaurus/pull/3730
+    // See https://github.com/it990110/docusaurus/pull/3730
     return ['light', 'dark'];
   }
 

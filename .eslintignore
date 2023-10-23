@@ -18,6 +18,6 @@ packages/eslint-plugin/lib/
 packages/stylelint-copyright/lib/
 
 packages/create-docusaurus/lib/*
-packages/create-docusaurus/templates/facebook
+packages/create-docusaurus/templates/it990110
 
 website/_dogfooding/_swizzle_theme_tests

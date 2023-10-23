@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -316,7 +316,7 @@ describe('simple site', () => {
     const {siteDir, context, options, currentVersion, createTestUtilsPartial} =
       await loadSite({
         options: {
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website',
+          editUrl: 'https://github.com/it990110/docusaurus/edit/main/website',
         },
       });
 
@@ -335,7 +335,7 @@ describe('simple site', () => {
       slug: '/foo/bazSlug.html',
       title: 'baz',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/docs/foo/baz.md',
+        'https://github.com/it990110/docusaurus/edit/main/website/docs/foo/baz.md',
       description: 'Images',
       frontMatter: {
         id: 'baz',
@@ -1079,7 +1079,7 @@ describe('versioned site', () => {
   it('translated doc with editUrl', async () => {
     const {siteDir, context, options, version100} = await loadSite({
       options: {
-        editUrl: 'https://github.com/facebook/docusaurus/edit/main/website',
+        editUrl: 'https://github.com/it990110/docusaurus/edit/main/website',
       },
     });
 
@@ -1104,7 +1104,7 @@ describe('versioned site', () => {
       source:
         '@site/i18n/en/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/versioned_docs/version-1.0.0/hello.md',
+        'https://github.com/it990110/docusaurus/edit/main/website/versioned_docs/version-1.0.0/hello.md',
       tags: [],
       unlisted: false,
     });
@@ -1113,7 +1113,7 @@ describe('versioned site', () => {
   it('translated en doc with editUrl and editCurrentVersion=true', async () => {
     const {siteDir, context, options, version100} = await loadSite({
       options: {
-        editUrl: 'https://github.com/facebook/docusaurus/edit/main/website',
+        editUrl: 'https://github.com/it990110/docusaurus/edit/main/website',
         editCurrentVersion: true,
       },
     });
@@ -1139,7 +1139,7 @@ describe('versioned site', () => {
       source:
         '@site/i18n/en/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/docs/hello.md',
+        'https://github.com/it990110/docusaurus/edit/main/website/docs/hello.md',
       tags: [],
       unlisted: false,
     });
@@ -1148,7 +1148,7 @@ describe('versioned site', () => {
   it('translated fr doc with editUrl and editLocalizedFiles=true', async () => {
     const {siteDir, context, options, version100} = await loadSite({
       options: {
-        editUrl: 'https://github.com/facebook/docusaurus/edit/main/website',
+        editUrl: 'https://github.com/it990110/docusaurus/edit/main/website',
         editLocalizedFiles: true,
       },
       locale: 'fr',
@@ -1175,7 +1175,7 @@ describe('versioned site', () => {
       source:
         '@site/i18n/fr/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/i18n/fr/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
+        'https://github.com/it990110/docusaurus/edit/main/website/i18n/fr/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
       tags: [],
       unlisted: false,
     });
@@ -1184,7 +1184,7 @@ describe('versioned site', () => {
   it('translated fr doc with editUrl and editLocalizedFiles=true + editCurrentVersion=true', async () => {
     const {siteDir, context, options, version100} = await loadSite({
       options: {
-        editUrl: 'https://github.com/facebook/docusaurus/edit/main/website',
+        editUrl: 'https://github.com/it990110/docusaurus/edit/main/website',
         editCurrentVersion: true,
         editLocalizedFiles: true,
       },
@@ -1212,7 +1212,7 @@ describe('versioned site', () => {
       source:
         '@site/i18n/fr/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/i18n/fr/docusaurus-plugin-content-docs/current/hello.md',
+        'https://github.com/it990110/docusaurus/edit/main/website/i18n/fr/docusaurus-plugin-content-docs/current/hello.md',
       tags: [],
       unlisted: false,
     });

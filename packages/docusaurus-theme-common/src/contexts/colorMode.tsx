@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -125,7 +125,7 @@ function useContextValue(): ContextValue {
   // PCS is coerced to light mode when printing, which causes the color mode to
   // be reset to dark when exiting print mode, disregarding user settings. When
   // the listener fires only because of a print/screen switch, we don't change
-  // color mode. See https://github.com/facebook/docusaurus/pull/6490
+  // color mode. See https://github.com/it990110/docusaurus/pull/6490
   const previousMediaIsPrint = useRef(false);
 
   useEffect(() => {
@@ -191,7 +191,7 @@ export function useColorMode(): ContextValue {
   if (context == null) {
     throw new ReactContextError(
       'ColorModeProvider',
-      'Please see https://docusaurus.io/docs/api/themes/configuration#use-color-mode.',
+      'Please see https://gityjf.io/docs/api/themes/configuration#use-color-mode.',
     );
   }
   return context;

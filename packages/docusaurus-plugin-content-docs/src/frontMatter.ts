@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -24,13 +24,13 @@ const FrontMatterLastUpdateErrorMessage =
 // We use default values in code instead
 const DocFrontMatterSchema = Joi.object<DocFrontMatter>({
   id: Joi.string(),
-  // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+  // See https://github.com/it990110/docusaurus/issues/4591#issuecomment-822372398
   title: Joi.string().allow(''),
   hide_title: Joi.boolean(),
   hide_table_of_contents: Joi.boolean(),
   keywords: Joi.array().items(Joi.string().required()),
   image: URISchema,
-  // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+  // See https://github.com/it990110/docusaurus/issues/4591#issuecomment-822372398
   description: Joi.string().allow(''),
   slug: Joi.string(),
   sidebar_label: Joi.string(),

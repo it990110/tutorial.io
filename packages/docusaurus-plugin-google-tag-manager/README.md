@@ -4,4 +4,4 @@ Google Tag Manager plugin for Docusaurus.
 
 ## Usage
 
-See [plugin-google-tag-manager documentation](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-tag-manager).
+See [plugin-google-tag-manager documentation](https://gityjf.io/docs/api/plugins/@docusaurus/plugin-google-tag-manager).

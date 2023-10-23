@@ -13,7 +13,7 @@ body:
         - Significant refactor;
         - ...
 
-        This is not for feature requests. If this involves new APIs or new behaviors, consider requesting the feature on https://docusaurus.io/feature-requests instead.
+        This is not for feature requests. If this involves new APIs or new behaviors, consider requesting the feature on https://gityjf.io/feature-requests instead.
 
         We give you maximum freedom to write an elaborated proposal illustrating why you think the change is beneficial for us, and what steps we should take to turn this into reality.
 
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Have you read the Contributing Guidelines on issues?
       options:
-        - label: I have read the [Contributing Guidelines on issues](https://github.com/facebook/docusaurus/blob/main/CONTRIBUTING.md#issues).
+        - label: I have read the [Contributing Guidelines on issues](https://github.com/it990110/docusaurus/blob/main/CONTRIBUTING.md#issues).
           required: true
 
   - type: textarea

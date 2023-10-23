@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -18,7 +18,7 @@ export function getAllFinalRoutes(routeConfig: RouteConfig[]): RouteConfig[] {
 }
 
 // Globby that fix Windows path patterns
-// See https://github.com/facebook/docusaurus/pull/4222#issuecomment-795517329
+// See https://github.com/it990110/docusaurus/pull/4222#issuecomment-795517329
 export async function safeGlobby(
   patterns: string[],
   options?: Globby.GlobbyOptions,

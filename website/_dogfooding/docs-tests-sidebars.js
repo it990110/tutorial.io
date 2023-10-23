@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -36,7 +36,7 @@ const sidebars = {
         {
           type: 'link',
           label: 'External Link test',
-          href: 'https://docusaurus.io',
+          href: 'https://gityjf.io',
         },
         {
           type: 'category',
@@ -48,12 +48,12 @@ const sidebars = {
             {
               type: 'link',
               label: 'Link without description',
-              href: 'https://docusaurus.io',
+              href: 'https://gityjf.io',
             },
             {
               type: 'link',
               label: 'Link with description',
-              href: 'https://docusaurus.io',
+              href: 'https://gityjf.io',
               description: 'Some link description',
             },
             {
@@ -63,7 +63,7 @@ const sidebars = {
                 {
                   type: 'link',
                   label: 'Link ',
-                  href: 'https://docusaurus.io',
+                  href: 'https://gityjf.io',
                 },
               ],
             },
@@ -75,7 +75,7 @@ const sidebars = {
                 {
                   type: 'link',
                   label: 'Link ',
-                  href: 'https://docusaurus.io',
+                  href: 'https://gityjf.io',
                 },
               ],
             },
@@ -114,7 +114,7 @@ const sidebars = {
         {
           type: 'link',
           label: 'External link absolute',
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/it990110/docusaurus',
         },
         {
           type: 'link',

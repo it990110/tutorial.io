@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -118,7 +118,7 @@ const HtmlNavbarItemSchema = Joi.object({
 });
 
 // A temporary workaround to allow users to add custom navbar items
-// See https://github.com/facebook/docusaurus/issues/7227
+// See https://github.com/it990110/docusaurus/issues/7227
 const CustomNavbarItemRegexp = /custom-.*/;
 const CustomNavbarItemSchema = Joi.object({
   type: Joi.string().regex(CustomNavbarItemRegexp).required(),
@@ -315,7 +315,7 @@ const LogoSchema = Joi.object({
 });
 
 // Normalize prism language to lowercase
-// See https://github.com/facebook/docusaurus/issues/9012
+// See https://github.com/it990110/docusaurus/issues/9012
 const PrismLanguage = Joi.string().custom((val) => val.toLowerCase());
 
 export const ThemeConfigSchema = Joi.object<ThemeConfig>({
@@ -340,7 +340,7 @@ export const ThemeConfigSchema = Joi.object<ThemeConfig>({
   metadatas: Joi.any().forbidden().messages({
     'any.unknown':
       // cSpell:ignore metadatas
-      'themeConfig.metadatas has been renamed as themeConfig.metadata. See https://github.com/facebook/docusaurus/pull/5871',
+      'themeConfig.metadatas has been renamed as themeConfig.metadata. See https://github.com/it990110/docusaurus/pull/5871',
   }),
   announcementBar: Joi.object({
     id: Joi.string().default('announcement-bar'),
@@ -377,7 +377,7 @@ export const ThemeConfigSchema = Joi.object<ThemeConfig>({
       Joi.array().items(FooterLinkItemSchema),
     )
       .messages({
-        'alternatives.match': `The footer must be either simple or multi-column, and not a mix of the two. See: https://docusaurus.io/docs/api/themes/configuration#footer-links`,
+        'alternatives.match': `The footer must be either simple or multi-column, and not a mix of the two. See: https://gityjf.io/docs/api/themes/configuration#footer-links`,
       })
       .default([]),
   }).optional(),
@@ -419,7 +419,7 @@ export const ThemeConfigSchema = Joi.object<ThemeConfig>({
   }),
   sidebarCollapsible: Joi.forbidden().messages({
     'any.unknown':
-      'The themeConfig.sidebarCollapsible has been moved to docs plugin options. See: https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs',
+      'The themeConfig.sidebarCollapsible has been moved to docs plugin options. See: https://gityjf.io/docs/api/plugins/@docusaurus/plugin-content-docs',
   }),
   tableOfContents: Joi.object({
     minHeadingLevel: Joi.number()

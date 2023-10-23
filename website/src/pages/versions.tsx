@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -182,7 +182,7 @@ export default function Version(): JSX.Element {
               <tr>
                 <th>1.x</th>
                 <td>
-                  <Link href="https://v1.docusaurus.io/docs/en/installation">
+                  <Link href="https://v1.gityjf.io/docs/en/installation">
                     <DocumentationLabel />
                   </Link>
                 </td>

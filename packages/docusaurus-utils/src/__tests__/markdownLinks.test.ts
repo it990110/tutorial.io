@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -27,8 +27,8 @@ describe('replaceMarkdownLinks', () => {
 [foo](./foo.md)
 [baz](./bar/baz.md)
 [foo](foo.md)
-[http](http://github.com/facebook/docusaurus/README.md)
-[https](https://github.com/facebook/docusaurus/README.md)
+[http](http://github.com/it990110/docusaurus/README.md)
+[https](https://github.com/it990110/docusaurus/README.md)
 [asset](./foo.js)
 [asset as well](@site/docs/_partial.md)
 [looks like http...](http.foo.md)

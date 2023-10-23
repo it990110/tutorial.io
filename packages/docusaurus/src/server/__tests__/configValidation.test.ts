@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -36,7 +36,7 @@ describe('normalizeConfig', () => {
       ...DEFAULT_CONFIG,
       ...baseConfig,
       tagline: 'my awesome site',
-      organizationName: 'facebook',
+      organizationName: 'it990110',
       projectName: 'docusaurus',
       githubHost: 'github.com',
       githubPort: '8000',
@@ -48,7 +48,7 @@ describe('normalizeConfig', () => {
           src: `/analytics.js`,
           async: true,
           defer: true,
-          'data-domain': 'xyz', // See https://github.com/facebook/docusaurus/issues/3378
+          'data-domain': 'xyz', // See https://github.com/it990110/docusaurus/issues/3378
         },
       ],
       stylesheets: [

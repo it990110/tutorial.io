@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -11,19 +11,19 @@ const CookieName = 'DocusaurusPlaygroundName';
 
 const PlaygroundConfigs = {
   codesandbox:
-    'https://codesandbox.io/p/sandbox/github/facebook/docusaurus/tree/main/examples/classic?file=%2FREADME.md',
+    'https://codesandbox.io/p/sandbox/github/it990110/docusaurus/tree/main/examples/classic?file=%2FREADME.md',
   'codesandbox-ts':
-    'https://codesandbox.io/p/sandbox/github/facebook/docusaurus/tree/main/examples/classic-typescript?file=%2FREADME.md',
+    'https://codesandbox.io/p/sandbox/github/it990110/docusaurus/tree/main/examples/classic-typescript?file=%2FREADME.md',
 
   // Slow to load
-  // stackblitz: 'https://stackblitz.com/github/facebook/docusaurus/tree/main/examples/classic',
+  // stackblitz: 'https://stackblitz.com/github/it990110/docusaurus/tree/main/examples/classic',
   // Dedicated branch: faster load
-  stackblitz: 'https://stackblitz.com/github/facebook/docusaurus/tree/starter',
+  stackblitz: 'https://stackblitz.com/github/it990110/docusaurus/tree/starter',
   'stackblitz-ts':
-    'https://stackblitz.com/github/facebook/docusaurus/tree/main/examples/classic-typescript',
+    'https://stackblitz.com/github/it990110/docusaurus/tree/main/examples/classic-typescript',
 };
 
-const PlaygroundDocumentationUrl = 'https://docusaurus.io/docs/playground';
+const PlaygroundDocumentationUrl = 'https://gityjf.io/docs/playground';
 
 export type PlaygroundName = keyof typeof PlaygroundConfigs;
 

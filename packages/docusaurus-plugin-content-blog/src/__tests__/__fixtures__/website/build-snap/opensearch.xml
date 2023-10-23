@@ -4,8 +4,8 @@
   <ShortName>Docusaurus blog website fixture</ShortName>
   <Description>Search Docusaurus blog website fixture</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://docusaurus.io/img/docusaurus.ico</Image>
-  <Url type="text/html" method="get" template="https://docusaurus.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://docusaurus.io/opensearch.xml" />
-  <moz:SearchForm>https://docusaurus.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://gityjf.io/img/docusaurus.ico</Image>
+  <Url type="text/html" method="get" template="https://gityjf.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://gityjf.io/opensearch.xml" />
+  <moz:SearchForm>https://gityjf.io/</moz:SearchForm>
 </OpenSearchDescription>

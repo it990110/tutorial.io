@@ -1,12 +1,12 @@
 <!--
 Thank you for sending the PR! We appreciate you spending the time to work on these changes.
-You can learn more about contributing to Docusaurus here: https://github.com/facebook/docusaurus/blob/main/CONTRIBUTING.md
+You can learn more about contributing to Docusaurus here: https://github.com/it990110/docusaurus/blob/main/CONTRIBUTING.md
 Happy contributing!
 -->
 
 ## Pre-flight checklist
 
-- [ ] I have read the [Contributing Guidelines on pull requests](https://github.com/facebook/docusaurus/blob/main/CONTRIBUTING.md#pull-requests).
+- [ ] I have read the [Contributing Guidelines on pull requests](https://github.com/it990110/docusaurus/blob/main/CONTRIBUTING.md#pull-requests).
 - [ ] **If this is a code change**: I have written unit tests and/or added dogfooding pages to fully verify the new behavior.
 - [ ] **If this is a new API or substantial change**: the PR has an accompanying issue (closes #0000) and the maintainers have approved on my working plan.
 
@@ -29,7 +29,7 @@ If this PR adds or changes functionality, please take some time to update the do
 🙏 Please add an exhaustive list of links relevant to this pull request.
 ⏱ This saves maintainers a lot of time during reviews.
 
-- If you changed anything that's displayed on UI, please add a dogfooding page in website/_dogfooding to help us preview the effect. Those tests are deployed at https://docusaurus.io/tests
+- If you changed anything that's displayed on UI, please add a dogfooding page in website/_dogfooding to help us preview the effect. Those tests are deployed at https://gityjf.io/tests
 - If you changed documentation, please link to the new and updated documentation pages.
 
 After submission, our Netlify bot will post a deploy preview link in comment, in the format of https://deploy-preview-<PR-NUMBER>--docusaurus-2.netlify.app/. Once available, please edit this section with links to the relevant deploy preview pages.

@@ -62,7 +62,7 @@ Note that:
   yarn add ../../local/docusaurus/packages/docusaurus
   ```
 - You cannot use `npm install` instead of `yarn add` for this purpose.
-- `yarn link` is very likely to fail with react, unless you also manually link react. See https://github.com/facebook/react/issues/14257.
+- `yarn link` is very likely to fail with react, unless you also manually link react. See https://github.com/it990110/react/issues/14257.
 
 ## Use Verdaccio
 

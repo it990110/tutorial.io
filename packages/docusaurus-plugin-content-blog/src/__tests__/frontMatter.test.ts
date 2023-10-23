@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -78,7 +78,7 @@ describe('validateBlogPostFrontMatter description', () => {
   testField({
     prefix: 'description',
     validFrontMatters: [
-      // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+      // See https://github.com/it990110/docusaurus/issues/4591#issuecomment-822372398
       {description: ''},
       {description: 'description'},
     ],
@@ -89,7 +89,7 @@ describe('validateBlogPostFrontMatter title', () => {
   testField({
     prefix: 'title',
     validFrontMatters: [
-      // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
+      // See https://github.com/it990110/docusaurus/issues/4591#issuecomment-822372398
       {title: ''},
       {title: 'title'},
     ],
@@ -156,7 +156,7 @@ describe('validateBlogPostFrontMatter author_url', () => {
   testField({
     prefix: 'author_url',
     validFrontMatters: [
-      {author_url: 'https://docusaurus.io'},
+      {author_url: 'https://gityjf.io'},
       {author_url: '../../relative'},
       {author_url: '/absolute'},
     ],
@@ -171,7 +171,7 @@ describe('validateBlogPostFrontMatter author_url', () => {
   testField({
     prefix: 'authorURL',
     validFrontMatters: [
-      {authorURL: 'https://docusaurus.io'},
+      {authorURL: 'https://gityjf.io'},
       {authorURL: '../../relative'},
       {authorURL: '/absolute'},
     ],
@@ -189,7 +189,7 @@ describe('validateBlogPostFrontMatter author_image_url', () => {
   testField({
     prefix: 'author_image_url',
     validFrontMatters: [
-      {author_image_url: 'https://docusaurus.io/asset/image.png'},
+      {author_image_url: 'https://gityjf.io/asset/image.png'},
       {author_image_url: '../../relative'},
       {author_image_url: '/absolute'},
     ],
@@ -204,7 +204,7 @@ describe('validateBlogPostFrontMatter author_image_url', () => {
   testField({
     prefix: 'authorImageURL',
     validFrontMatters: [
-      {authorImageURL: 'https://docusaurus.io/asset/image.png'},
+      {authorImageURL: 'https://gityjf.io/asset/image.png'},
       {authorImageURL: '../../relative'},
       {authorImageURL: '/absolute'},
     ],
@@ -286,7 +286,7 @@ describe('validateBlogPostFrontMatter image', () => {
   testField({
     prefix: 'image',
     validFrontMatters: [
-      {image: 'https://docusaurus.io/image.png'},
+      {image: 'https://gityjf.io/image.png'},
       {image: 'blog/'},
       {image: '/blog'},
       {image: '/blog/'},
@@ -319,7 +319,7 @@ describe('validateBlogPostFrontMatter tags', () => {
       ],
       [{tags: ['']}, 'not allowed to be empty'],
     ],
-    // See https://github.com/facebook/docusaurus/issues/4642
+    // See https://github.com/it990110/docusaurus/issues/4642
     convertibleFrontMatter: [
       [{tags: [42]}, {tags: ['42']}],
       [

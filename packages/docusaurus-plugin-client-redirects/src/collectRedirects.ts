@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -87,7 +87,7 @@ function validateCollectedRedirects(
     // We now allow "to" to contain any string
     // We only do this "broken redirect" check from to that looks like pathnames
     // note: we allow querystring/anchors
-    // See https://github.com/facebook/docusaurus/issues/6845
+    // See https://github.com/it990110/docusaurus/issues/6845
     .map((to) => {
       if (to.startsWith('/')) {
         try {

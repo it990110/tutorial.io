@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -66,7 +66,7 @@ export function ScrollControllerProvider({
  * so as not to toggle Navbar/BackToTop visibility.
  *
  * This API permits to temporarily disable/ignore scroll events. Motivated by
- * https://github.com/facebook/docusaurus/pull/5618
+ * https://github.com/it990110/docusaurus/pull/5618
  */
 export function useScrollController(): ScrollController {
   const context = useContext(ScrollMonitorContext);
@@ -180,7 +180,7 @@ function useScrollPositionSaver(): UseScrollPositionSaver {
  * the same group upper in the tree, yet to avoid a bad UX, the clicked tab must
  * remain under the user mouse.
  *
- * @see https://github.com/facebook/docusaurus/pull/5618
+ * @see https://github.com/it990110/docusaurus/pull/5618
  */
 export function useScrollPositionBlocker(): {
   /**
@@ -224,7 +224,7 @@ export function useScrollPositionBlocker(): {
   useIsomorphicLayoutEffect(() => {
     // Queuing permits to restore scroll position after all useLayoutEffect
     // have run, and yet preserve the sync nature of the scroll restoration
-    // See https://github.com/facebook/docusaurus/issues/8625
+    // See https://github.com/it990110/docusaurus/issues/8625
     queueMicrotask(() => nextLayoutEffectCallbackRef.current?.());
   });
 

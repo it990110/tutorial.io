@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -18,7 +18,7 @@ import styles from './styles.module.css';
 
 // Reset sidebar state when sidebar changes
 // Use React key to unmount/remount the children
-// See https://github.com/facebook/docusaurus/issues/3414
+// See https://github.com/it990110/docusaurus/issues/3414
 function ResetOnSidebarChange({children}: {children: ReactNode}) {
   const sidebar = useDocsSidebar();
   return (
@@ -41,7 +41,7 @@ export default function DocRootLayoutSidebar({
       setHiddenSidebar(false);
     }
     // onTransitionEnd won't fire when sidebar animation is disabled
-    // fixes https://github.com/facebook/docusaurus/issues/8918
+    // fixes https://github.com/it990110/docusaurus/issues/8918
     if (!hiddenSidebar && prefersReducedMotion()) {
       setHiddenSidebar(true);
     }

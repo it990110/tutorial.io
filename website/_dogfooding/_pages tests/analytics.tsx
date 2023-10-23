@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -9,7 +9,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
-// See https://github.com/facebook/docusaurus/issues/6337#issuecomment-1012913647
+// See https://github.com/it990110/docusaurus/issues/6337#issuecomment-1012913647
 export default function Analytics(): JSX.Element {
   return (
     <Layout>

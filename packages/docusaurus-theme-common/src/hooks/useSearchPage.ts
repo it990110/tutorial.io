@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -32,7 +32,7 @@ export function useSearchLinkCreator(): (searchValue: string) => string {
 
   return useCallback(
     (searchValue: string) =>
-      // Refer to https://github.com/facebook/docusaurus/pull/2838
+      // Refer to https://github.com/it990110/docusaurus/pull/2838
       // Note: if searchPagePath is falsy, useSearchPage() will not be called
       `${baseUrl}${
         searchPagePath as string

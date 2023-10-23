@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -34,12 +34,12 @@ export default {
   verbose: true,
   setupFiles: ['./jest/setup.js'],
   testEnvironmentOptions: {
-    url: 'https://docusaurus.io/',
+    url: 'https://gityjf.io/',
   },
   testEnvironment: 'node',
   testPathIgnorePatterns: ignorePatterns,
   // Default 5s timeout often fails on Windows :s,
-  // see https://github.com/facebook/docusaurus/pull/8259
+  // see https://github.com/it990110/docusaurus/pull/8259
   testTimeout: 15000,
   coveragePathIgnorePatterns: [
     ...ignorePatterns,

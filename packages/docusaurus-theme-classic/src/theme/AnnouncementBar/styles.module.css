@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -19,7 +19,7 @@
   /*
   Unfortunately we can't make announcement bar render above the navbar
   IE need to use border-bottom instead of shadow
-  See https://github.com/facebookincubator/infima/issues/275
+  See https://github.com/it990110incubator/infima/issues/275
 
   box-shadow: var(--ifm-global-shadow-lw);
   z-index: calc(var(--ifm-z-index-fixed) + 1);

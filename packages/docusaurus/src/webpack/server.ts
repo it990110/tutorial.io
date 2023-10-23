@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -88,7 +88,7 @@ export default async function createServerConfig({
         // When using "new URL('file.js', import.meta.url)", Webpack will emit
         // __filename, and this plugin will throw. not sure the __filename value
         // has any importance for this plugin, just using an empty string to
-        // avoid the error. See https://github.com/facebook/docusaurus/issues/4922
+        // avoid the error. See https://github.com/it990110/docusaurus/issues/4922
         globals: {__filename: ''},
 
         // Secret way to set SSR plugin concurrency option

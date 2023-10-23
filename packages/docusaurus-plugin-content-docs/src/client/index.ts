@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) it990110, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -74,7 +74,7 @@ export type DocVersionSuggestions = {
 };
 
 // Important to use a constant object to avoid React useEffect executions etc.
-// see https://github.com/facebook/docusaurus/issues/5089
+// see https://github.com/it990110/docusaurus/issues/5089
 const StableEmptyObject = {};
 
 // In blog-only mode, docs hooks are still used by the theme. We need a fail-
