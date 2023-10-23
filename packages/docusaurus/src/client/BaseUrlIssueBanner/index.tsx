@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -15,7 +15,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import './styles.module.css';
 
 // __ prefix allows search crawlers (Algolia/DocSearch) to ignore anchors
-// https://github.com/it990110/docusaurus/issues/8883#issuecomment-1516328368
+// https://github.com/facebook/docusaurus/issues/8883#issuecomment-1516328368
 const BannerContainerId = '__docusaurus-base-url-issue-banner-container';
 const BannerId = '__docusaurus-base-url-issue-banner';
 const SuggestionContainerId =
@@ -23,14 +23,14 @@ const SuggestionContainerId =
 
 // It is important to not use React to render this banner
 // otherwise Google would index it, even if it's hidden with some critical CSS!
-// See https://github.com/it990110/docusaurus/issues/4028
+// See https://github.com/facebook/docusaurus/issues/4028
 // - We can't SSR (or it would be indexed)
 // - We can't CSR (as it means the baseurl is correct)
 function createInlineHtmlBanner(baseUrl: string) {
   return `
 <div id="${BannerId}" style="border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;">
    <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>
-   <p>A very common reason is a wrong site <a href="https://tutorial.io/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>
+   <p>A very common reason is a wrong site <a href="https://docusaurus/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>
    <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">${baseUrl}</span> ${
     baseUrl === '/' ? ' (default value)' : ''
   }</p>
@@ -93,7 +93,7 @@ function BaseUrlIssueBanner() {
  *
  * Note: it might create false positives (ie network failures): not a big deal
  *
- * @see https://github.com/it990110/docusaurus/pull/3621
+ * @see https://github.com/facebook/docusaurus/pull/3621
  */
 export default function MaybeBaseUrlIssueBanner(): JSX.Element | null {
   const {

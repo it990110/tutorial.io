@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -51,7 +51,7 @@ export type MarkdownConfig = {
    * - `false` | `undefined` (default): code blocks with language mermaid
    * will be left as code blocks.
    *
-   * @see https://tutorial.io/docs/markdown-features/diagrams/
+   * @see https://docusaurus/docs/markdown-features/diagrams/
    * @default false
    */
   mermaid: boolean;
@@ -66,7 +66,7 @@ export type MarkdownConfig = {
 
   /**
    * Set of flags make it easier to upgrade from MDX 1 to MDX 2
-   * See also https://github.com/it990110/docusaurus/issues/4029
+   * See also https://github.com/facebook/docusaurus/issues/4029
    */
   mdx1Compat: MDX1CompatOptions;
 };
@@ -78,30 +78,30 @@ export type DocusaurusConfig = {
   /**
    * Title for your website. Will be used in metadata and as browser tab title.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#title
+   * @see https://docusaurus/docs/api/docusaurus-config#title
    */
   title: string;
   /**
    * URL for your website. This can also be considered the top-level hostname.
-   * For example, `https://it990110.github.io` is the URL of
-   * https://it990110.github.io/metro/, and `https://tutorial.io` is the URL
-   * for https://tutorial.io.
+   * For example, `https://facebook.github.io` is the URL of
+   * https://facebook.github.io/metro/, and `https://docusaurus` is the URL
+   * for https://docusaurus.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#url
+   * @see https://docusaurus/docs/api/docusaurus-config#url
    */
   url: string;
   /**
    * Can be considered as the path after the host. For example, `/metro/` is the
-   * base URL of https://it990110.github.io/metro/. For URLs that have no path,
+   * base URL of https://facebook.github.io/metro/. For URLs that have no path,
    * it should be set to `/`. Always has both leading and trailing slash.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#baseUrl
+   * @see https://docusaurus/docs/api/docusaurus-config#baseUrl
    */
   baseUrl: string;
   /**
    * Path to your site favicon; must be a URL that can be used in link's href.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#favicon
+   * @see https://docusaurus/docs/api/docusaurus-config#favicon
    */
   favicon?: string;
   /**
@@ -116,15 +116,15 @@ export type DocusaurusConfig = {
    *   `/docs/myDoc.html` for `/docs/myDoc.md`
    *
    * @see https://github.com/slorber/trailing-slash-guide
-   * @see https://tutorial.io/docs/api/docusaurus-config#trailingSlash
+   * @see https://docusaurus/docs/api/docusaurus-config#trailingSlash
    * @default undefined
    */
   trailingSlash: boolean | undefined;
   /**
    * The i18n configuration object to [localize your
-   * site](https://tutorial.io/docs/i18n/introduction).
+   * site](https://docusaurus/docs/i18n/introduction).
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#i18n
+   * @see https://docusaurus/docs/api/docusaurus-config#i18n
    */
   i18n: I18nConfig;
   /**
@@ -132,36 +132,36 @@ export type DocusaurusConfig = {
    * every page to tell search engines to avoid indexing your site.
    *
    * @see https://moz.com/learn/seo/robots-meta-directives
-   * @see https://tutorial.io/docs/api/docusaurus-config#noIndex
+   * @see https://docusaurus/docs/api/docusaurus-config#noIndex
    * @default false
    */
   noIndex: boolean;
   /**
    * The behavior of Docusaurus when it detects any broken link.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#onBrokenLinks
+   * @see https://docusaurus/docs/api/docusaurus-config#onBrokenLinks
    * @default "throw"
    */
   onBrokenLinks: ReportingSeverity;
   /**
    * The behavior of Docusaurus when it detects any broken markdown link.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#onBrokenMarkdownLinks
+   * @see https://docusaurus/docs/api/docusaurus-config#onBrokenMarkdownLinks
    * @default "warn"
    */
   onBrokenMarkdownLinks: ReportingSeverity;
   /**
    * The behavior of Docusaurus when it detects any [duplicate
-   * routes](https://tutorial.io/docs/creating-pages#duplicate-routes).
+   * routes](https://docusaurus/docs/creating-pages#duplicate-routes).
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#onDuplicateRoutes
+   * @see https://docusaurus/docs/api/docusaurus-config#onDuplicateRoutes
    * @default "warn"
    */
   onDuplicateRoutes: ReportingSeverity;
   /**
    * The tagline for your website.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#tagline
+   * @see https://docusaurus/docs/api/docusaurus-config#tagline
    * @default ""
    */
   tagline: string;
@@ -169,63 +169,63 @@ export type DocusaurusConfig = {
    * The GitHub user or organization that owns the repository. You don't need
    * this if you are not using the `docusaurus deploy` command.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#organizationName
+   * @see https://docusaurus/docs/api/docusaurus-config#organizationName
    */
   organizationName?: string;
   /**
    * The name of the GitHub repository. You don't need this if you are not using
    * the `docusaurus deploy` command.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#projectName
+   * @see https://docusaurus/docs/api/docusaurus-config#projectName
    */
   projectName?: string;
   /**
    * The name of the branch to deploy the static files to. You don't need this
    * if you are not using the `docusaurus deploy` command.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#deploymentBranch
+   * @see https://docusaurus/docs/api/docusaurus-config#deploymentBranch
    */
   deploymentBranch?: string;
   /**
    * The hostname of your server. Useful if you are using GitHub Enterprise. You
    * don't need this if you are not using the `docusaurus deploy` command.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#githubHost
+   * @see https://docusaurus/docs/api/docusaurus-config#githubHost
    */
   githubHost?: string;
   /**
    * The port of your server. Useful if you are using GitHub Enterprise. You
    * don't need this if you are not using the `docusaurus deploy` command.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#githubPort
+   * @see https://docusaurus/docs/api/docusaurus-config#githubPort
    */
   githubPort?: string;
   /**
-   * The [theme configuration](https://tutorial.io/docs/api/themes/configuration)
+   * The [theme configuration](https://docusaurus/docs/api/themes/configuration)
    * object to customize your site UI like navbar and footer.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#themeConfig
+   * @see https://docusaurus/docs/api/docusaurus-config#themeConfig
    * @default {}
    */
   themeConfig: ThemeConfig;
   /**
    * List of plugins.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#plugins
+   * @see https://docusaurus/docs/api/docusaurus-config#plugins
    * @default []
    */
   plugins: PluginConfig[];
   /**
    * List of themes.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#themes
+   * @see https://docusaurus/docs/api/docusaurus-config#themes
    * @default []
    */
   themes: PluginConfig[];
   /**
    * List of presets.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#presets
+   * @see https://docusaurus/docs/api/docusaurus-config#presets
    * @default []
    */
   presets: PresetConfig[];
@@ -233,7 +233,7 @@ export type DocusaurusConfig = {
    * Docusaurus guards `docusaurus.config.js` from unknown fields. To add a
    * custom field, define it on `customFields`.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#customFields
+   * @see https://docusaurus/docs/api/docusaurus-config#customFields
    * @default {}
    */
   customFields?: {
@@ -243,14 +243,14 @@ export type DocusaurusConfig = {
    * An array of paths, relative to the site's directory or absolute. Files
    * under these paths will be copied to the build output as-is.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#staticDirectories
+   * @see https://docusaurus/docs/api/docusaurus-config#staticDirectories
    * @default ["static"]
    */
   staticDirectories: string[];
   /**
    * An array of tags that will be inserted in the HTML `<head>`.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#head
+   * @see https://docusaurus/docs/api/docusaurus-config#head
    * @default []
    */
   headTags: HtmlTagObject[];
@@ -262,7 +262,7 @@ export type DocusaurusConfig = {
    * Note that `<script>` added here are render-blocking, so you might want to
    * add `async: true`/`defer: true` to the objects.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#scripts
+   * @see https://docusaurus/docs/api/docusaurus-config#scripts
    * @default []
    */
   scripts: (
@@ -277,7 +277,7 @@ export type DocusaurusConfig = {
    * objects of attribute-value maps. The `<link>` tags will be inserted in the
    * HTML `<head>`.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#stylesheets
+   * @see https://docusaurus/docs/api/docusaurus-config#stylesheets
    * @default []
    */
   stylesheets: (
@@ -288,10 +288,10 @@ export type DocusaurusConfig = {
       }
   )[];
   /**
-   * An array of [client modules](https://tutorial.io/docs/advanced/client#client-modules)
+   * An array of [client modules](https://docusaurus/docs/advanced/client#client-modules)
    * to load globally on your site.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#clientModules
+   * @see https://docusaurus/docs/api/docusaurus-config#clientModules
    * @default []
    */
   clientModules: string[];
@@ -304,13 +304,13 @@ export type DocusaurusConfig = {
    * customize it, you will have to make sure that your template is compliant
    * with the requirements from upstream.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#ssrTemplate
+   * @see https://docusaurus/docs/api/docusaurus-config#ssrTemplate
    */
   ssrTemplate?: string;
   /**
    * Will be used as title delimiter in the generated `<title>` tag.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#titleDelimiter
+   * @see https://docusaurus/docs/api/docusaurus-config#titleDelimiter
    * @default "|"
    */
   titleDelimiter: string;
@@ -319,7 +319,7 @@ export type DocusaurusConfig = {
    * JavaScript files, which is a very common issue, often related to a wrong
    * `baseUrl` in site config.
    *
-   * @see https://tutorial.io/docs/api/docusaurus-config#baseUrlIssueBanner
+   * @see https://docusaurus/docs/api/docusaurus-config#baseUrlIssueBanner
    * @default true
    */
   baseUrlIssueBanner: boolean;
@@ -339,7 +339,7 @@ export type DocusaurusConfig = {
 /**
  * Docusaurus config, as provided by the user (partial/unnormalized). This type
  * is used to provide type-safety / IDE auto-complete on the config file.
- * @see https://tutorial.io/docs/typescript-support
+ * @see https://docusaurus/docs/typescript-support
  */
 export type Config = RequireKeys<
   DeepPartial<DocusaurusConfig>,

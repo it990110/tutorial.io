@@ -6,33 +6,33 @@ exports[`toRedirectFiles creates appropriate metadata absolute url: fileContent 
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/">
-    <link rel="canonical" href="https://tutorial.io/" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/">
+    <link rel="canonical" href="https://docusaurus/" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/' + window.location.search + window.location.hash;
   </script>
 </html>",
   "<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/docs/intro?a=1">
-    <link rel="canonical" href="https://tutorial.io/docs/intro?a=1" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/docs/intro?a=1">
+    <link rel="canonical" href="https://docusaurus/docs/intro?a=1" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/docs/intro?a=1';
+    window.location.href = 'https://docusaurus/docs/intro?a=1';
   </script>
 </html>",
   "<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/docs/intro#anchor">
-    <link rel="canonical" href="https://tutorial.io/docs/intro#anchor" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/docs/intro#anchor">
+    <link rel="canonical" href="https://docusaurus/docs/intro#anchor" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/docs/intro#anchor';
+    window.location.href = 'https://docusaurus/docs/intro#anchor';
   </script>
 </html>",
 ]
@@ -76,33 +76,33 @@ exports[`toRedirectFiles creates appropriate metadata trailingSlash=false: fileC
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/abc">
-    <link rel="canonical" href="https://tutorial.io/abc" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/abc">
+    <link rel="canonical" href="https://docusaurus/abc" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/abc' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/abc' + window.location.search + window.location.hash;
   </script>
 </html>",
   "<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/def.html">
-    <link rel="canonical" href="https://tutorial.io/def.html" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/def.html">
+    <link rel="canonical" href="https://docusaurus/def.html" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/def.html' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/def.html' + window.location.search + window.location.hash;
   </script>
 </html>",
   "<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/">
-    <link rel="canonical" href="https://tutorial.io/" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/">
+    <link rel="canonical" href="https://docusaurus/" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/' + window.location.search + window.location.hash;
   </script>
 </html>",
 ]
@@ -114,33 +114,33 @@ exports[`toRedirectFiles creates appropriate metadata trailingSlash=true: fileCo
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/abc">
-    <link rel="canonical" href="https://tutorial.io/abc" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/abc">
+    <link rel="canonical" href="https://docusaurus/abc" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/abc' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/abc' + window.location.search + window.location.hash;
   </script>
 </html>",
   "<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/def.html">
-    <link rel="canonical" href="https://tutorial.io/def.html" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/def.html">
+    <link rel="canonical" href="https://docusaurus/def.html" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/def.html' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/def.html' + window.location.search + window.location.hash;
   </script>
 </html>",
   "<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/">
-    <link rel="canonical" href="https://tutorial.io/" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/">
+    <link rel="canonical" href="https://docusaurus/" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/' + window.location.search + window.location.hash;
   </script>
 </html>",
 ]
@@ -152,33 +152,33 @@ exports[`toRedirectFiles creates appropriate metadata trailingSlash=undefined: f
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/abc">
-    <link rel="canonical" href="https://tutorial.io/abc" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/abc">
+    <link rel="canonical" href="https://docusaurus/abc" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/abc' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/abc' + window.location.search + window.location.hash;
   </script>
 </html>",
   "<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/def.html">
-    <link rel="canonical" href="https://tutorial.io/def.html" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/def.html">
+    <link rel="canonical" href="https://docusaurus/def.html" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/def.html' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/def.html' + window.location.search + window.location.hash;
   </script>
 </html>",
   "<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/">
-    <link rel="canonical" href="https://tutorial.io/" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/">
+    <link rel="canonical" href="https://docusaurus/" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/' + window.location.search + window.location.hash;
   </script>
 </html>",
 ]

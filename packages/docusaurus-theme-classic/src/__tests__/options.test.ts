@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -108,14 +108,14 @@ describe('themeConfig', () => {
         logo: {
           alt: 'Meta Open Source Logo',
           src: 'img/footer_logo.png',
-          href: 'https://opensource.it990110.com',
+          href: 'https://opensource.facebook.com',
           target: '_self',
           className: 'footer__logo__custom',
           style: {
             maxWidth: 42,
           },
         },
-        copyright: `Copyright © ${new Date().getFullYear()} it990110, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} facebook, Inc. Built with Docusaurus.`,
       },
       tableOfContents: {
         minHeadingLevel: 2,
@@ -185,13 +185,13 @@ describe('themeConfig', () => {
             position: 'right',
             items: [
               {
-                label: 'it990110',
-                href: 'https://.it990110.com/',
+                label: 'facebook',
+                href: 'https://.facebook.com/',
                 target: '_self',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/it990110/docusaurus',
+                href: 'https://github.com/facebook/docusaurus',
                 className: 'github-link',
               },
             ],
@@ -250,7 +250,7 @@ describe('themeConfig', () => {
           },
           // External link with custom data attribute
           {
-            href: 'https://github.com/it990110/docusaurus',
+            href: 'https://github.com/facebook/docusaurus',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -293,8 +293,8 @@ describe('themeConfig', () => {
             position: 'right',
             items: [
               {
-                label: 'it990110',
-                href: 'https://.it990110.com/',
+                label: 'facebook',
+                href: 'https://.facebook.com/',
                 target: '_self',
               },
               {
@@ -468,15 +468,15 @@ describe('themeConfig', () => {
         links: [
           {
             label: 'Privacy',
-            href: 'https://opensource.it990110.com/legal/privacy/',
+            href: 'https://opensource.facebook.com/legal/privacy/',
           },
           {
             label: 'Terms',
-            href: 'https://opensource.it990110.com/legal/terms/',
+            href: 'https://opensource.facebook.com/legal/terms/',
           },
           {
             label: 'Cookie Policy',
-            href: 'https://opensource.it990110.com/legal/cookie-policy/',
+            href: 'https://opensource.facebook.com/legal/cookie-policy/',
           },
         ],
       },
@@ -500,7 +500,7 @@ describe('themeConfig', () => {
             items: [
               {
                 label: 'Cookie Policy',
-                href: 'https://opensource.it990110.com/legal/cookie-policy/',
+                href: 'https://opensource.facebook.com/legal/cookie-policy/',
               },
             ],
           },
@@ -539,7 +539,7 @@ describe('themeConfig', () => {
           },
           {
             label: 'Privacy',
-            href: 'https://opensource.it990110.com/legal/privacy/',
+            href: 'https://opensource.facebook.com/legal/privacy/',
           },
         ],
       },
@@ -548,7 +548,7 @@ describe('themeConfig', () => {
     expect(() =>
       testValidateThemeConfig(partialConfig),
     ).toThrowErrorMatchingInlineSnapshot(
-      `"The footer must be either simple or multi-column, and not a mix of the two. See: https://tutorial.io/docs/api/themes/configuration#footer-links"`,
+      `"The footer must be either simple or multi-column, and not a mix of the two. See: https://docusaurus/docs/api/themes/configuration#footer-links"`,
     );
   });
 

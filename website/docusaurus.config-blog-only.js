@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -9,10 +9,10 @@
 export default {
   title: 'Docusaurus blog only!',
   tagline: 'Build optimized websites quickly, focus on your content',
-  organizationName: 'it990110',
+  organizationName: 'facebook',
   projectName: 'docusaurus',
   baseUrl: '/blog-only/',
-  url: 'https://tutorial.io',
+  url: 'https://docusaurus',
   // We can only warn now, since we have blog pages linking to non-blog pages...
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -28,11 +28,11 @@ export default {
         blog: {
           routeBasePath: '/',
           path: 'blog',
-          editUrl: 'https://github.com/it990110/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
           postsPerPage: 3,
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} it990110, Inc.`,
+            copyright: `Copyright © ${new Date().getFullYear()} facebook, Inc.`,
           },
         },
         theme: {

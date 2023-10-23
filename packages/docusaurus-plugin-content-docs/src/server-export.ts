@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -8,7 +8,7 @@
 // APIs available to Node.js
 // Those are undocumented but used by some third-party plugins
 // For this reason it's preferable to avoid doing breaking changes
-// See also https://github.com/it990110/docusaurus/pull/6477
+// See also https://github.com/facebook/docusaurus/pull/6477
 
 export {
   CURRENT_VERSION_NAME,

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -35,7 +35,7 @@ function LivePreviewLoader() {
 
 function Preview() {
   // No SSR for the live preview
-  // See https://github.com/it990110/docusaurus/issues/5747
+  // See https://github.com/facebook/docusaurus/issues/5747
   return (
     <BrowserOnly fallback={<LivePreviewLoader />}>
       {() => (
@@ -63,7 +63,7 @@ function ResultWithHeader() {
           Result
         </Translate>
       </Header>
-      {/* https://github.com/it990110/docusaurus/issues/5747 */}
+      {/* https://github.com/facebook/docusaurus/issues/5747 */}
       <div className={styles.playgroundPreview}>
         <Preview />
       </div>

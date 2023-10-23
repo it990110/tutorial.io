@@ -41,8 +41,8 @@ jobs:
       - name: Docusaurus Jest Tests
         run: yarn test
       - name: Create a deep path
-        # https://github.com/it990110/docusaurus/pull/4899
-        # https://github.com/it990110/docusaurus/issues/5793
+        # https://github.com/facebook/docusaurus/pull/4899
+        # https://github.com/facebook/docusaurus/issues/5793
         run: |
           mkdir -p "website/_dogfooding/_pages tests/deep-file-path-test/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar/foo/bar"
           cd "$_"

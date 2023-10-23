@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -79,7 +79,7 @@ const OptionsSchema = Joi.object<PluginOptions>({
   // @ts-expect-error: deprecated
   homePageId: Joi.any().forbidden().messages({
     'any.unknown':
-      'The docs plugin option homePageId is not supported anymore. To make a doc the "home", please add "slug: /" in its front matter. See: https://tutorial.io/docs/next/docs-introduction#home-page-docs',
+      'The docs plugin option homePageId is not supported anymore. To make a doc the "home", please add "slug: /" in its front matter. See: https://docusaurus/docs/next/docs-introduction#home-page-docs',
   }),
 
   include: Joi.array().items(Joi.string()).default(DEFAULT_OPTIONS.include),

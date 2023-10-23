@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -114,7 +114,7 @@ export function StableMajorVersion(): JSX.Element {
 
 function GitBranchLink({branch}: {branch: string}): JSX.Element {
   return (
-    <Link to={`https://github.com/it990110/docusaurus/tree/${branch}`}>
+    <Link to={`https://github.com/facebook/docusaurus/tree/${branch}`}>
       <code>{branch}</code>
     </Link>
   );

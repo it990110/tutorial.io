@@ -16,18 +16,18 @@
 /docs/next/markdown-features/headings            /docs/next/markdown-features/toc
 
 
-# v2.tutorial.io domain redirect after we put v2 on tutorial.io
-https://v2.tutorial.io/*      https://tutorial.io/:splat 301!
+# v2.docusaurus domain redirect after we put v2 on docusaurus
+https://v2.docusaurus/*      https://docusaurus/:splat 301!
 
 
 # Redirect older Docusaurus v1 links that do not exist anymore in v2
-https://tutorial.io/docs/en/*         https://v1.tutorial.io/docs/en/:splat
-https://tutorial.io/docs/fr/*         https://v1.tutorial.io/docs/fr/:splat
-https://tutorial.io/docs/ko/*         https://v1.tutorial.io/docs/ko/:splat
-https://tutorial.io/docs/ro/*         https://v1.tutorial.io/docs/ro/:splat
-https://tutorial.io/docs/ru/*         https://v1.tutorial.io/docs/ru/:splat
-https://tutorial.io/docs/pt-br/*      https://v1.tutorial.io/docs/pt-br/:splat
-https://tutorial.io/docs/zh-cn/*      https://v1.tutorial.io/docs/zh-cn/:splat
+https://docusaurus/docs/en/*         https://v1.docusaurus/docs/en/:splat
+https://docusaurus/docs/fr/*         https://v1.docusaurus/docs/fr/:splat
+https://docusaurus/docs/ko/*         https://v1.docusaurus/docs/ko/:splat
+https://docusaurus/docs/ro/*         https://v1.docusaurus/docs/ro/:splat
+https://docusaurus/docs/ru/*         https://v1.docusaurus/docs/ru/:splat
+https://docusaurus/docs/pt-br/*      https://v1.docusaurus/docs/pt-br/:splat
+https://docusaurus/docs/zh-cn/*      https://v1.docusaurus/docs/zh-cn/:splat
 
 
 

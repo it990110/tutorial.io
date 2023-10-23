@@ -5,11 +5,11 @@ exports[`createRedirectPageContent encodes uri special chars 1`] = `
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/gr/%CF%83%CE%B5%CE%BB%CE%B9%CE%B4%CE%B1%CF%82/">
-    <link rel="canonical" href="https://tutorial.io/gr/%CF%83%CE%B5%CE%BB%CE%B9%CE%B4%CE%B1%CF%82/" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/gr/%CF%83%CE%B5%CE%BB%CE%B9%CE%B4%CE%B1%CF%82/">
+    <link rel="canonical" href="https://docusaurus/gr/%CF%83%CE%B5%CE%BB%CE%B9%CE%B4%CE%B1%CF%82/" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/gr/%CF%83%CE%B5%CE%BB%CE%B9%CE%B4%CE%B1%CF%82/' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/gr/%CF%83%CE%B5%CE%BB%CE%B9%CE%B4%CE%B1%CF%82/' + window.location.search + window.location.hash;
   </script>
 </html>"
 `;
@@ -19,11 +19,11 @@ exports[`createRedirectPageContent works 1`] = `
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://tutorial.io/">
-    <link rel="canonical" href="https://tutorial.io/" />
+    <meta http-equiv="refresh" content="0; url=https://docusaurus/">
+    <link rel="canonical" href="https://docusaurus/" />
   </head>
   <script>
-    window.location.href = 'https://tutorial.io/' + window.location.search + window.location.hash;
+    window.location.href = 'https://docusaurus/' + window.location.search + window.location.hash;
   </script>
 </html>"
 `;

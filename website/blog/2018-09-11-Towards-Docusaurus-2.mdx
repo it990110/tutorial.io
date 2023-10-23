@@ -8,7 +8,7 @@ authorTwitter: endiliey
 tags: [new, adoption]
 ---
 
-Docusaurus was [officially announced](https://v1.tutorial.io/blog/2017/12/14/introducing-docusaurus) over nine months ago as a way to easily build open source documentation websites. Since then, it has amassed over 8,600 GitHub Stars, and is used by many popular open source projects such as [React Native](https://it990110.github.io/react-native/), [Babel](https://babeljs.io/), [Jest](https://jestjs.io/), [Reason](https://reasonml.github.io/) and [Prettier](https://prettier.io/).
+Docusaurus was [officially announced](https://v1.docusaurus/blog/2017/12/14/introducing-docusaurus) over nine months ago as a way to easily build open source documentation websites. Since then, it has amassed over 8,600 GitHub Stars, and is used by many popular open source projects such as [React Native](https://facebook.github.io/react-native/), [Babel](https://babeljs.io/), [Jest](https://jestjs.io/), [Reason](https://reasonml.github.io/) and [Prettier](https://prettier.io/).
 
 There is a saying that the very best software is constantly evolving, and the very worst is not. In case you are not aware, we have been planning and working on the next version of Docusaurus 🎉.
 
@@ -16,12 +16,12 @@ There is a saying that the very best software is constantly evolving, and the ve
 
 ## Introduction
 
-It all started with this [RFC issue](https://github.com/it990110/docusaurus/issues/789) opened by [Yangshun](https://github.com/yangshun) towards the end of June 2018.
+It all started with this [RFC issue](https://github.com/facebook/docusaurus/issues/789) opened by [Yangshun](https://github.com/yangshun) towards the end of June 2018.
 
 <blockquote>
   <h4>
-    <a href="https://github.com/it990110/docusaurus/issues/789">
-      {'[RFC] Docusaurus v2 · Issue #789 · it990110/docusaurus'}
+    <a href="https://github.com/facebook/docusaurus/issues/789">
+      {'[RFC] Docusaurus v2 · Issue #789 · facebook/docusaurus'}
     </a>
   </h4>
   These are some of the problems I'm seeing in Docusaurus now and also how we can
@@ -68,9 +68,9 @@ Hello world !
 
 However, if there are no changes to `hello.md` when cutting v2.0.0, Docusaurus will not create any versioned docs for that document. In other words, `versioned_docs/version-2.0.0/hello.md` will not exist.
 
-This can be very confusing for users; if they want to edit the v2.0.0 docs, they have to edit `versioned_docs/version-1.0.0/hello.md` or manually add `versioned_docs/version-2.0.0/hello.md`. This could potentially lead to unwanted bugs. Here is a [real scenario in Jest](https://github.com/it990110/jest/pull/6758#issuecomment-408274413).
+This can be very confusing for users; if they want to edit the v2.0.0 docs, they have to edit `versioned_docs/version-1.0.0/hello.md` or manually add `versioned_docs/version-2.0.0/hello.md`. This could potentially lead to unwanted bugs. Here is a [real scenario in Jest](https://github.com/facebook/jest/pull/6758#issuecomment-408274413).
 
-In addition, this adds complexity within the codebase as we require a mechanism for version fallbacks. And during build time, Docusaurus has to replace the linking to the correct version. This is also the cause of a bug where [renaming docs breaks links in old versions](https://github.com/it990110/docusaurus/issues/845).
+In addition, this adds complexity within the codebase as we require a mechanism for version fallbacks. And during build time, Docusaurus has to replace the linking to the correct version. This is also the cause of a bug where [renaming docs breaks links in old versions](https://github.com/facebook/docusaurus/issues/845).
 
 For Docusaurus 2, **every time we cut a new version, we will instead take a snapshot of all the docs**. We will not require the content of a document to have changed. This is a space complexity trade-off for a better developer and user experience. We will use more space for better separation of concerns and guaranteed correctness.
 
@@ -88,7 +88,7 @@ In addition, after working on the MVP of Docusaurus 2, I realized that it is pos
 
 The current state of Docusaurus is that it is in charge of the entire layout and styling, unintentionally making it very hard for users to customize their site's appearance to their wishes.
 
-For Docusaurus 2, **layout and styling should be controlled by the user**. Docusaurus will handle the content generation, routing, translation, and versioning. Inspired by [create-react-app](https://github.com/it990110/create-react-app) and [VuePress](https://vuepress.vuejs.org/), Docusaurus will still provide a default theme, which the user can eject from, for further layout and styling customization. This means that it is very possible for the user to even change the HTML meta by using [React Helmet](https://github.com/nfl/react-helmet). Community-based themes are also very possible. This approach of allowing users to be in charge of layout and styling is taken by most static site generators.
+For Docusaurus 2, **layout and styling should be controlled by the user**. Docusaurus will handle the content generation, routing, translation, and versioning. Inspired by [create-react-app](https://github.com/facebook/create-react-app) and [VuePress](https://vuepress.vuejs.org/), Docusaurus will still provide a default theme, which the user can eject from, for further layout and styling customization. This means that it is very possible for the user to even change the HTML meta by using [React Helmet](https://github.com/nfl/react-helmet). Community-based themes are also very possible. This approach of allowing users to be in charge of layout and styling is taken by most static site generators.
 
 ### Markdown
 
@@ -124,13 +124,13 @@ Our goal is that most sites should be able to upgrade to Docusaurus 2 without a 
 
 As of now, we do not have an exact date planned for the release. I personally estimate that we might be able to release an alpha version in the next one to two months, but this is, of course, just an estimate.
 
-One thing that I would like to share is that while Docusaurus is part of [it990110 Open Source](https://opensource.fb.com/) and most of the team are it990110 employees, the maintenance and development work is mostly done outside of normal working hours. I am currently a final year undergraduate student at [NTU Singapore](https://twitter.com/NTUsg), so I had to juggle between doing my coursework, my final year project and maintaining/developing Docusaurus. However, that does not mean that we do not want to make Docusaurus better. In fact, **we want to make it as awesome as possible**.
+One thing that I would like to share is that while Docusaurus is part of [facebook Open Source](https://opensource.fb.com/) and most of the team are facebook employees, the maintenance and development work is mostly done outside of normal working hours. I am currently a final year undergraduate student at [NTU Singapore](https://twitter.com/NTUsg), so I had to juggle between doing my coursework, my final year project and maintaining/developing Docusaurus. However, that does not mean that we do not want to make Docusaurus better. In fact, **we want to make it as awesome as possible**.
 
-For now, the actual Docusaurus 2 work is still hosted in a private repository. In the near future, we will move them into the [public repository](https://github.com/it990110/docusaurus). When that time arrives, I encourage everyone to look into it and hopefully contribute in some way. Before then, please stay tuned 😉!
+For now, the actual Docusaurus 2 work is still hosted in a private repository. In the near future, we will move them into the [public repository](https://github.com/facebook/docusaurus). When that time arrives, I encourage everyone to look into it and hopefully contribute in some way. Before then, please stay tuned 😉!
 
 ## Final Thoughts
 
-Docusaurus has had a large impact on the open source community as seen from the [many popular projects](https://v1.tutorial.io/en/users) which use Docusaurus for documentation. In order to move faster in the future, we are taking the opportunity to fix some core problems with Docusaurus 1 and striving to make Docusaurus better for everyone. In fact, it is safe to say that Docusaurus 2 is not just a plan any longer; the work on it has started and, hopefully, we will be able to see it materialize in the near future.
+Docusaurus has had a large impact on the open source community as seen from the [many popular projects](https://v1.docusaurus/en/users) which use Docusaurus for documentation. In order to move faster in the future, we are taking the opportunity to fix some core problems with Docusaurus 1 and striving to make Docusaurus better for everyone. In fact, it is safe to say that Docusaurus 2 is not just a plan any longer; the work on it has started and, hopefully, we will be able to see it materialize in the near future.
 
 Docusaurus' mission has always been to make it really easy for you to get a website with documentation up and running out of the box. That mission does not change with Docusaurus 2.
 
@@ -140,4 +140,4 @@ If you are using Docusaurus, you are part of our community; keep letting us know
 
 > If you are sponsoring our work on [Open Collective](https://opencollective.com/Docusaurus), we'll personally offer you a helping hand for maintenance and upgrading of Docusaurus website.
 
-Lastly, if you haven't done so already, click the **star** and **watch** button on [GitHub](https://github.com/it990110/docusaurus), and follow us on [Twitter](https://twitter.com/docusaurus).
+Lastly, if you haven't done so already, click the **star** and **watch** button on [GitHub](https://github.com/facebook/docusaurus), and follow us on [Twitter](https://twitter.com/docusaurus).

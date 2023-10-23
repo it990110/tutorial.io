@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -152,16 +152,16 @@ describe('normalizeUrl', () => {
 describe('getEditUrl', () => {
   it('returns right path', () => {
     expect(
-      getEditUrl('foo/bar.md', 'https://github.com/it990110/docusaurus'),
-    ).toBe('https://github.com/it990110/docusaurus/foo/bar.md');
+      getEditUrl('foo/bar.md', 'https://github.com/facebook/docusaurus'),
+    ).toBe('https://github.com/facebook/docusaurus/foo/bar.md');
     expect(
-      getEditUrl('foo/你好.md', 'https://github.com/it990110/docusaurus'),
-    ).toBe('https://github.com/it990110/docusaurus/foo/你好.md');
+      getEditUrl('foo/你好.md', 'https://github.com/facebook/docusaurus'),
+    ).toBe('https://github.com/facebook/docusaurus/foo/你好.md');
   });
   it('always returns valid URL', () => {
     expect(
-      getEditUrl('foo\\你好.md', 'https://github.com/it990110/docusaurus'),
-    ).toBe('https://github.com/it990110/docusaurus/foo/你好.md');
+      getEditUrl('foo\\你好.md', 'https://github.com/facebook/docusaurus'),
+    ).toBe('https://github.com/facebook/docusaurus/foo/你好.md');
   });
   it('returns undefined for undefined', () => {
     expect(getEditUrl('foo/bar.md')).toBeUndefined();
@@ -258,12 +258,12 @@ describe('encodePath', () => {
 
 describe('buildSshUrl', () => {
   it('builds a normal ssh url', () => {
-    const url = buildSshUrl('github.com', 'it990110', 'docusaurus');
-    expect(url).toBe('git@github.com:it990110/docusaurus.git');
+    const url = buildSshUrl('github.com', 'facebook', 'docusaurus');
+    expect(url).toBe('git@github.com:facebook/docusaurus.git');
   });
   it('builds a ssh url with port', () => {
-    const url = buildSshUrl('github.com', 'it990110', 'docusaurus', '422');
-    expect(url).toBe('ssh://git@github.com:422/it990110/docusaurus.git');
+    const url = buildSshUrl('github.com', 'facebook', 'docusaurus', '422');
+    expect(url).toBe('ssh://git@github.com:422/facebook/docusaurus.git');
   });
 });
 
@@ -272,43 +272,43 @@ describe('buildHttpsUrl', () => {
     const url = buildHttpsUrl(
       'user:pass',
       'github.com',
-      'it990110',
+      'facebook',
       'docusaurus',
     );
-    expect(url).toBe('https://user:pass@github.com/it990110/docusaurus.git');
+    expect(url).toBe('https://user:pass@github.com/facebook/docusaurus.git');
   });
   it('builds a normal http url with port', () => {
     const url = buildHttpsUrl(
       'user:pass',
       'github.com',
-      'it990110',
+      'facebook',
       'docusaurus',
       '5433',
     );
     expect(url).toBe(
-      'https://user:pass@github.com:5433/it990110/docusaurus.git',
+      'https://user:pass@github.com:5433/facebook/docusaurus.git',
     );
   });
 });
 
 describe('hasSSHProtocol', () => {
   it('recognizes explicit SSH protocol', () => {
-    const url = 'ssh://git@github.com:422/it990110/docusaurus.git';
+    const url = 'ssh://git@github.com:422/facebook/docusaurus.git';
     expect(hasSSHProtocol(url)).toBe(true);
   });
 
   it('recognizes implied SSH protocol', () => {
-    const url = 'git@github.com:it990110/docusaurus.git';
+    const url = 'git@github.com:facebook/docusaurus.git';
     expect(hasSSHProtocol(url)).toBe(true);
   });
 
   it('does not recognize HTTPS with credentials', () => {
-    const url = 'https://user:pass@github.com/it990110/docusaurus.git';
+    const url = 'https://user:pass@github.com/facebook/docusaurus.git';
     expect(hasSSHProtocol(url)).toBe(false);
   });
 
   it('does not recognize plain HTTPS URL', () => {
-    const url = 'https://github.com:5433/it990110/docusaurus.git';
+    const url = 'https://github.com:5433/facebook/docusaurus.git';
     expect(hasSSHProtocol(url)).toBe(false);
   });
 });

@@ -257,7 +257,7 @@ export default function VisitMyWebsiteMessage() {
       values={{
         firstName: 'Sébastien',
         website: (
-          <Link to="https://tutorial.io" className="my-website-class">
+          <Link to="https://docusaurus" className="my-website-class">
             website
           </Link>
         ),
@@ -336,7 +336,7 @@ You can even omit the children prop and specify a translation string in your `co
 
 :::info
 
-The `<Translate>` component supports interpolation. You can also implement [string pluralization](https://github.com/it990110/docusaurus/pull/i18n/i18n-tutorial.mdx#pluralization) through some custom code and the [`translate` imperative API](#translate-imperative).
+The `<Translate>` component supports interpolation. You can also implement [string pluralization](https://github.com/facebook/docusaurus/pull/i18n/i18n-tutorial.mdx#pluralization) through some custom code and the [`translate` imperative API](#translate-imperative).
 
 :::
 
@@ -671,7 +671,7 @@ export default function Home() {
       // highlight-next-line
       title={translate({message: 'My page meta title'})}>
       <img
-        src={'https://tutorial.io/logo.png'}
+        src={'https://docusaurus/logo.png'}
         aria-label={
           // highlight-start
           translate(

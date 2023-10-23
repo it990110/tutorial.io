@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -75,7 +75,7 @@ declare module '@theme/Admonition/Type/Tip' {
 }
 
 // TODO remove before v4: Caution replaced by Warning
-// see https://github.com/it990110/docusaurus/issues/7558
+// see https://github.com/facebook/docusaurus/issues/7558
 declare module '@theme/Admonition/Type/Caution' {
   import type {Props as AdmonitionProps} from '@theme/Admonition';
 

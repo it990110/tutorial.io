@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -14,7 +14,7 @@ import type {
 
 export const DEFAULT_CONFIG = {
   // Enabled by default, as it makes sense in most cases
-  // see also https://github.com/it990110/docusaurus/issues/5880
+  // see also https://github.com/facebook/docusaurus/issues/5880
   contextualSearch: true,
 
   searchParameters: {},
@@ -29,7 +29,7 @@ export const Schema = Joi.object<ThemeConfig>({
     // Algolia attributes
     appId: Joi.string().required().messages({
       'any.required':
-        '"algolia.appId" is required. If you haven\'t migrated to the new DocSearch infra, please refer to the blog post for instructions: https://tutorial.io/blog/2021/11/21/algolia-docsearch-migration',
+        '"algolia.appId" is required. If you haven\'t migrated to the new DocSearch infra, please refer to the blog post for instructions: https://docusaurus/blog/2021/11/21/algolia-docsearch-migration',
     }),
     apiKey: Joi.string().required(),
     indexName: Joi.string().required(),

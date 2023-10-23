@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -45,13 +45,13 @@ const ThemeConfigSample = {
       {
         title: 'Footer link column 1',
         items: [
-          {label: 'Link 1', to: 'https://it990110.com'},
-          {label: 'Link 2', to: 'https://it990110.com'},
+          {label: 'Link 1', to: 'https://facebook.com'},
+          {label: 'Link 2', to: 'https://facebook.com'},
         ],
       },
       {
         title: 'Footer link column 2',
-        items: [{label: 'Link 3', to: 'https://it990110.com'}],
+        items: [{label: 'Link 3', to: 'https://facebook.com'}],
       },
     ],
   },
@@ -67,8 +67,8 @@ const ThemeConfigSampleSimpleFooter: ThemeConfig = {
     copyright: 'Copyright FB',
     style: 'light',
     links: [
-      {label: 'Link 1', to: 'https://it990110.com'},
-      {label: 'Link 2', to: 'https://it990110.com'},
+      {label: 'Link 1', to: 'https://facebook.com'},
+      {label: 'Link 2', to: 'https://facebook.com'},
     ],
   },
 };
@@ -137,7 +137,7 @@ describe('getTranslationFiles and translateThemeConfig isomorphism', () => {
   });
 
   // Undefined footer should not make the translation code crash
-  // See https://github.com/it990110/docusaurus/issues/3936
+  // See https://github.com/facebook/docusaurus/issues/3936
   it('is verified for sample without footer', () => {
     verifyIsomorphism({...ThemeConfigSample, footer: undefined});
   });

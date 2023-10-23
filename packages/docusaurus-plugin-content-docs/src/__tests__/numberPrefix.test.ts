@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -23,7 +23,7 @@ const IgnoredNumberPrefixPatterns = [
   '00abc01-My Doc',
   'My 001- Doc',
   'My -001 Doc',
-  // Ignore common date-like patterns: https://github.com/it990110/docusaurus/issues/4640
+  // Ignore common date-like patterns: https://github.com/facebook/docusaurus/issues/4640
   '2021-01-31 - Doc',
   '31-01-2021 - Doc',
   '2021_01_31 - Doc',
@@ -49,7 +49,7 @@ const IgnoredNumberPrefixPatterns = [
   '01',
   '2021',
   '01',
-  // Ignore common versioning patterns: https://github.com/it990110/docusaurus/issues/4653
+  // Ignore common versioning patterns: https://github.com/facebook/docusaurus/issues/4653
   '8.0',
   '8.0.0',
   '14.2.16',

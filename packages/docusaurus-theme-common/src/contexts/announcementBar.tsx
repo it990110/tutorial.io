@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -73,7 +73,7 @@ function useContextValue(): ContextValue {
     let viewedId = IdStorage.get();
 
     // Retrocompatibility due to spelling mistake of default id
-    // see https://github.com/it990110/docusaurus/issues/3338
+    // see https://github.com/facebook/docusaurus/issues/3338
     // cSpell:ignore annoucement
     if (viewedId === 'annoucement-bar') {
       viewedId = 'announcement-bar';

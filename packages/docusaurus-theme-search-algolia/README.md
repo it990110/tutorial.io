@@ -4,4 +4,4 @@ Algolia search component for Docusaurus.
 
 ## Usage
 
-See [`@docusaurus/theme-search-algolia` documentation](https://tutorial.io/docs/api/themes/@docusaurus/theme-search-algolia).
+See [`@docusaurus/theme-search-algolia` documentation](https://docusaurus/docs/api/themes/@docusaurus/theme-search-algolia).

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -65,7 +65,7 @@ export function getStyleLoaders(
   } = {},
 ): RuleSetRule[] {
   const cssOptions: {[key: string]: unknown} = {
-    // TODO turn esModule on later, see https://github.com/it990110/docusaurus/pull/6424
+    // TODO turn esModule on later, see https://github.com/facebook/docusaurus/pull/6424
     esModule: false,
     ...cssOptionsArg,
   };
@@ -113,7 +113,7 @@ export function getStyleLoaders(
       options: {
         postcssOptions: {
           // Necessary for external CSS imports to work
-          // https://github.com/it990110/create-react-app/issues/2677
+          // https://github.com/facebook/create-react-app/issues/2677
           ident: 'postcss',
           plugins: [
             // eslint-disable-next-line global-require
@@ -393,7 +393,7 @@ export function getMinimizer(
           // to apply any minification steps that turns valid ecma 5 code
           // into invalid ecma 5 code. This is why the 'compress' and 'output'
           // sections only apply transformations that are ecma 5 safe
-          // https://github.com/it990110/create-react-app/pull/4234
+          // https://github.com/facebook/create-react-app/pull/4234
           ecma: 2020,
         },
         compress: {
@@ -406,7 +406,7 @@ export function getMinimizer(
           ecma: 5,
           comments: false,
           // Turned on because emoji and regex is not minified properly using
-          // default. See https://github.com/it990110/create-react-app/issues/2488
+          // default. See https://github.com/facebook/create-react-app/issues/2488
           ascii_only: true,
         },
       },

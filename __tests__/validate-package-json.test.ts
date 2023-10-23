@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -50,7 +50,7 @@ describe('packages', () => {
       .forEach((packageJsonFile) => {
         expect(packageJsonFile.content.repository).toEqual({
           type: 'git',
-          url: 'https://github.com/it990110/docusaurus.git',
+          url: 'https://github.com/facebook/docusaurus.git',
           directory: packageJsonFile.file.replace(/\/package\.json$/, ''),
         });
       });
@@ -72,7 +72,7 @@ describe('packages', () => {
       .forEach((packageJsonFile) => {
         // Unfortunately jest custom message do not exist in loops,
         // so using an exception instead to show failing package file
-        // (see https://github.com/it990110/jest/issues/3293)
+        // (see https://github.com/facebook/jest/issues/3293)
         // expect(packageJsonFile.content.publishConfig?.access)
         //  .toEqual('public');
         if (packageJsonFile.content.publishConfig?.access !== 'public') {

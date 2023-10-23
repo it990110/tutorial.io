@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -34,16 +34,16 @@ export function createToUrl(baseUrl: string, to: string): string {
 // served by host providers!
 // Otherwise it can produce infinite redirect loops!
 //
-// See https://github.com/it990110/docusaurus/issues/5055
-// See https://github.com/it990110/docusaurus/pull/5085
-// See https://github.com/it990110/docusaurus/pull/5102
+// See https://github.com/facebook/docusaurus/issues/5055
+// See https://github.com/facebook/docusaurus/pull/5085
+// See https://github.com/facebook/docusaurus/pull/5102
 function getRedirectFilePath(
   fromPath: string,
   trailingSlash: boolean | undefined, // Now unused, on purpose
 ): string {
   const fileName = path.basename(fromPath);
   const filePath = path.dirname(fromPath);
-  // Edge case for https://github.com/it990110/docusaurus/pull/5102
+  // Edge case for https://github.com/facebook/docusaurus/pull/5102
   // If the redirect source path is /xyz, with file /xyz.html
   // We can't write the redirect file at /xyz.html/index.html because for Unix
   // FS, a file/folder can't have the same name "xyz.html"

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -85,7 +85,7 @@ describe('validateDocFrontMatter title', () => {
   testField({
     prefix: 'title',
     validFrontMatters: [
-      // See https://github.com/it990110/docusaurus/issues/4591#issuecomment-822372398
+      // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
       {title: ''},
       {title: 'title'},
     ],
@@ -148,7 +148,7 @@ describe('validateDocFrontMatter image', () => {
   testField({
     prefix: 'image',
     validFrontMatters: [
-      {image: 'https://tutorial.io/blog/image.png'},
+      {image: 'https://docusaurus/blog/image.png'},
       {image: '/absolute/image.png'},
       {image: '../relative/image.png'},
     ],
@@ -162,7 +162,7 @@ describe('validateDocFrontMatter description', () => {
   testField({
     prefix: 'description',
     validFrontMatters: [
-      // See https://github.com/it990110/docusaurus/issues/4591#issuecomment-822372398
+      // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
       {description: ''},
       {description: 'description'},
     ],
@@ -232,7 +232,7 @@ describe('validateDocFrontMatter custom_edit_url', () => {
       // See https://github.com/demisto/content-docs/pull/616#issuecomment-827087566
       {custom_edit_url: ''},
       {custom_edit_url: null},
-      {custom_edit_url: 'https://github.com/it990110/docusaurus/markdown.md'},
+      {custom_edit_url: 'https://github.com/facebook/docusaurus/markdown.md'},
       {custom_edit_url: '../../api/docs/markdown.md'},
       {custom_edit_url: '@site/api/docs/markdown.md'},
     ],

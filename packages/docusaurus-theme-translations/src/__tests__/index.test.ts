@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -27,7 +27,7 @@ describe('codeTranslationLocalesToTry', () => {
       'fr',
     ]);
     // Note: "pt" is expanded into "pt-BR", not "pt-PT", as "pt-BR" is more
-    // widely used! See https://github.com/it990110/docusaurus/pull/4536#issuecomment-810088783
+    // widely used! See https://github.com/facebook/docusaurus/pull/4536#issuecomment-810088783
     expect(codeTranslationLocalesToTry('pt')).toEqual([
       'pt',
       'pt-BR',

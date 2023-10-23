@@ -4,4 +4,4 @@ Progressive web app plugin for Docusaurus.
 
 ## Usage
 
-See [plugin-pwa documentation](https://tutorial.io/docs/api/plugins/@docusaurus/plugin-pwa).
+See [plugin-pwa documentation](https://docusaurus/docs/api/plugins/@docusaurus/plugin-pwa).

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -9,7 +9,7 @@ import {useState, useCallback, useEffect, useRef} from 'react';
 import {useMutationObserver} from './useMutationObserver';
 
 // Callback fires when the "hidden" attribute of a tabpanel changes
-// See https://github.com/it990110/docusaurus/pull/7485
+// See https://github.com/facebook/docusaurus/pull/7485
 function useTabBecameVisibleCallback(
   codeBlockRef: RefObject<HTMLPreElement>,
   callback: () => void,

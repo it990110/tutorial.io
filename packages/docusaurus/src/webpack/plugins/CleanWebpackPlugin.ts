@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -27,7 +27,7 @@
 
 // Forked from https://github.com/johnagan/clean-webpack-plugin
 // Modified to optimize performance for Docusaurus specific use case
-// More context: https://github.com/it990110/docusaurus/pull/1839
+// More context: https://github.com/facebook/docusaurus/pull/1839
 
 import path from 'path';
 import fs from 'fs-extra';

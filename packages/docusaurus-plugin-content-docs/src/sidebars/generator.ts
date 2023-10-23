@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -45,7 +45,7 @@ type Dir = {
   [item: string]: Dir | string;
 };
 
-// Comment for this feature: https://github.com/it990110/docusaurus/issues/3464#issuecomment-818670449
+// Comment for this feature: https://github.com/facebook/docusaurus/issues/3464#issuecomment-818670449
 export const DefaultSidebarItemsGenerator: SidebarItemsGenerator = ({
   numberPrefixParser,
   isCategoryIndex,

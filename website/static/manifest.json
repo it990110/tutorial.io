@@ -9,7 +9,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://tutorial.io/manifest.json"
+      "url": "https://docusaurus/manifest.json"
     }
   ],
   "icons": [

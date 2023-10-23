@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Docusaurus blog website fixture Blog</title>
-        <link>https://tutorial.io/blog/</link>
+        <link>https://docusaurus/blog/</link>
         <description>Docusaurus blog website fixture Blog</description>
         <lastBuildDate>Sun, 23 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -11,38 +11,38 @@
         <copyright>Copyright</copyright>
         <item>
             <title><![CDATA[test links]]></title>
-            <link>https://tutorial.io/blog/blog-with-links</link>
-            <guid>https://tutorial.io/blog/blog-with-links</guid>
+            <link>https://docusaurus/blog/blog-with-links</link>
+            <guid>https://docusaurus/blog/blog-with-links</guid>
             <pubDate>Sun, 23 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[absolute full url]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/it990110/docusaurus" target="_blank" rel="noopener noreferrer">absolute full url</a></p>
-<p><a href="https://tutorial.io/blog/heading-as-title">absolute pathname</a></p>
-<p><a href="https://tutorial.io/blog/heading-as-title">relative pathname</a></p>
-<p><a href="https://tutorial.io/blog/heading-as-title">md link</a></p>
-<p><a href="https://tutorial.io/blog/blog-with-links#title">anchor</a></p>
-<p><a href="https://tutorial.io/blog/heading-as-title#title">relative pathname + anchor</a></p>
-<p><img loading="lazy" src="https://tutorial.io/assets/images/test-image-742d39e51f41482e8132e79c09ad4eea.png" width="760" height="160" class="img_yGFe"></p>
-<p><img loading="lazy" src="https://tutorial.io/assets/images/slash-introducing-411a16dd05086935b8e9ddae38ae9b45.svg" alt="" class="img_yGFe"></p>
-<img srcset="https://tutorial.io/img/test-image.png 300w, https://tutorial.io/img/docusaurus-social-card.png 500w">
-<img src="https://tutorial.io/img/test-image.png">]]></content:encoded>
+            <content:encoded><![CDATA[<p><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer">absolute full url</a></p>
+<p><a href="https://docusaurus/blog/heading-as-title">absolute pathname</a></p>
+<p><a href="https://docusaurus/blog/heading-as-title">relative pathname</a></p>
+<p><a href="https://docusaurus/blog/heading-as-title">md link</a></p>
+<p><a href="https://docusaurus/blog/blog-with-links#title">anchor</a></p>
+<p><a href="https://docusaurus/blog/heading-as-title#title">relative pathname + anchor</a></p>
+<p><img loading="lazy" src="https://docusaurus/assets/images/test-image-742d39e51f41482e8132e79c09ad4eea.png" width="760" height="160" class="img_yGFe"></p>
+<p><img loading="lazy" src="https://docusaurus/assets/images/slash-introducing-411a16dd05086935b8e9ddae38ae9b45.svg" alt="" class="img_yGFe"></p>
+<img srcset="https://docusaurus/img/test-image.png 300w, https://docusaurus/img/docusaurus-social-card.png 500w">
+<img src="https://docusaurus/img/test-image.png">]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[MDX Blog Sample with require calls]]></title>
-            <link>https://tutorial.io/blog/mdx-require-blog-post</link>
-            <guid>https://tutorial.io/blog/mdx-require-blog-post</guid>
+            <link>https://docusaurus/blog/mdx-require-blog-post</link>
+            <guid>https://docusaurus/blog/mdx-require-blog-post</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Test MDX with require calls]]></description>
             <content:encoded><![CDATA[<p>Test MDX with require calls</p>
 <!-- -->
 <!-- -->
-<img src="https://tutorial.io/img/test-image.png">
-<img src="https://tutorial.io/assets/images/test-image-742d39e51f41482e8132e79c09ad4eea.png">
-<img src="https://tutorial.io/assets/images/test-image-742d39e51f41482e8132e79c09ad4eea.png">]]></content:encoded>
+<img src="https://docusaurus/img/test-image.png">
+<img src="https://docusaurus/assets/images/test-image-742d39e51f41482e8132e79c09ad4eea.png">
+<img src="https://docusaurus/assets/images/test-image-742d39e51f41482e8132e79c09ad4eea.png">]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Full Blog Sample]]></title>
-            <link>https://tutorial.io/blog/mdx-blog-post</link>
-            <guid>https://tutorial.io/blog/mdx-blog-post</guid>
+            <link>https://docusaurus/blog/mdx-blog-post</link>
+            <guid>https://docusaurus/blog/mdx-blog-post</guid>
             <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[HTML Heading 1]]></description>
             <content:encoded><![CDATA[<h1>HTML Heading 1</h1>
@@ -52,10 +52,10 @@
 <!-- -->
 <p>Import DOM</p>
 <h1>Heading 1</h1>
-<h2 class="anchor anchorWithHideOnScrollNavbar_G5V2" id="heading-2">Heading 2<a href="https://tutorial.io/blog/mdx-blog-post#heading-2" class="hash-link" aria-label="Direct link to Heading 2" title="Direct link to Heading 2">​</a></h2>
-<h3 class="anchor anchorWithHideOnScrollNavbar_G5V2" id="heading-3">Heading 3<a href="https://tutorial.io/blog/mdx-blog-post#heading-3" class="hash-link" aria-label="Direct link to Heading 3" title="Direct link to Heading 3">​</a></h3>
-<h4 class="anchor anchorWithHideOnScrollNavbar_G5V2" id="heading-4">Heading 4<a href="https://tutorial.io/blog/mdx-blog-post#heading-4" class="hash-link" aria-label="Direct link to Heading 4" title="Direct link to Heading 4">​</a></h4>
-<h5 class="anchor anchorWithHideOnScrollNavbar_G5V2" id="heading-5">Heading 5<a href="https://tutorial.io/blog/mdx-blog-post#heading-5" class="hash-link" aria-label="Direct link to Heading 5" title="Direct link to Heading 5">​</a></h5>
+<h2 class="anchor anchorWithHideOnScrollNavbar_G5V2" id="heading-2">Heading 2<a href="https://docusaurus/blog/mdx-blog-post#heading-2" class="hash-link" aria-label="Direct link to Heading 2" title="Direct link to Heading 2">​</a></h2>
+<h3 class="anchor anchorWithHideOnScrollNavbar_G5V2" id="heading-3">Heading 3<a href="https://docusaurus/blog/mdx-blog-post#heading-3" class="hash-link" aria-label="Direct link to Heading 3" title="Direct link to Heading 3">​</a></h3>
+<h4 class="anchor anchorWithHideOnScrollNavbar_G5V2" id="heading-4">Heading 4<a href="https://docusaurus/blog/mdx-blog-post#heading-4" class="hash-link" aria-label="Direct link to Heading 4" title="Direct link to Heading 4">​</a></h4>
+<h5 class="anchor anchorWithHideOnScrollNavbar_G5V2" id="heading-5">Heading 5<a href="https://docusaurus/blog/mdx-blog-post#heading-5" class="hash-link" aria-label="Direct link to Heading 5" title="Direct link to Heading 5">​</a></h5>
 <ul>
 <li>list1</li>
 <li>list2</li>
@@ -67,12 +67,12 @@
 <li>list3</li>
 </ul>
 <p>Normal Text <em>Italics Text</em> <strong>Bold Text</strong></p>
-<p><a href="https://v2.tutorial.io/" target="_blank" rel="noopener noreferrer">link</a> <img loading="lazy" src="https://v2.tutorial.io/" alt="image" class="img_yGFe"></p>]]></content:encoded>
+<p><a href="https://v2.docusaurus/" target="_blank" rel="noopener noreferrer">link</a> <img loading="lazy" src="https://v2.docusaurus/" alt="image" class="img_yGFe"></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Complex Slug]]></title>
-            <link>https://tutorial.io/blog/hey/my super path/héllô</link>
-            <guid>https://tutorial.io/blog/hey/my super path/héllô</guid>
+            <link>https://docusaurus/blog/hey/my super path/héllô</link>
+            <guid>https://docusaurus/blog/hey/my super path/héllô</guid>
             <pubDate>Sun, 16 Aug 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[complex url slug]]></description>
             <content:encoded><![CDATA[<p>complex url slug</p>]]></content:encoded>
@@ -81,22 +81,22 @@
         </item>
         <item>
             <title><![CDATA[Simple Slug]]></title>
-            <link>https://tutorial.io/blog/simple/slug</link>
-            <guid>https://tutorial.io/blog/simple/slug</guid>
+            <link>https://docusaurus/blog/simple/slug</link>
+            <guid>https://docusaurus/blog/simple/slug</guid>
             <pubDate>Sat, 15 Aug 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[simple url slug]]></description>
             <content:encoded><![CDATA[<p>simple url slug</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[some heading]]></title>
-            <link>https://tutorial.io/blog/heading-as-title</link>
-            <guid>https://tutorial.io/blog/heading-as-title</guid>
+            <link>https://docusaurus/blog/heading-as-title</link>
+            <guid>https://docusaurus/blog/heading-as-title</guid>
             <pubDate>Wed, 02 Jan 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[date-matter]]></title>
-            <link>https://tutorial.io/blog/date-matter</link>
-            <guid>https://tutorial.io/blog/date-matter</guid>
+            <link>https://docusaurus/blog/date-matter</link>
+            <guid>https://docusaurus/blog/date-matter</guid>
             <pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[date inside front matter]]></description>
             <content:encoded><![CDATA[<p>date inside front matter</p>]]></content:encoded>
@@ -104,8 +104,8 @@
         </item>
         <item>
             <title><![CDATA[Happy 1st Birthday Slash! (translated)]]></title>
-            <link>https://tutorial.io/blog/2018/12/14/Happy-First-Birthday-Slash</link>
-            <guid>https://tutorial.io/blog/2018/12/14/Happy-First-Birthday-Slash</guid>
+            <link>https://docusaurus/blog/2018/12/14/Happy-First-Birthday-Slash</link>
+            <guid>https://docusaurus/blog/2018/12/14/Happy-First-Birthday-Slash</guid>
             <pubDate>Fri, 14 Dec 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Happy birthday! (translated)]]></description>
             <content:encoded><![CDATA[<p>Happy birthday! (translated)</p>]]></content:encoded>

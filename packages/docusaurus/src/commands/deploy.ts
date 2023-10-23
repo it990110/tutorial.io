@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -28,7 +28,7 @@ function obfuscateGitPass(str: string) {
 }
 
 // Log executed commands so that user can figure out mistakes on his own
-// for example: https://github.com/it990110/docusaurus/issues/3875
+// for example: https://github.com/facebook/docusaurus/issues/3875
 function shellExecLog(cmd: string) {
   try {
     const result = shell.exec(cmd);

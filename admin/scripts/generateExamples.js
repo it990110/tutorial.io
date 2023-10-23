@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -13,7 +13,7 @@ import shell from 'shelljs';
 /**
  * Generate one example per init template
  * We use those generated examples as CodeSandbox projects
- * See https://github.com/it990110/docusaurus/issues/1699
+ * See https://github.com/facebook/docusaurus/issues/1699
  * @param {string} template
  */
 async function generateTemplateExample(template) {
@@ -129,7 +129,7 @@ function updateStarters() {
 
   console.log('');
 
-  console.log('Updating https://github.com/it990110/docusaurus/tree/starter');
+  console.log('Updating https://github.com/facebook/docusaurus/tree/starter');
   forcePushGitSubtree({
     subfolder: 'examples/classic',
     remote: 'origin',

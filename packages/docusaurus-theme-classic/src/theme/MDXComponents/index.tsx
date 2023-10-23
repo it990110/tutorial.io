@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -21,7 +21,7 @@ import type {MDXComponentsObject} from '@theme/MDXComponents';
 
 const MDXComponents: MDXComponentsObject = {
   Head,
-  details: MDXDetails, // For MD mode support, see https://github.com/it990110/docusaurus/issues/9092#issuecomment-1602902274
+  details: MDXDetails, // For MD mode support, see https://github.com/facebook/docusaurus/issues/9092#issuecomment-1602902274
   Details: MDXDetails,
   code: MDXCode,
   a: MDXA,

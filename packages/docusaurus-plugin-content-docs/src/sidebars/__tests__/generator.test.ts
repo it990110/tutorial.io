@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -219,7 +219,7 @@ describe('DefaultSidebarItemsGenerator', () => {
 
   it('generates subfolder sidebar', async () => {
     // Ensure that category metadata file is correctly read
-    // fix edge case found in https://github.com/it990110/docusaurus/issues/4638
+    // fix edge case found in https://github.com/facebook/docusaurus/issues/4638
     const sidebarSlice = await DefaultSidebarItemsGenerator({
       numberPrefixParser: DefaultNumberPrefixParser,
       isCategoryIndex,

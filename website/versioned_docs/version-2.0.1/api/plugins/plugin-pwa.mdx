@@ -261,7 +261,7 @@ export default function swCustom(params) {
   // Cache responses from external resources
   registerRoute((context) => {
     return [
-      /graph\.it990110\.com\/.*\/picture/,
+      /graph\.facebook\.com\/.*\/picture/,
       /netlify\.com\/img/,
       /avatars1\.githubusercontent/,
     ].some((regex) => context.url.href.match(regex));

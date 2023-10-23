@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -34,7 +34,7 @@ export function useHideableNavbar(hideOnScroll: boolean): {
     }
 
     // Needed mostly for handling rubber band scrolling.
-    // See https://github.com/it990110/docusaurus/pull/5721
+    // See https://github.com/facebook/docusaurus/pull/5721
     if (scrollTop < navbarHeight.current) {
       setIsNavbarVisible(true);
       return;
@@ -62,7 +62,7 @@ export function useHideableNavbar(hideOnScroll: boolean): {
       return;
     }
 
-    // See https://github.com/it990110/docusaurus/pull/8059#issuecomment-1239639480
+    // See https://github.com/facebook/docusaurus/pull/8059#issuecomment-1239639480
     const currentHash = locationChangeEvent.location.hash;
     const currentHashAnchor = currentHash
       ? document.getElementById(currentHash.substring(1))

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -29,8 +29,8 @@ const ThemeFallbackDir = path.join(__dirname, '../../client/theme-fallback');
  * This ensures `@theme/NavbarItem` alias is after
  * `@theme/NavbarItem/LocaleDropdown`.
  *
- * @see https://github.com/it990110/docusaurus/pull/3922
- * @see https://github.com/it990110/docusaurus/issues/5382
+ * @see https://github.com/facebook/docusaurus/pull/3922
+ * @see https://github.com/facebook/docusaurus/issues/5382
  */
 export function sortAliases(aliases: ThemeAliases): ThemeAliases {
   // Alphabetical order by default

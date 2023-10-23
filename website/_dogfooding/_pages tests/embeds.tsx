@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -10,7 +10,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import IframeWindow from '@site/src/components/BrowserWindow/IframeWindow';
 
-// See https://github.com/it990110/docusaurus/issues/8672
+// See https://github.com/facebook/docusaurus/issues/8672
 export default function Embeds(): JSX.Element {
   return (
     <Layout>
@@ -21,8 +21,8 @@ export default function Embeds(): JSX.Element {
           <IframeWindow url="/?docusaurus-theme=dark" />
           <IframeWindow url="/?docusaurus-theme=unexpected-value" />
           <IframeWindow url="/" />
-          <IframeWindow url="https://tutorial.io/" />
-          <IframeWindow url="https://tutorial.tutorial.io/" />
+          <IframeWindow url="https://docusaurus/" />
+          <IframeWindow url="https://tutorial.docusaurus/" />
         </div>
       </div>
     </Layout>

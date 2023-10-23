@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -20,7 +20,7 @@ function createTestPluginContext(
 ): PluginContext {
   return {
     outDir: '/tmp',
-    baseUrl: 'https://tutorial.io',
+    baseUrl: 'https://docusaurus',
     relativeRoutesPaths,
     options: validateOptions({validate: normalizePluginOptions, options}),
     siteConfig: {onDuplicateRoutes: 'warn', ...siteConfig} as DocusaurusConfig,
@@ -123,19 +123,19 @@ describe('collectRedirects', () => {
 
               {
                 from: '/absolute',
-                to: 'https://tutorial.io/somePath',
+                to: 'https://docusaurus/somePath',
               },
               {
                 from: '/absoluteQS',
-                to: 'https://tutorial.io/somePath?a=1&b=2',
+                to: 'https://docusaurus/somePath?a=1&b=2',
               },
               {
                 from: '/absoluteAnchor',
-                to: 'https://tutorial.io/somePath#anchor',
+                to: 'https://docusaurus/somePath#anchor',
               },
               {
                 from: '/absoluteQSAnchor',
-                to: 'https://tutorial.io/somePath?a=1&b=2#anchor',
+                to: 'https://docusaurus/somePath?a=1&b=2#anchor',
               },
             ],
           },
@@ -179,19 +179,19 @@ describe('collectRedirects', () => {
 
       {
         from: '/absolute',
-        to: 'https://tutorial.io/somePath',
+        to: 'https://docusaurus/somePath',
       },
       {
         from: '/absoluteQS',
-        to: 'https://tutorial.io/somePath?a=1&b=2',
+        to: 'https://docusaurus/somePath?a=1&b=2',
       },
       {
         from: '/absoluteAnchor',
-        to: 'https://tutorial.io/somePath#anchor',
+        to: 'https://docusaurus/somePath#anchor',
       },
       {
         from: '/absoluteQSAnchor',
-        to: 'https://tutorial.io/somePath?a=1&b=2#anchor',
+        to: 'https://docusaurus/somePath?a=1&b=2#anchor',
       },
     ]);
   });

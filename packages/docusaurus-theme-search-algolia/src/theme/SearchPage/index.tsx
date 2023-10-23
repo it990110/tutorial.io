@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -366,7 +366,7 @@ function SearchPageContent(): JSX.Element {
         <title>{useTitleFormatter(getTitle())}</title>
         {/*
          We should not index search pages
-          See https://github.com/it990110/docusaurus/pull/3233
+          See https://github.com/facebook/docusaurus/pull/3233
         */}
         <meta property="robots" content="noindex, follow" />
       </Head>

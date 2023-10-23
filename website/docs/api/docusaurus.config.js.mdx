@@ -33,7 +33,7 @@ Examples:
 ```js title="docusaurus.config.js"
 export default {
   title: 'Docusaurus',
-  url: 'https://tutorial.io',
+  url: 'https://docusaurus',
   // your site config ...
 };
 ```
@@ -42,7 +42,7 @@ export default {
 export default async function createConfigAsync() {
   return {
     title: 'Docusaurus',
-    url: 'https://tutorial.io',
+    url: 'https://docusaurus',
     // your site config ...
   };
 }
@@ -72,11 +72,11 @@ export default {
 
 - Type: `string`
 
-URL for your website. This can also be considered the top-level hostname. For example, `https://it990110.github.io` is the URL of https://it990110.github.io/metro/, and `https://tutorial.io` is the URL for https://tutorial.io. This field is related to the [`baseUrl`](#baseUrl) field.
+URL for your website. This can also be considered the top-level hostname. For example, `https://facebook.github.io` is the URL of https://facebook.github.io/metro/, and `https://docusaurus` is the URL for https://docusaurus. This field is related to the [`baseUrl`](#baseUrl) field.
 
 ```js title="docusaurus.config.js"
 export default {
-  url: 'https://tutorial.io',
+  url: 'https://docusaurus',
 };
 ```
 
@@ -84,7 +84,7 @@ export default {
 
 - Type: `string`
 
-Base URL for your site. Can be considered as the path after the host. For example, `/metro/` is the base URL of https://it990110.github.io/metro/. For URLs that have no path, the baseUrl should be set to `/`. This field is related to the [`url`](#url) field. Always has both leading and trailing slash.
+Base URL for your site. Can be considered as the path after the host. For example, `/metro/` is the base URL of https://facebook.github.io/metro/. For URLs that have no path, the baseUrl should be set to `/`. This field is related to the [`url`](#url) field. Always has both leading and trailing slash.
 
 ```js title="docusaurus.config.js"
 export default {
@@ -235,8 +235,8 @@ The GitHub user or organization that owns the repository. You don't need this if
 
 ```js title="docusaurus.config.js"
 export default {
-  // Docusaurus' organization is it990110
-  organizationName: 'it990110',
+  // Docusaurus' organization is facebook
+  organizationName: 'facebook',
 };
 ```
 
@@ -349,7 +349,7 @@ export default {
         width: 160,
         height: 51,
       },
-      copyright: `Copyright © ${new Date().getFullYear()} it990110, Inc.`, // You can also put own HTML here
+      copyright: `Copyright © ${new Date().getFullYear()} facebook, Inc.`, // You can also put own HTML here
     },
   },
 };
@@ -459,7 +459,7 @@ export default {
 | `format` | `'mdx' \| 'md' \| 'detect'` | `'mdx'` | The default parser format to use for Markdown content. Using 'detect' will select the appropriate format automatically based on file extensions: `.md` vs `.mdx`. |
 | `mermaid` | `boolean` | `false` | When `true`, allows Docusaurus to render Markdown code blocks with `mermaid` language as Mermaid diagrams. |
 | `preprocessor` | `MarkdownPreprocessor` | `undefined` | Gives you the ability to alter the Markdown content string before parsing. Use it as a last-resort escape hatch or workaround: it is almost always better to implement a Remark/Rehype plugin. |
-| `mdx1Compat` | `MDX1CompatOptions` | `{comments: true, admonitions: true, headingIds: true}` | Compatibility options to make it easier to upgrade to Docusaurus v3+. See the [MDX 2 PR for details](https://github.com/it990110/docusaurus/pull/8288). |
+| `mdx1Compat` | `MDX1CompatOptions` | `{comments: true, admonitions: true, headingIds: true}` | Compatibility options to make it easier to upgrade to Docusaurus v3+. See the [MDX 2 PR for details](https://github.com/facebook/docusaurus/pull/8288). |
 
 ```mdx-code-block
 </APITable>
@@ -538,7 +538,7 @@ Example:
 export default {
   scripts: [
     // String format.
-    'https://tutorial.io/script.js',
+    'https://docusaurus/script.js',
     // Object format.
     {
       src: 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
@@ -560,7 +560,7 @@ Example:
 export default {
   stylesheets: [
     // String format.
-    'https://tutorial.io/style.css',
+    'https://docusaurus/style.css',
     // Object format.
     {
       href: 'http://mydomain.com/style.css',

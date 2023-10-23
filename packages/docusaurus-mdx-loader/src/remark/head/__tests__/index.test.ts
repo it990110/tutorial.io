@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -27,7 +27,7 @@ describe('head remark plugin', () => {
   <title>Head Metadata customized title!</title>
   <meta charSet="utf-8" />
   <meta name="twitter:card" content="summary" />
-  <link rel="canonical" href="https://tutorial.io/docs/markdown-features/head-metadata" />
+  <link rel="canonical" href="https://docusaurus/docs/markdown-features/head-metadata" />
 </head>
 
 Some content
@@ -45,7 +45,7 @@ Some content
   <title>Head Metadata customized title!</title>
   <meta charSet="utf-8" />
   <meta name="twitter:card" content="summary" />
-  <link rel="canonical" href="https://tutorial.io/docs/markdown-features/head-metadata" />
+  <link rel="canonical" href="https://docusaurus/docs/markdown-features/head-metadata" />
 </head>
 
 Some content;`;
@@ -66,7 +66,7 @@ Some content;`;
 
         <meta name="twitter:card" content="summary" />
 
-        <link rel="canonical" href="https://tutorial.io/docs/markdown-features/head-metadata" />
+        <link rel="canonical" href="https://docusaurus/docs/markdown-features/head-metadata" />
       </Head>
 
       Some content;

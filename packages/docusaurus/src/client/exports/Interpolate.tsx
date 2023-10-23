@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -14,7 +14,7 @@ import type {
 /*
 Minimal implementation of a React interpolate component.
 We don't ship a markdown parser nor a feature-complete i18n library on purpose.
-More details here: https://github.com/it990110/docusaurus/pull/4295
+More details here: https://github.com/facebook/docusaurus/pull/4295
 */
 
 // If all the values are plain strings, then interpolate returns a simple string

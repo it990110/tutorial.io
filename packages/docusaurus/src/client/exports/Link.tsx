@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -66,7 +66,7 @@ function Link(
   // pathname:// is a special "protocol" we use to tell Docusaurus link
   // that a link is not "internal" and that we shouldn't use history.push()
   // this is not ideal but a good enough escape hatch for now
-  // see https://github.com/it990110/docusaurus/issues/3309
+  // see https://github.com/facebook/docusaurus/issues/3309
   // note: we want baseUrl to be appended (see issue for details)
   // TODO read routes and automatically detect internal/external links?
   const targetLinkWithoutPathnameProtocol = targetLinkUnprefixed?.replace(

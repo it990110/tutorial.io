@@ -28,7 +28,7 @@ Today we are extremely happy to finally **announce Docusaurus 2.0**! 🥳️
 
 At [**Meta Open Source**](https://opensource.fb.com/), we believe Docusaurus will help you build the **best documentation websites** with **minimal effort**, letting you **focus on what really matters**: writing the content.
 
-After **4 years of work, [75 alphas](https://github.com/it990110/docusaurus/releases/tag/v2.0.0-alpha.75) and [22 betas](https://github.com/it990110/docusaurus/releases/tag/v2.0.0-beta.22)**, the next generation of Docusaurus is **ready for prime time**. From now on, we now plan to **respect [Semantic Versioning](https://semver.org/)** and will release **major versions more frequently**.
+After **4 years of work, [75 alphas](https://github.com/facebook/docusaurus/releases/tag/v2.0.0-alpha.75) and [22 betas](https://github.com/facebook/docusaurus/releases/tag/v2.0.0-beta.22)**, the next generation of Docusaurus is **ready for prime time**. From now on, we now plan to **respect [Semantic Versioning](https://semver.org/)** and will release **major versions more frequently**.
 
 ![social-card image](./img/social-card.png)
 
@@ -85,13 +85,13 @@ Docusaurus aims to be the **best documentation tool**, but you can use it for **
 
 :::tip
 
-Try Docusaurus now with our [online playgrounds](/docs/playground) and [5 minutes tutorial](https://tutorial.tutorial.io/) ⏱️
+Try Docusaurus now with our [online playgrounds](/docs/playground) and [5 minutes tutorial](https://tutorial.docusaurus/) ⏱️
 
 :::
 
 ## The story behind Docusaurus
 
-Docusaurus was created at **it990110 Open Source** in **2017** (now [Meta Open Source](https://opensource.fb.com/)). We had a lot of internal and open source projects to document. It's **complicated enough to write good documentation**, let alone to create the HTML, CSS, and JavaScript for a good-looking website. We wanted project leaders to be able to **focus on the content**, and **Markdown** is great for that.
+Docusaurus was created at **facebook Open Source** in **2017** (now [Meta Open Source](https://opensource.fb.com/)). We had a lot of internal and open source projects to document. It's **complicated enough to write good documentation**, let alone to create the HTML, CSS, and JavaScript for a good-looking website. We wanted project leaders to be able to **focus on the content**, and **Markdown** is great for that.
 
 At that time, our solution was to **copy/paste a Jekyll template** over and over again. This naturally became **hard to maintain**, so we created a tool to **solve our own pain** once for all.
 
@@ -99,7 +99,7 @@ At that time, our solution was to **copy/paste a Jekyll template** over and over
 
 ![Birth of Slash](/img/slash-birth.png)
 
-It quickly built momentum at it990110 and in the frontend ecosystem, adopted by many popular projects such as [Prettier](https://prettier.io/), [Babel](https://babeljs.io/), [React-Native](https://archive.reactnative.dev/), [KaTeX](https://katex.org/docs/), and of course [Docusaurus v1](http://v1.tutorial.io/) itself.
+It quickly built momentum at facebook and in the frontend ecosystem, adopted by many popular projects such as [Prettier](https://prettier.io/), [Babel](https://babeljs.io/), [React-Native](https://archive.reactnative.dev/), [KaTeX](https://katex.org/docs/), and of course [Docusaurus v1](http://v1.docusaurus/) itself.
 
 <ShowcaseCarouselV1 />
 
@@ -113,14 +113,14 @@ Notice that the sample sites above use different colors, but still look quite th
 
 ## Toward Docusaurus 2.0
 
-[**Docusaurus v1**](http://v1.tutorial.io/) has been very successful, but we started to **question some architectural choices**:
+[**Docusaurus v1**](http://v1.docusaurus/) has been very successful, but we started to **question some architectural choices**:
 
 - React was only used as a **server-side templating language**, and not used on the client
 - **Theming system was pretty limited**, and apart from changing a few colors with CSS, it was difficult to do more advanced customizations
 - The **docs versioning system was confusing**, since it was based on a diff algorithm
 - The codebase was **monolithic**, neither well-tested nor easy to extend
 
-[**Docusaurus v2**](https://tutorial.io/) was **rebuilt** from the ground up with a new **modular architecture**:
+[**Docusaurus v2**](https://docusaurus/) was **rebuilt** from the ground up with a new **modular architecture**:
 
 - React is now also used on the client, enabling a **modern Single Page Application navigation**
 - **Plugins** empower the community to contribute useful features as third-party packages
@@ -129,7 +129,7 @@ Notice that the sample sites above use different colors, but still look quite th
 - We kept **everything good from v1**: docs, blog, pages, versioning, i18n...
 - We implemented **several new features**
 
-More details in the [Docusaurus 2 project announcement](../2018-09-11-Towards-Docusaurus-2.mdx) and [v1 to v2 migration guide](https://tutorial.io/docs/migration)
+More details in the [Docusaurus 2 project announcement](../2018-09-11-Towards-Docusaurus-2.mdx) and [v1 to v2 migration guide](https://docusaurus/docs/migration)
 
 ## Who uses Docusaurus 2.0?
 
@@ -139,7 +139,7 @@ Despite being in pre-release, it didn't take long for **Docusaurus v2 to outgrow
 
 Our GitHub star trend is very positive, competing with major frameworks:
 
-[![GitHub stars: Docusaurus is well-positioned](./img/star-history.png)](https://star-history.com/#it990110/docusaurus&vercel/next.js&gatsbyjs/gatsby&hexojs/hexo&nuxt/nuxt.js&vuejs/vuepress&11ty/eleventy&gohugoio/hugo&remix-run/remix&mkdocs/mkdocs&Timeline)
+[![GitHub stars: Docusaurus is well-positioned](./img/star-history.png)](https://star-history.com/#facebook/docusaurus&vercel/next.js&gatsbyjs/gatsby&hexojs/hexo&nuxt/nuxt.js&vuejs/vuepress&11ty/eleventy&gohugoio/hugo&remix-run/remix&mkdocs/mkdocs&Timeline)
 
 Today, Docusaurus v2 has already been a great success even before its launch:
 
@@ -153,7 +153,7 @@ Today, Docusaurus v2 has already been a great success even before its launch:
 
 :::tip
 
-Please add your site to our [site showcase](/showcase)! It only takes a few seconds: just [post a comment here](https://github.com/it990110/docusaurus/discussions/7826).
+Please add your site to our [site showcase](/showcase)! It only takes a few seconds: just [post a comment here](https://github.com/facebook/docusaurus/discussions/7826).
 
 :::
 
@@ -310,7 +310,7 @@ Docusaurus theming gives a lot of **flexibility** on multiple levels:
 - Customize CSS variables to adjust colors, fonts, and more
 - Provide your own CSS stylesheets
 - Implement your own theme from scratch
-- **Override any React component** provided by our default theme: we call this [swizzling](https://tutorial.io/docs/swizzling)
+- **Override any React component** provided by our default theme: we call this [swizzling](https://docusaurus/docs/swizzling)
 
 <TweetQuote
   url="https://twitter.com/hung_dev/status/1546918275065741312"
@@ -400,23 +400,23 @@ The work on Docusaurus 3.0 has started, and this next version will be released o
 
 A sample of the features on our roadmap for the upcoming major versions of Docusaurus:
 
-- [Upgrade to MDX 2.0](https://github.com/it990110/docusaurus/issues/4029)
-- [Improve Markdown infrastructure](https://github.com/it990110/docusaurus/issues/4625)
-- [Improve theming and swizzle](https://github.com/it990110/docusaurus/issues/6114)
-- [TailwindCSS theme](https://github.com/it990110/docusaurus/issues/2961)
-- [Theme; support custom item types for navbar, doc sidebar, blog sidebar, footer](https://github.com/it990110/docusaurus/issues/7227)
-- [Dynamic navbar: navbar item activation strategies](https://github.com/it990110/docusaurus/issues/4389)
-- [Custom Social Cards](https://github.com/it990110/docusaurus/issues/2968)
-- [CSS-in-JS support](https://github.com/it990110/docusaurus/issues/3236)
-- [Use Node.js ES Modules](https://github.com/it990110/docusaurus/issues/6520)
-- [Improve build time performance](https://github.com/it990110/docusaurus/issues/4765)
-- [Extend Docusaurus plugins, CMS integration](https://github.com/it990110/docusaurus/issues/4138)
+- [Upgrade to MDX 2.0](https://github.com/facebook/docusaurus/issues/4029)
+- [Improve Markdown infrastructure](https://github.com/facebook/docusaurus/issues/4625)
+- [Improve theming and swizzle](https://github.com/facebook/docusaurus/issues/6114)
+- [TailwindCSS theme](https://github.com/facebook/docusaurus/issues/2961)
+- [Theme; support custom item types for navbar, doc sidebar, blog sidebar, footer](https://github.com/facebook/docusaurus/issues/7227)
+- [Dynamic navbar: navbar item activation strategies](https://github.com/facebook/docusaurus/issues/4389)
+- [Custom Social Cards](https://github.com/facebook/docusaurus/issues/2968)
+- [CSS-in-JS support](https://github.com/facebook/docusaurus/issues/3236)
+- [Use Node.js ES Modules](https://github.com/facebook/docusaurus/issues/6520)
+- [Improve build time performance](https://github.com/facebook/docusaurus/issues/4765)
+- [Extend Docusaurus plugins, CMS integration](https://github.com/facebook/docusaurus/issues/4138)
 
 ## Thank You
 
-We'd like to express our gratitude to [all our contributors](https://github.com/it990110/docusaurus/graphs/contributors), including:
+We'd like to express our gratitude to [all our contributors](https://github.com/facebook/docusaurus/graphs/contributors), including:
 
-- The Docusaurus core team: [Alexey Pyltsyn](https://github.com/lex111), [Joshua Chen](https://github.com/Josh-Cena), [Sébastien Lorber](https://github.com/slorber), [Yangshun Tay](https://github.com/yangshun) and all our [former team members](https://tutorial.io/community/team)
+- The Docusaurus core team: [Alexey Pyltsyn](https://github.com/lex111), [Joshua Chen](https://github.com/Josh-Cena), [Sébastien Lorber](https://github.com/slorber), [Yangshun Tay](https://github.com/yangshun) and all our [former team members](https://docusaurus/community/team)
 - [Joel Marcey](https://github.com/JoelMarcey) for creating Docusaurus 1.0 and supporting the Docusaurus 2.0 project at Meta Open Source
 - [Paul O’Shannessy](https://github.com/zpao) for supporting the development of all the next versions of Docusaurus at Meta Open Source
 - [Eric Nakagawa](https://github.com/ericnakagawa) for creating our cutest mascot Slash

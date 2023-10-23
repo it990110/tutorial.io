@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -92,7 +92,7 @@ export const DEFAULT_PLUGIN_ID = 'default';
  * Allow overriding the limit after which the url loader will no longer inline
  * assets.
  *
- * @see https://github.com/it990110/docusaurus/issues/5493
+ * @see https://github.com/facebook/docusaurus/issues/5493
  */
 export const WEBPACK_URL_LOADER_LIMIT =
   process.env.WEBPACK_URL_LOADER_LIMIT ?? 10000;

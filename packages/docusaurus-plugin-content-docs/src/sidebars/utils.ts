@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -345,7 +345,7 @@ The sidebar names you should now use are:
           .join('\n- ')}
 
 Please remove the "${illegalPrefix}" prefix from your versioned sidebar file.
-This breaking change is documented on Docusaurus v3 release notes: https://tutorial.io/blog/releases/3.0
+This breaking change is documented on Docusaurus v3 release notes: https://docusaurus/blog/releases/3.0
 `,
       );
     }
@@ -385,7 +385,7 @@ The document ids you should now use are:
           .join('\n- ')}
 
 Please remove the "${illegalPrefix}" prefix from your versioned sidebar file.
-This breaking change is documented on Docusaurus v3 release notes: https://tutorial.io/blog/releases/3.0
+This breaking change is documented on Docusaurus v3 release notes: https://docusaurus/blog/releases/3.0
 `,
       );
     }

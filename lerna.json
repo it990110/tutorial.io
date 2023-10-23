@@ -4,7 +4,7 @@
   "useWorkspaces": true,
   "useNx": false,
   "changelog": {
-    "repo": "it990110/docusaurus",
+    "repo": "facebook/docusaurus",
     "labels": {
       "pr: breaking change": ":boom: Breaking Change",
       "pr: new feature": ":rocket: New Feature",

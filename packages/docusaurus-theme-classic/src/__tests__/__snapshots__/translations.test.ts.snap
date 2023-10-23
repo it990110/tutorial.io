@@ -34,15 +34,15 @@ exports[`getTranslationFiles returns translation files matching snapshot 1`] = `
         "message": "Copyright FB",
       },
       "link.item.label.Link 1": {
-        "description": "The label of footer link with label=Link 1 linking to https://it990110.com",
+        "description": "The label of footer link with label=Link 1 linking to https://facebook.com",
         "message": "Link 1",
       },
       "link.item.label.Link 2": {
-        "description": "The label of footer link with label=Link 2 linking to https://it990110.com",
+        "description": "The label of footer link with label=Link 2 linking to https://facebook.com",
         "message": "Link 2",
       },
       "link.item.label.Link 3": {
-        "description": "The label of footer link with label=Link 3 linking to https://it990110.com",
+        "description": "The label of footer link with label=Link 3 linking to https://facebook.com",
         "message": "Link 3",
       },
       "link.title.Footer link column 1": {
@@ -97,11 +97,11 @@ exports[`getTranslationFiles returns translation files matching snapshot 2`] = `
         "message": "Copyright FB",
       },
       "link.item.label.Link 1": {
-        "description": "The label of footer link with label=Link 1 linking to https://it990110.com",
+        "description": "The label of footer link with label=Link 1 linking to https://facebook.com",
         "message": "Link 1",
       },
       "link.item.label.Link 2": {
-        "description": "The label of footer link with label=Link 2 linking to https://it990110.com",
+        "description": "The label of footer link with label=Link 2 linking to https://facebook.com",
         "message": "Link 2",
       },
       "logo.alt": {
@@ -128,11 +128,11 @@ exports[`translateThemeConfig returns translated themeConfig 1`] = `
         "items": [
           {
             "label": "Link 1 (translated)",
-            "to": "https://it990110.com",
+            "to": "https://facebook.com",
           },
           {
             "label": "Link 2 (translated)",
-            "to": "https://it990110.com",
+            "to": "https://facebook.com",
           },
         ],
         "title": "Footer link column 1 (translated)",
@@ -141,7 +141,7 @@ exports[`translateThemeConfig returns translated themeConfig 1`] = `
         "items": [
           {
             "label": "Link 3 (translated)",
-            "to": "https://it990110.com",
+            "to": "https://facebook.com",
           },
         ],
         "title": "Footer link column 2 (translated)",

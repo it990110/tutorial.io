@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -54,7 +54,7 @@ export function validateThemeConfig({
 }: ThemeConfigValidationContext<ThemeConfig>): ThemeConfig {
   if ('gtag' in themeConfig) {
     throw new Error(
-      'The "gtag" field in themeConfig should now be specified as option for plugin-google-gtag. More information at https://github.com/it990110/docusaurus/pull/5832.',
+      'The "gtag" field in themeConfig should now be specified as option for plugin-google-gtag. More information at https://github.com/facebook/docusaurus/pull/5832.',
     );
   }
   return themeConfig;

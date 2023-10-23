@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -15,9 +15,9 @@ import {
 import type {PageFrontMatter} from '@docusaurus/plugin-content-pages';
 
 const PageFrontMatterSchema = Joi.object<PageFrontMatter>({
-  // See https://github.com/it990110/docusaurus/issues/4591#issuecomment-822372398
+  // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
   title: Joi.string().allow(''),
-  // See https://github.com/it990110/docusaurus/issues/4591#issuecomment-822372398
+  // See https://github.com/facebook/docusaurus/issues/4591#issuecomment-822372398
   description: Joi.string().allow(''),
   keywords: Joi.array().items(Joi.string().required()),
   image: URISchema,

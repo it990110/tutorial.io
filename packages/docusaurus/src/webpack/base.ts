@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -120,7 +120,7 @@ export async function createBaseConfig(
     resolve: {
       unsafeCache: false, // Not enabled, does not seem to improve perf much
       extensions: ['.wasm', '.mjs', '.js', '.jsx', '.ts', '.tsx', '.json'],
-      symlinks: true, // See https://github.com/it990110/docusaurus/issues/3272
+      symlinks: true, // See https://github.com/facebook/docusaurus/issues/3272
       roots: [
         // Allow resolution of url("/fonts/xyz.ttf") by webpack
         // See https://webpack.js.org/configuration/resolve/#resolveroots
@@ -177,7 +177,7 @@ export async function createBaseConfig(
               // Only create one CSS file to avoid
               // problems with code-split CSS loading in different orders
               // causing inconsistent/non-deterministic styling
-              // See https://github.com/it990110/docusaurus/issues/2006
+              // See https://github.com/facebook/docusaurus/issues/2006
               styles: {
                 name: 'styles',
                 type: 'css/mini-extract',

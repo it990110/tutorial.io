@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -14,14 +14,14 @@ import {sortBy} from '@site/src/utils/jsUtils';
  * ADD YOUR SITE TO THE DOCUSAURUS SHOWCASE
  *
  * Please don't submit a PR yourself: use the Github Discussion instead:
- * https://github.com/it990110/docusaurus/discussions/7826
+ * https://github.com/facebook/docusaurus/discussions/7826
  *
  * Instructions for maintainers:
  * - Add the site in the json array below
  * - `title` is the project's name (no need for the "Docs" suffix)
  * - A short (≤120 characters) description of the project
  * - Use relevant tags to categorize the site (read the tag descriptions on the
- *   https://tutorial.io/showcase page and some further clarifications below)
+ *   https://docusaurus/showcase page and some further clarifications below)
  * - Add a local image preview (decent screenshot of the Docusaurus site)
  * - The image MUST be added to the GitHub repository, and use `require("img")`
  * - The image has to have minimum width 640 and an aspect of no wider than 2:1
@@ -31,7 +31,7 @@ import {sortBy} from '@site/src/utils/jsUtils';
  * - Run optimizt manually (see resize image script comment)
  * - Open a PR and check for reported CI errors
  *
- * Example PR: https://github.com/it990110/docusaurus/pull/7620
+ * Example PR: https://github.com/facebook/docusaurus/pull/7620
  */
 
 // LIST OF AVAILABLE TAGS
@@ -375,9 +375,9 @@ const Users: User[] = [
     title: 'Create React App',
     description: 'Set up a modern web app by running one command',
     preview: require('./showcase/create-react-app.png'),
-    website: 'https://it990110.github.io/create-react-app/',
+    website: 'https://facebook.github.io/create-react-app/',
     source:
-      'https://github.com/it990110/create-react-app/tree/main/docusaurus/website',
+      'https://github.com/facebook/create-react-app/tree/main/docusaurus/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -497,7 +497,7 @@ const Users: User[] = [
     description: 'Rich Text Editor Framework for React',
     preview: require('./showcase/draftjs.png'),
     website: 'https://draftjs.org/',
-    source: 'https://github.com/it990110/draft-js/tree/main/website',
+    source: 'https://github.com/facebook/draft-js/tree/main/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -618,8 +618,8 @@ const Users: User[] = [
     title: 'FBT',
     description: 'An internationalization framework',
     preview: require('./showcase/fbt.png'),
-    website: 'https://it990110incubator.github.io/fbt/',
-    source: 'https://github.com/it990110/fbt/tree/main/website',
+    website: 'https://facebookincubator.github.io/fbt/',
+    source: 'https://github.com/facebook/fbt/tree/main/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -693,15 +693,15 @@ const Users: User[] = [
     description: 'Extensible mobile app debugger',
     preview: require('./showcase/flipper.png'),
     website: 'https://fbflipper.com',
-    source: 'https://github.com/it990110/flipper/tree/main/website',
+    source: 'https://github.com/facebook/flipper/tree/main/website',
     tags: ['opensource', 'design', 'meta'],
   },
   {
     title: 'Flux',
     description: 'Application architecture for building user interfaces',
     preview: require('./showcase/flux.png'),
-    website: 'https://it990110.github.io/flux/',
-    source: 'https://github.com/it990110/flux/tree/main/website',
+    website: 'https://facebook.github.io/flux/',
+    source: 'https://github.com/facebook/flux/tree/main/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -825,7 +825,7 @@ const Users: User[] = [
     description: 'JavaScript engine optimized for React Native',
     preview: require('./showcase/hermes.png'),
     website: 'https://hermesengine.dev',
-    source: 'https://github.com/it990110/hermes/tree/main/website',
+    source: 'https://github.com/facebook/hermes/tree/main/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -865,7 +865,7 @@ const Users: User[] = [
     description: 'iOS Development Bridge',
     preview: require('./showcase/idb.png'),
     website: 'https://www.fbidb.io/',
-    source: 'https://github.com/it990110/idb/tree/main/website',
+    source: 'https://github.com/facebook/idb/tree/main/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -933,7 +933,7 @@ const Users: User[] = [
       'A delightful JavaScript Testing Framework with a focus on simplicity.',
     preview: require('./showcase/jest.png'),
     website: 'https://jestjs.io/',
-    source: 'https://github.com/it990110/jest/tree/master/website',
+    source: 'https://github.com/facebook/jest/tree/master/website',
     tags: ['favorite', 'opensource', 'design', 'i18n', 'versioning'],
   },
   {
@@ -1152,8 +1152,8 @@ const Users: User[] = [
     title: 'Metro',
     description: 'The JavaScript bundler for React Native',
     preview: require('./showcase/metro.png'),
-    website: 'https://it990110.github.io/metro/',
-    source: 'https://github.com/it990110/metro/tree/main/website',
+    website: 'https://facebook.github.io/metro/',
+    source: 'https://github.com/facebook/metro/tree/main/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -1511,8 +1511,8 @@ const Users: User[] = [
     title: 'Profilo',
     description: 'An Android performance library',
     preview: require('./showcase/profilo.png'),
-    website: 'https://it990110incubator.github.io/profilo/',
-    source: 'https://github.com/it990110incubator/profilo/tree/main/website',
+    website: 'https://facebookincubator.github.io/profilo/',
+    source: 'https://github.com/facebookincubator/profilo/tree/main/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -1521,7 +1521,7 @@ const Users: User[] = [
     preview: require('./showcase/pyre.png'),
     website: 'https://pyre-check.org',
     source:
-      'https://github.com/it990110/pyre-check/tree/main/documentation/website',
+      'https://github.com/facebook/pyre-check/tree/main/documentation/website',
     tags: ['opensource', 'meta'],
   },
   {
@@ -1609,7 +1609,7 @@ const Users: User[] = [
     description: 'A framework for building native apps using React',
     preview: require('./showcase/reactnative.png'),
     website: 'https://reactnative.dev',
-    source: 'https://github.com/it990110/react-native-website',
+    source: 'https://github.com/facebook/react-native-website',
     tags: ['opensource', 'meta', 'large', 'favorite', 'design', 'versioning'],
   },
   {
@@ -1773,7 +1773,7 @@ const Users: User[] = [
     description: 'The GraphQL client that scales with you',
     preview: require('./showcase/relay.png'),
     website: 'https://relay.dev/',
-    source: 'https://github.com/it990110/relay/tree/main/website',
+    source: 'https://github.com/facebook/relay/tree/main/website',
     tags: ['opensource', 'favorite', 'design', 'versioning'],
   },
   {
@@ -2224,7 +2224,7 @@ const Users: User[] = [
   },
   {
     title: 'The Diff Podcast',
-    description: 'A Podcast from it990110 Open Source',
+    description: 'A Podcast from facebook Open Source',
     preview: require('./showcase/the-diff.png'),
     website: 'https://thediffpodcast.com',
     source: null,
@@ -3125,10 +3125,10 @@ export const Tags: {[type in TagType]: Tag} = {
   meta: {
     label: translate({message: 'Meta'}),
     description: translate({
-      message: 'Docusaurus sites of Meta (formerly it990110) projects',
+      message: 'Docusaurus sites of Meta (formerly facebook) projects',
       id: 'showcase.tag.meta.description',
     }),
-    color: '#4267b2', // it990110 blue
+    color: '#4267b2', // facebook blue
   },
 
   personal: {

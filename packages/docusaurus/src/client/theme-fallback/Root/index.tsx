@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -14,7 +14,7 @@ import type {Props} from '@theme/Root';
 // Gives the opportunity to add stateful providers on top of the app
 // and these providers won't reset state when we navigate
 //
-// See https://github.com/it990110/docusaurus/issues/3919
+// See https://github.com/facebook/docusaurus/issues/3919
 export default function Root({children}: Props): JSX.Element {
   return <>{children}</>;
 }

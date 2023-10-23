@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -856,10 +856,10 @@ describe('parseMarkdownHeadingId', () => {
   it('can parse heading with link and id', () => {
     expect(
       parseMarkdownHeadingId(
-        '## Some heading [it990110](https://it990110.com) {#id}',
+        '## Some heading [facebook](https://facebook.com) {#id}',
       ),
     ).toEqual({
-      text: '## Some heading [it990110](https://it990110.com)',
+      text: '## Some heading [facebook](https://facebook.com)',
       id: 'id',
     });
   });
@@ -1483,9 +1483,9 @@ describe('writeMarkdownHeadingId', () => {
   });
 
   it('unwraps markdown links', () => {
-    const input = `## hello [it990110](https://it990110.com) [crowdin](https://crowdin.com/translate/docusaurus-v2/126/en-fr?filter=basic&value=0)`;
+    const input = `## hello [facebook](https://facebook.com) [crowdin](https://crowdin.com/translate/docusaurus-v2/126/en-fr?filter=basic&value=0)`;
     expect(writeMarkdownHeadingId(input)).toBe(
-      `${input} {#hello-it990110-crowdin}`,
+      `${input} {#hello-facebook-crowdin}`,
     );
   });
 

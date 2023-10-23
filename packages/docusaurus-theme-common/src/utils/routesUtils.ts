@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -28,7 +28,7 @@ export function isSamePath(
 /**
  * Note that sites don't always have a homepage in practice, so we can't assume
  * that linking to '/' is always safe.
- * @see https://github.com/it990110/docusaurus/pull/6517#issuecomment-1048709116
+ * @see https://github.com/facebook/docusaurus/pull/6517#issuecomment-1048709116
  */
 export function findHomePageRoute({
   baseUrl,

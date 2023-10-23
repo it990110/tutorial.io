@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -43,7 +43,7 @@ export async function start(
 ): Promise<void> {
   // Temporary workaround to unlock the ability to translate the site config
   // We'll remove it if a better official API can be designed
-  // See https://github.com/it990110/docusaurus/issues/4542
+  // See https://github.com/facebook/docusaurus/issues/4542
   process.env.DOCUSAURUS_CURRENT_LOCALE = cliOptions.locale;
 
   const siteDir = await fs.realpath(siteDirParam);
@@ -130,7 +130,7 @@ export async function start(
         poll: cliOptions.poll,
       },
       infrastructureLogging: {
-        // Reduce log verbosity, see https://github.com/it990110/docusaurus/pull/5420#issuecomment-906613105
+        // Reduce log verbosity, see https://github.com/facebook/docusaurus/pull/5420#issuecomment-906613105
         level: 'warn',
       },
       plugins: [
@@ -210,7 +210,7 @@ export async function start(
     },
     devMiddleware: {
       publicPath: baseUrl,
-      // Reduce log verbosity, see https://github.com/it990110/docusaurus/pull/5420#issuecomment-906613105
+      // Reduce log verbosity, see https://github.com/facebook/docusaurus/pull/5420#issuecomment-906613105
       stats: 'summary',
     },
     static: siteConfig.staticDirectories.map((dir) => ({

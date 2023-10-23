@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -57,7 +57,7 @@ describe('genChunkName', () => {
     expect(genChunkName('d', undefined, undefined, true)).toBe('8277e091');
   });
 
-  // https://github.com/it990110/docusaurus/issues/8536
+  // https://github.com/facebook/docusaurus/issues/8536
   it('avoids hash collisions', () => {
     expect(
       genChunkName(

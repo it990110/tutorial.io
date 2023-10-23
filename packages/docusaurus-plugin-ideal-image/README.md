@@ -4,4 +4,4 @@ Docusaurus Plugin to generate an almost ideal image (responsive, lazy-loading, a
 
 ## Usage
 
-See [plugin-ideal-image documentation](https://tutorial.io/docs/api/plugins/@docusaurus/plugin-ideal-image).
+See [plugin-ideal-image documentation](https://docusaurus/docs/api/plugins/@docusaurus/plugin-ideal-image).

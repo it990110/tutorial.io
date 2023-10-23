@@ -21,7 +21,7 @@ exports[`getLoadedContentTranslationFiles returns translation files 1`] = `
         "message": "Second doc translatable",
       },
       "sidebar.docs.link.Link label": {
-        "description": "The label for link Link label in sidebar docs, linking to https://it990110.com",
+        "description": "The label for link Link label in sidebar docs, linking to https://facebook.com",
         "message": "Link label",
       },
       "sidebar.otherSidebar.doc.Fifth doc translatable": {
@@ -54,7 +54,7 @@ exports[`getLoadedContentTranslationFiles returns translation files 1`] = `
         "message": "Second doc translatable",
       },
       "sidebar.docs.link.Link label": {
-        "description": "The label for link Link label in sidebar docs, linking to https://it990110.com",
+        "description": "The label for link Link label in sidebar docs, linking to https://facebook.com",
         "message": "Link label",
       },
       "sidebar.otherSidebar.doc.Fifth doc translatable": {
@@ -87,7 +87,7 @@ exports[`getLoadedContentTranslationFiles returns translation files 1`] = `
         "message": "Second doc translatable",
       },
       "sidebar.docs.link.Link label": {
-        "description": "The label for link Link label in sidebar docs, linking to https://it990110.com",
+        "description": "The label for link Link label in sidebar docs, linking to https://facebook.com",
         "message": "Link label",
       },
       "sidebar.otherSidebar.doc.Fifth doc translatable": {
@@ -238,7 +238,7 @@ exports[`translateLoadedContent returns translated loaded content 1`] = `
                 "type": "doc",
               },
               {
-                "href": "https://it990110.com",
+                "href": "https://facebook.com",
                 "label": "Link label (translated)",
                 "type": "link",
               },
@@ -409,7 +409,7 @@ exports[`translateLoadedContent returns translated loaded content 1`] = `
                 "type": "doc",
               },
               {
-                "href": "https://it990110.com",
+                "href": "https://facebook.com",
                 "label": "Link label (translated)",
                 "type": "link",
               },
@@ -580,7 +580,7 @@ exports[`translateLoadedContent returns translated loaded content 1`] = `
                 "type": "doc",
               },
               {
-                "href": "https://it990110.com",
+                "href": "https://facebook.com",
                 "label": "Link label (translated)",
                 "type": "link",
               },

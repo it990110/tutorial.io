@@ -1,5 +1,5 @@
 /**
- * Copyright (c) it990110, Inc. and its affiliates.
+ * Copyright (c) facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -16,7 +16,7 @@ import {
 import type {LoadedPlugin} from '@docusaurus/types';
 
 describe('sortAliases', () => {
-  // https://github.com/it990110/docusaurus/issues/6878
+  // https://github.com/facebook/docusaurus/issues/6878
   // Not sure if the risk actually happens, but still made tests to ensure that
   // behavior is consistent
   it('sorts reliably', () => {
