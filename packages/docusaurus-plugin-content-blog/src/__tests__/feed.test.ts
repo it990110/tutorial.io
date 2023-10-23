@@ -70,7 +70,7 @@ describe.each(['atom', 'rss', 'json'])('%s', (feedType) => {
     const siteConfig = {
       title: 'Hello',
       baseUrl: '/',
-      url: 'https://gityjf.io',
+      url: 'https://tutorial.io',
       favicon: 'image/favicon.ico',
     };
     const outDir = path.join(siteDir, 'build-snap');
@@ -108,7 +108,7 @@ describe.each(['atom', 'rss', 'json'])('%s', (feedType) => {
     const siteConfig = {
       title: 'Hello',
       baseUrl: '/myBaseUrl/',
-      url: 'https://gityjf.io',
+      url: 'https://tutorial.io',
       favicon: 'image/favicon.ico',
     };
 
@@ -150,7 +150,7 @@ describe.each(['atom', 'rss', 'json'])('%s', (feedType) => {
     const siteConfig = {
       title: 'Hello',
       baseUrl: '/myBaseUrl/',
-      url: 'https://gityjf.io',
+      url: 'https://tutorial.io',
       favicon: 'image/favicon.ico',
     };
 
@@ -202,7 +202,7 @@ describe.each(['atom', 'rss', 'json'])('%s', (feedType) => {
     const siteConfig = {
       title: 'Hello',
       baseUrl: '/myBaseUrl/',
-      url: 'https://gityjf.io',
+      url: 'https://tutorial.io',
       favicon: 'image/favicon.ico',
     };
 

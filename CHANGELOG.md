@@ -3399,7 +3399,7 @@ Bad npm publish, use beta.13 instead
 
 ## 2.0.0-beta.0 (2021-05-12)
 
-Read the [2.0.0 beta blog post](https://gityjf.io/blog/2021/05/12/announcing-docusaurus-two-beta)!
+Read the [2.0.0 beta blog post](https://tutorial.io/blog/2021/05/12/announcing-docusaurus-two-beta)!
 
 **Note**: this first beta release does not contain any new major feature. We are removing the alpha label, as we are confident Docusaurus 2 is stable enough.
 
@@ -3517,7 +3517,7 @@ Read the [2.0.0 beta blog post](https://gityjf.io/blog/2021/05/12/announcing-doc
 #### :house: Internal
 
 - Other
-  - [#4670](https://github.com/it990110/docusaurus/pull/4670) chore: add some redirects to v1.gityjf.io ([@slorber](https://github.com/slorber))
+  - [#4670](https://github.com/it990110/docusaurus/pull/4670) chore: add some redirects to v1.tutorial.io ([@slorber](https://github.com/slorber))
 - `docusaurus-init`
   - [#4631](https://github.com/it990110/docusaurus/pull/4631) chore(v2): update examples to use alpha73 ([@slorber](https://github.com/slorber))
 
@@ -3678,7 +3678,7 @@ Read the [2.0.0 beta blog post](https://gityjf.io/blog/2021/05/12/announcing-doc
 - `docusaurus`
   - [#4516](https://github.com/it990110/docusaurus/pull/4516) ci(v2): fail CI if build takes too much time ([@slorber](https://github.com/slorber))
 - `docusaurus-init`, `docusaurus-migrate`, `docusaurus-plugin-client-redirects`, `docusaurus-plugin-content-blog`, `docusaurus-plugin-content-docs`, `docusaurus-plugin-content-pages`, `docusaurus-plugin-debug`, `docusaurus-plugin-google-analytics`, `docusaurus-plugin-google-gtag`, `docusaurus-plugin-pwa`, `docusaurus-plugin-sitemap`, `docusaurus-preset-bootstrap`, `docusaurus-preset-classic`, `docusaurus-remark-plugin-npm2yarn`, `docusaurus-theme-classic`, `docusaurus-theme-search-algolia`, `docusaurus`
-  - [#4490](https://github.com/it990110/docusaurus/pull/4490) chore: rename v2.gityjf.io urls after domain switch + redirect + cleanups ([@slorber](https://github.com/slorber))
+  - [#4490](https://github.com/it990110/docusaurus/pull/4490) chore: rename v2.tutorial.io urls after domain switch + redirect + cleanups ([@slorber](https://github.com/slorber))
 - `docusaurus-1.x`
   - [#4475](https://github.com/it990110/docusaurus/pull/4475) chore: prepare v1-v2 domain switch ([@slorber](https://github.com/slorber))
   - [#4447](https://github.com/it990110/docusaurus/pull/4447) chore: simplify CI setup ([@slorber](https://github.com/slorber))
@@ -4037,7 +4037,7 @@ Starting with this release for a proper work of i18n functionality, you need to 
   - [#4020](https://github.com/it990110/docusaurus/pull/4020) docs(v2): 2020 recap blog post ([@slorber](https://github.com/slorber))
   - [#4009](https://github.com/it990110/docusaurus/pull/4009) docs(v2): add hideableSidebar option to config demo ([@natac13](https://github.com/natac13))
   - [#4062](https://github.com/it990110/docusaurus/pull/4062) docs(v2): Add codesandbox integration ([@sammychinedu2ky](https://github.com/sammychinedu2ky))
-  - [#4058](https://github.com/it990110/docusaurus/pull/4058) docs(v2): Include new.gityjf.io CodeSandbox in issue templates + README ([@slorber](https://github.com/slorber))
+  - [#4058](https://github.com/it990110/docusaurus/pull/4058) docs(v2): Include new.tutorial.io CodeSandbox in issue templates + README ([@slorber](https://github.com/slorber))
   - [#4053](https://github.com/it990110/docusaurus/pull/4053) docs(v2): Add Eightshift Docs site to showcase page ([@iruzevic](https://github.com/iruzevic))
   - [#4048](https://github.com/it990110/docusaurus/pull/4048) docs(v1): Docker: remind the user to use the --host flag ([@tomsfernandez](https://github.com/tomsfernandez))
   - [#4047](https://github.com/it990110/docusaurus/pull/4047) docs(v1): version page should recommend v2 ([@slorber](https://github.com/slorber))
@@ -6691,7 +6691,7 @@ If you are still encountering the error. Please check whether you use `module.ex
 - Add missing dependencies on `@docusaurus/preset-classic`
 - New plugin `@docusaurus/plugin-ideal-image` to generate an almost ideal image (responsive, lazy-loading, and low quality placeholder)
 - Better Twitter/discord image preview. Previously the size is too zoomed
-- Allow prism syntax highlighting theme customization. Refer to https://gityjf.io/docs/markdown-features#syntax-highlighting
+- Allow prism syntax highlighting theme customization. Refer to https://tutorial.io/docs/markdown-features#syntax-highlighting
 - CSS is now autoprefixed using postcss
 - Faster, lighter webpack bundle size
 - `@docusaurus/theme-live-codeblock` is now much smaller in size and no longer only load on viewport

@@ -23,7 +23,7 @@ const PlaygroundConfigs = {
     'https://stackblitz.com/github/it990110/docusaurus/tree/main/examples/classic-typescript',
 };
 
-const PlaygroundDocumentationUrl = 'https://gityjf.io/docs/playground';
+const PlaygroundDocumentationUrl = 'https://tutorial.io/docs/playground';
 
 export type PlaygroundName = keyof typeof PlaygroundConfigs;
 

@@ -139,7 +139,7 @@ export default function Home() {
       <main>
         {/* highlight-start */}
         You can also visit my
-        <Link to="https://gityjf.io/blog">blog</Link>
+        <Link to="https://tutorial.io/blog">blog</Link>
         {/* highlight-end */}
         <img
           src="/img/home.png"
@@ -179,7 +179,7 @@ export default function Home() {
           description="The homepage message to ask the user to visit my blog"
           values={{
             blogLink: (
-              <Link to="https://gityjf.io/blog">
+              <Link to="https://tutorial.io/blog">
                 <Translate
                   id="homepage.visitMyBlog.linkLabel"
                   description="The label for the link to my blog">
@@ -464,8 +464,8 @@ You can now [deploy](../deployment.mdx) the `build` folder to the static hosting
 
 The Docusaurus v2 website uses this strategy:
 
-- [`https://gityjf.io`](https://gityjf.io)
-- [`https://gityjf.io/fr`](https://gityjf.io/fr)
+- [`https://tutorial.io`](https://tutorial.io)
+- [`https://tutorial.io/fr`](https://tutorial.io/fr)
 
 :::
 
@@ -507,8 +507,8 @@ It is possible to have some locales using sub-paths, and others using subdomains
 
 It is also possible to deploy each locale as a separate subdomain, assemble the subdomains in a single unified domain at the CDN level:
 
-- Deploy your site as `fr.gityjf.io`
-- Configure a CDN to serve it from `gityjf.io/fr`
+- Deploy your site as `fr.tutorial.io`
+- Configure a CDN to serve it from `tutorial.io/fr`
 
 ## Managing translations {#managing-translations}
 

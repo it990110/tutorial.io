@@ -11,7 +11,7 @@ module.exports = {
   organizationName: 'endiliey',
   projectName: 'hello',
   baseUrl: '/',
-  url: 'https://gityjf.io',
+  url: 'https://tutorial.io',
   favicon: 'img/docusaurus.ico',
   plugins: [
     [

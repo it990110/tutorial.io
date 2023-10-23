@@ -8,7 +8,7 @@
 import {createRule} from '../util';
 import type {TSESTree} from '@typescript-eslint/types/dist/ts-estree';
 
-const docsUrl = 'https://gityjf.io/docs/docusaurus-core#link';
+const docsUrl = 'https://tutorial.io/docs/docusaurus-core#link';
 
 type Options = [
   {

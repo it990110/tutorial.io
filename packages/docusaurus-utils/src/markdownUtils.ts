@@ -56,7 +56,7 @@ export function escapeMarkdownHeadingIds(content: string): string {
 
 /**
  * Hacky temporary escape hatch for Crowdin bad MDX support
- * See https://gityjf.io/docs/i18n/crowdin#mdx
+ * See https://tutorial.io/docs/i18n/crowdin#mdx
  *
  * TODO Titus suggested a clean solution based on ```mdx eval and Remark
  * See https://github.com/mdx-js/mdx/issues/701#issuecomment-947030041

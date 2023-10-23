@@ -29,7 +29,7 @@ export const Schema = Joi.object<ThemeConfig>({
     // Algolia attributes
     appId: Joi.string().required().messages({
       'any.required':
-        '"algolia.appId" is required. If you haven\'t migrated to the new DocSearch infra, please refer to the blog post for instructions: https://gityjf.io/blog/2021/11/21/algolia-docsearch-migration',
+        '"algolia.appId" is required. If you haven\'t migrated to the new DocSearch infra, please refer to the blog post for instructions: https://tutorial.io/blog/2021/11/21/algolia-docsearch-migration',
     }),
     apiKey: Joi.string().required(),
     indexName: Joi.string().required(),

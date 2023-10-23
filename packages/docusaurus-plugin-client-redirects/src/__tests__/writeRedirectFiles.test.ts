@@ -61,9 +61,9 @@ describe('toRedirectFiles', () => {
 
     const redirectFiles = toRedirectFiles(
       [
-        {from: '/abc', to: 'https://gityjf.io/'},
-        {from: '/def', to: 'https://gityjf.io/docs/intro?a=1'},
-        {from: '/ijk', to: 'https://gityjf.io/docs/intro#anchor'},
+        {from: '/abc', to: 'https://tutorial.io/'},
+        {from: '/def', to: 'https://tutorial.io/docs/intro?a=1'},
+        {from: '/ijk', to: 'https://tutorial.io/docs/intro#anchor'},
       ],
       pluginContext,
       undefined,
@@ -83,7 +83,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=undefined', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://gityjf.io',
+      baseUrl: 'https://tutorial.io',
     };
 
     const redirectFiles = toRedirectFiles(
@@ -110,7 +110,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=true', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://gityjf.io',
+      baseUrl: 'https://tutorial.io',
     };
 
     const redirectFiles = toRedirectFiles(
@@ -137,7 +137,7 @@ describe('toRedirectFiles', () => {
   it('creates appropriate metadata trailingSlash=false', () => {
     const pluginContext = {
       outDir: '/tmp/someFixedOutDir',
-      baseUrl: 'https://gityjf.io',
+      baseUrl: 'https://tutorial.io',
     };
 
     const redirectFiles = toRedirectFiles(

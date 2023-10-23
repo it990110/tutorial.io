@@ -12,6 +12,6 @@ module.exports = function createConfig() {
     organizationName: 'endiliey',
     projectName: 'hello',
     baseUrl: '/',
-    url: 'https://gityjf.io',
+    url: 'https://tutorial.io',
   };
 };

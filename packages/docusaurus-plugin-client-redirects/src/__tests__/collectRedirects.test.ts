@@ -20,7 +20,7 @@ function createTestPluginContext(
 ): PluginContext {
   return {
     outDir: '/tmp',
-    baseUrl: 'https://gityjf.io',
+    baseUrl: 'https://tutorial.io',
     relativeRoutesPaths,
     options: validateOptions({validate: normalizePluginOptions, options}),
     siteConfig: {onDuplicateRoutes: 'warn', ...siteConfig} as DocusaurusConfig,
@@ -123,19 +123,19 @@ describe('collectRedirects', () => {
 
               {
                 from: '/absolute',
-                to: 'https://gityjf.io/somePath',
+                to: 'https://tutorial.io/somePath',
               },
               {
                 from: '/absoluteQS',
-                to: 'https://gityjf.io/somePath?a=1&b=2',
+                to: 'https://tutorial.io/somePath?a=1&b=2',
               },
               {
                 from: '/absoluteAnchor',
-                to: 'https://gityjf.io/somePath#anchor',
+                to: 'https://tutorial.io/somePath#anchor',
               },
               {
                 from: '/absoluteQSAnchor',
-                to: 'https://gityjf.io/somePath?a=1&b=2#anchor',
+                to: 'https://tutorial.io/somePath?a=1&b=2#anchor',
               },
             ],
           },
@@ -179,19 +179,19 @@ describe('collectRedirects', () => {
 
       {
         from: '/absolute',
-        to: 'https://gityjf.io/somePath',
+        to: 'https://tutorial.io/somePath',
       },
       {
         from: '/absoluteQS',
-        to: 'https://gityjf.io/somePath?a=1&b=2',
+        to: 'https://tutorial.io/somePath?a=1&b=2',
       },
       {
         from: '/absoluteAnchor',
-        to: 'https://gityjf.io/somePath#anchor',
+        to: 'https://tutorial.io/somePath#anchor',
       },
       {
         from: '/absoluteQSAnchor',
-        to: 'https://gityjf.io/somePath?a=1&b=2#anchor',
+        to: 'https://tutorial.io/somePath?a=1&b=2#anchor',
       },
     ]);
   });

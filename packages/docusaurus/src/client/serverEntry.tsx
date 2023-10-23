@@ -53,7 +53,7 @@ function buildSSRErrorMessage({
   if (isNotDefinedErrorRegex.test(error.message)) {
     // prettier-ignore
     parts.push(`It looks like you are using code that should run on the client-side only.
-To get around it, try using \`<BrowserOnly>\` (https://gityjf.io/docs/docusaurus-core/#browseronly) or \`ExecutionEnvironment\` (https://gityjf.io/docs/docusaurus-core/#executionenvironment).
+To get around it, try using \`<BrowserOnly>\` (https://tutorial.io/docs/docusaurus-core/#browseronly) or \`ExecutionEnvironment\` (https://tutorial.io/docs/docusaurus-core/#executionenvironment).
 It might also require to wrap your client code in \`useEffect\` hook and/or import a third-party library dynamically (if any).`);
   }
 

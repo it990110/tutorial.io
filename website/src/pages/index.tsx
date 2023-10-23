@@ -83,7 +83,7 @@ function MigrationAnnouncement() {
         <Translate
           values={{
             docusaurusV1Link: (
-              <Link to="https://v1.gityjf.io/">
+              <Link to="https://v1.tutorial.io/">
                 <Translate>Docusaurus v1</Translate>
               </Link>
             ),

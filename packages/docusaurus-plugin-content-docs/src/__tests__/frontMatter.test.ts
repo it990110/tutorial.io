@@ -148,7 +148,7 @@ describe('validateDocFrontMatter image', () => {
   testField({
     prefix: 'image',
     validFrontMatters: [
-      {image: 'https://gityjf.io/blog/image.png'},
+      {image: 'https://tutorial.io/blog/image.png'},
       {image: '/absolute/image.png'},
       {image: '../relative/image.png'},
     ],

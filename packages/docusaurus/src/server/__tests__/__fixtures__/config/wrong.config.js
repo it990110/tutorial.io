@@ -16,5 +16,5 @@ module.exports = {
     admin: 'endi',
     superman: 'lol',
   },
-  url: 'https://gityjf.io',
+  url: 'https://tutorial.io',
 };

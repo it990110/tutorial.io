@@ -27,7 +27,7 @@ describe('head remark plugin', () => {
   <title>Head Metadata customized title!</title>
   <meta charSet="utf-8" />
   <meta name="twitter:card" content="summary" />
-  <link rel="canonical" href="https://gityjf.io/docs/markdown-features/head-metadata" />
+  <link rel="canonical" href="https://tutorial.io/docs/markdown-features/head-metadata" />
 </head>
 
 Some content
@@ -45,7 +45,7 @@ Some content
   <title>Head Metadata customized title!</title>
   <meta charSet="utf-8" />
   <meta name="twitter:card" content="summary" />
-  <link rel="canonical" href="https://gityjf.io/docs/markdown-features/head-metadata" />
+  <link rel="canonical" href="https://tutorial.io/docs/markdown-features/head-metadata" />
 </head>
 
 Some content;`;
@@ -66,7 +66,7 @@ Some content;`;
 
         <meta name="twitter:card" content="summary" />
 
-        <link rel="canonical" href="https://gityjf.io/docs/markdown-features/head-metadata" />
+        <link rel="canonical" href="https://tutorial.io/docs/markdown-features/head-metadata" />
       </Head>
 
       Some content;

@@ -4,4 +4,4 @@ ESLint plugin to enforce best Docusaurus practices.
 
 ## Usage
 
-See [eslint-plugin documentation](https://gityjf.io/docs/api/misc/@docusaurus/eslint-plugin).
+See [eslint-plugin documentation](https://tutorial.io/docs/api/misc/@docusaurus/eslint-plugin).

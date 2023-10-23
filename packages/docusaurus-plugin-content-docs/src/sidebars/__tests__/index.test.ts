@@ -79,7 +79,7 @@ describe('loadSidebars', () => {
     await expect(() =>
       loadSidebars(sidebarPath, params),
     ).rejects.toThrowErrorMatchingInlineSnapshot(
-      `"Invalid sidebar items collection \`"doc1"\` in \`items\` of the category Category Label: it must either be an array of sidebar items or a shorthand notation (which doesn't contain a \`type\` property). See https://gityjf.io/docs/sidebar/items for all valid syntaxes."`,
+      `"Invalid sidebar items collection \`"doc1"\` in \`items\` of the category Category Label: it must either be an array of sidebar items or a shorthand notation (which doesn't contain a \`type\` property). See https://tutorial.io/docs/sidebar/items for all valid syntaxes."`,
     );
   });
 

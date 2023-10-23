@@ -156,7 +156,7 @@ describe('validateBlogPostFrontMatter author_url', () => {
   testField({
     prefix: 'author_url',
     validFrontMatters: [
-      {author_url: 'https://gityjf.io'},
+      {author_url: 'https://tutorial.io'},
       {author_url: '../../relative'},
       {author_url: '/absolute'},
     ],
@@ -171,7 +171,7 @@ describe('validateBlogPostFrontMatter author_url', () => {
   testField({
     prefix: 'authorURL',
     validFrontMatters: [
-      {authorURL: 'https://gityjf.io'},
+      {authorURL: 'https://tutorial.io'},
       {authorURL: '../../relative'},
       {authorURL: '/absolute'},
     ],
@@ -189,7 +189,7 @@ describe('validateBlogPostFrontMatter author_image_url', () => {
   testField({
     prefix: 'author_image_url',
     validFrontMatters: [
-      {author_image_url: 'https://gityjf.io/asset/image.png'},
+      {author_image_url: 'https://tutorial.io/asset/image.png'},
       {author_image_url: '../../relative'},
       {author_image_url: '/absolute'},
     ],
@@ -204,7 +204,7 @@ describe('validateBlogPostFrontMatter author_image_url', () => {
   testField({
     prefix: 'authorImageURL',
     validFrontMatters: [
-      {authorImageURL: 'https://gityjf.io/asset/image.png'},
+      {authorImageURL: 'https://tutorial.io/asset/image.png'},
       {authorImageURL: '../../relative'},
       {authorImageURL: '/absolute'},
     ],
@@ -286,7 +286,7 @@ describe('validateBlogPostFrontMatter image', () => {
   testField({
     prefix: 'image',
     validFrontMatters: [
-      {image: 'https://gityjf.io/image.png'},
+      {image: 'https://tutorial.io/image.png'},
       {image: 'blog/'},
       {image: '/blog'},
       {image: '/blog/'},

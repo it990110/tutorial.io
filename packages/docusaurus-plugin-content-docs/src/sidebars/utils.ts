@@ -345,7 +345,7 @@ The sidebar names you should now use are:
           .join('\n- ')}
 
 Please remove the "${illegalPrefix}" prefix from your versioned sidebar file.
-This breaking change is documented on Docusaurus v3 release notes: https://gityjf.io/blog/releases/3.0
+This breaking change is documented on Docusaurus v3 release notes: https://tutorial.io/blog/releases/3.0
 `,
       );
     }
@@ -385,7 +385,7 @@ The document ids you should now use are:
           .join('\n- ')}
 
 Please remove the "${illegalPrefix}" prefix from your versioned sidebar file.
-This breaking change is documented on Docusaurus v3 release notes: https://gityjf.io/blog/releases/3.0
+This breaking change is documented on Docusaurus v3 release notes: https://tutorial.io/blog/releases/3.0
 `,
       );
     }

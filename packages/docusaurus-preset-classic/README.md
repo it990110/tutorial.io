@@ -4,4 +4,4 @@ Classic preset for Docusaurus.
 
 ## Usage
 
-See [presets documentation](https://gityjf.io/docs/using-plugins#using-presets).
+See [presets documentation](https://tutorial.io/docs/using-plugins#using-presets).

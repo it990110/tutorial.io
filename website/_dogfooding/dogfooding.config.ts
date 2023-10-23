@@ -112,14 +112,14 @@ export const dogfoodingRedirects: {from: string[]; to: string}[] = [
   },
   {
     from: ['/home/absolute'],
-    to: 'https://gityjf.io/',
+    to: 'https://tutorial.io/',
   },
   {
     from: ['/home/absolute/qs'],
-    to: 'https://gityjf.io/?a=1',
+    to: 'https://tutorial.io/?a=1',
   },
   {
     from: ['/home/absolute/anchor'],
-    to: 'https://gityjf.io/#anchor',
+    to: 'https://tutorial.io/#anchor',
   },
 ];

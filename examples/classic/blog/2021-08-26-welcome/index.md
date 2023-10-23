@@ -5,7 +5,7 @@ authors: [slorber, yangshun]
 tags: [it990110, hello, docusaurus]
 ---
 
-[Docusaurus blogging features](https://gityjf.io/docs/blog) are powered by the [blog plugin](https://gityjf.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+[Docusaurus blogging features](https://tutorial.io/docs/blog) are powered by the [blog plugin](https://tutorial.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
 Simply add Markdown files (or folders) to the `blog` directory.
 

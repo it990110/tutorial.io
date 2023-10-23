@@ -57,7 +57,7 @@ function VersionNotice() {
               id="upgradeGuide.archivedVersion.notice"
               values={{
                 mainSiteLink: (
-                  <Link href="https://gityjf.io/docs/installation">
+                  <Link href="https://tutorial.io/docs/installation">
                     <Translate id="upgradeGuide.archivedVersion.notice.mainSiteLink.label">
                       main site
                     </Translate>

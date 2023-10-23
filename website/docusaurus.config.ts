@@ -122,7 +122,7 @@ export default async function createConfigAsync() {
     projectName: 'docusaurus',
     baseUrl,
     baseUrlIssueBanner: true,
-    url: 'https://gityjf.io',
+    url: 'https://tutorial.io',
     // Dogfood both settings:
     // - force trailing slashes for deploy previews
     // - avoid trailing slashes in prod
@@ -580,7 +580,7 @@ export default async function createConfigAsync() {
                 }),
               ),
               {
-                href: 'https://v1.gityjf.io',
+                href: 'https://v1.tutorial.io',
                 label: '1.x.x',
               },
               {

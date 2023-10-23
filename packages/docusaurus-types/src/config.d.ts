@@ -51,7 +51,7 @@ export type MarkdownConfig = {
    * - `false` | `undefined` (default): code blocks with language mermaid
    * will be left as code blocks.
    *
-   * @see https://gityjf.io/docs/markdown-features/diagrams/
+   * @see https://tutorial.io/docs/markdown-features/diagrams/
    * @default false
    */
   mermaid: boolean;
@@ -78,16 +78,16 @@ export type DocusaurusConfig = {
   /**
    * Title for your website. Will be used in metadata and as browser tab title.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#title
+   * @see https://tutorial.io/docs/api/docusaurus-config#title
    */
   title: string;
   /**
    * URL for your website. This can also be considered the top-level hostname.
    * For example, `https://it990110.github.io` is the URL of
-   * https://it990110.github.io/metro/, and `https://gityjf.io` is the URL
-   * for https://gityjf.io.
+   * https://it990110.github.io/metro/, and `https://tutorial.io` is the URL
+   * for https://tutorial.io.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#url
+   * @see https://tutorial.io/docs/api/docusaurus-config#url
    */
   url: string;
   /**
@@ -95,13 +95,13 @@ export type DocusaurusConfig = {
    * base URL of https://it990110.github.io/metro/. For URLs that have no path,
    * it should be set to `/`. Always has both leading and trailing slash.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#baseUrl
+   * @see https://tutorial.io/docs/api/docusaurus-config#baseUrl
    */
   baseUrl: string;
   /**
    * Path to your site favicon; must be a URL that can be used in link's href.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#favicon
+   * @see https://tutorial.io/docs/api/docusaurus-config#favicon
    */
   favicon?: string;
   /**
@@ -116,15 +116,15 @@ export type DocusaurusConfig = {
    *   `/docs/myDoc.html` for `/docs/myDoc.md`
    *
    * @see https://github.com/slorber/trailing-slash-guide
-   * @see https://gityjf.io/docs/api/docusaurus-config#trailingSlash
+   * @see https://tutorial.io/docs/api/docusaurus-config#trailingSlash
    * @default undefined
    */
   trailingSlash: boolean | undefined;
   /**
    * The i18n configuration object to [localize your
-   * site](https://gityjf.io/docs/i18n/introduction).
+   * site](https://tutorial.io/docs/i18n/introduction).
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#i18n
+   * @see https://tutorial.io/docs/api/docusaurus-config#i18n
    */
   i18n: I18nConfig;
   /**
@@ -132,36 +132,36 @@ export type DocusaurusConfig = {
    * every page to tell search engines to avoid indexing your site.
    *
    * @see https://moz.com/learn/seo/robots-meta-directives
-   * @see https://gityjf.io/docs/api/docusaurus-config#noIndex
+   * @see https://tutorial.io/docs/api/docusaurus-config#noIndex
    * @default false
    */
   noIndex: boolean;
   /**
    * The behavior of Docusaurus when it detects any broken link.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#onBrokenLinks
+   * @see https://tutorial.io/docs/api/docusaurus-config#onBrokenLinks
    * @default "throw"
    */
   onBrokenLinks: ReportingSeverity;
   /**
    * The behavior of Docusaurus when it detects any broken markdown link.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#onBrokenMarkdownLinks
+   * @see https://tutorial.io/docs/api/docusaurus-config#onBrokenMarkdownLinks
    * @default "warn"
    */
   onBrokenMarkdownLinks: ReportingSeverity;
   /**
    * The behavior of Docusaurus when it detects any [duplicate
-   * routes](https://gityjf.io/docs/creating-pages#duplicate-routes).
+   * routes](https://tutorial.io/docs/creating-pages#duplicate-routes).
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#onDuplicateRoutes
+   * @see https://tutorial.io/docs/api/docusaurus-config#onDuplicateRoutes
    * @default "warn"
    */
   onDuplicateRoutes: ReportingSeverity;
   /**
    * The tagline for your website.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#tagline
+   * @see https://tutorial.io/docs/api/docusaurus-config#tagline
    * @default ""
    */
   tagline: string;
@@ -169,63 +169,63 @@ export type DocusaurusConfig = {
    * The GitHub user or organization that owns the repository. You don't need
    * this if you are not using the `docusaurus deploy` command.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#organizationName
+   * @see https://tutorial.io/docs/api/docusaurus-config#organizationName
    */
   organizationName?: string;
   /**
    * The name of the GitHub repository. You don't need this if you are not using
    * the `docusaurus deploy` command.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#projectName
+   * @see https://tutorial.io/docs/api/docusaurus-config#projectName
    */
   projectName?: string;
   /**
    * The name of the branch to deploy the static files to. You don't need this
    * if you are not using the `docusaurus deploy` command.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#deploymentBranch
+   * @see https://tutorial.io/docs/api/docusaurus-config#deploymentBranch
    */
   deploymentBranch?: string;
   /**
    * The hostname of your server. Useful if you are using GitHub Enterprise. You
    * don't need this if you are not using the `docusaurus deploy` command.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#githubHost
+   * @see https://tutorial.io/docs/api/docusaurus-config#githubHost
    */
   githubHost?: string;
   /**
    * The port of your server. Useful if you are using GitHub Enterprise. You
    * don't need this if you are not using the `docusaurus deploy` command.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#githubPort
+   * @see https://tutorial.io/docs/api/docusaurus-config#githubPort
    */
   githubPort?: string;
   /**
-   * The [theme configuration](https://gityjf.io/docs/api/themes/configuration)
+   * The [theme configuration](https://tutorial.io/docs/api/themes/configuration)
    * object to customize your site UI like navbar and footer.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#themeConfig
+   * @see https://tutorial.io/docs/api/docusaurus-config#themeConfig
    * @default {}
    */
   themeConfig: ThemeConfig;
   /**
    * List of plugins.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#plugins
+   * @see https://tutorial.io/docs/api/docusaurus-config#plugins
    * @default []
    */
   plugins: PluginConfig[];
   /**
    * List of themes.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#themes
+   * @see https://tutorial.io/docs/api/docusaurus-config#themes
    * @default []
    */
   themes: PluginConfig[];
   /**
    * List of presets.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#presets
+   * @see https://tutorial.io/docs/api/docusaurus-config#presets
    * @default []
    */
   presets: PresetConfig[];
@@ -233,7 +233,7 @@ export type DocusaurusConfig = {
    * Docusaurus guards `docusaurus.config.js` from unknown fields. To add a
    * custom field, define it on `customFields`.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#customFields
+   * @see https://tutorial.io/docs/api/docusaurus-config#customFields
    * @default {}
    */
   customFields?: {
@@ -243,14 +243,14 @@ export type DocusaurusConfig = {
    * An array of paths, relative to the site's directory or absolute. Files
    * under these paths will be copied to the build output as-is.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#staticDirectories
+   * @see https://tutorial.io/docs/api/docusaurus-config#staticDirectories
    * @default ["static"]
    */
   staticDirectories: string[];
   /**
    * An array of tags that will be inserted in the HTML `<head>`.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#head
+   * @see https://tutorial.io/docs/api/docusaurus-config#head
    * @default []
    */
   headTags: HtmlTagObject[];
@@ -262,7 +262,7 @@ export type DocusaurusConfig = {
    * Note that `<script>` added here are render-blocking, so you might want to
    * add `async: true`/`defer: true` to the objects.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#scripts
+   * @see https://tutorial.io/docs/api/docusaurus-config#scripts
    * @default []
    */
   scripts: (
@@ -277,7 +277,7 @@ export type DocusaurusConfig = {
    * objects of attribute-value maps. The `<link>` tags will be inserted in the
    * HTML `<head>`.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#stylesheets
+   * @see https://tutorial.io/docs/api/docusaurus-config#stylesheets
    * @default []
    */
   stylesheets: (
@@ -288,10 +288,10 @@ export type DocusaurusConfig = {
       }
   )[];
   /**
-   * An array of [client modules](https://gityjf.io/docs/advanced/client#client-modules)
+   * An array of [client modules](https://tutorial.io/docs/advanced/client#client-modules)
    * to load globally on your site.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#clientModules
+   * @see https://tutorial.io/docs/api/docusaurus-config#clientModules
    * @default []
    */
   clientModules: string[];
@@ -304,13 +304,13 @@ export type DocusaurusConfig = {
    * customize it, you will have to make sure that your template is compliant
    * with the requirements from upstream.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#ssrTemplate
+   * @see https://tutorial.io/docs/api/docusaurus-config#ssrTemplate
    */
   ssrTemplate?: string;
   /**
    * Will be used as title delimiter in the generated `<title>` tag.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#titleDelimiter
+   * @see https://tutorial.io/docs/api/docusaurus-config#titleDelimiter
    * @default "|"
    */
   titleDelimiter: string;
@@ -319,7 +319,7 @@ export type DocusaurusConfig = {
    * JavaScript files, which is a very common issue, often related to a wrong
    * `baseUrl` in site config.
    *
-   * @see https://gityjf.io/docs/api/docusaurus-config#baseUrlIssueBanner
+   * @see https://tutorial.io/docs/api/docusaurus-config#baseUrlIssueBanner
    * @default true
    */
   baseUrlIssueBanner: boolean;
@@ -339,7 +339,7 @@ export type DocusaurusConfig = {
 /**
  * Docusaurus config, as provided by the user (partial/unnormalized). This type
  * is used to provide type-safety / IDE auto-complete on the config file.
- * @see https://gityjf.io/docs/typescript-support
+ * @see https://tutorial.io/docs/typescript-support
  */
 export type Config = RequireKeys<
   DeepPartial<DocusaurusConfig>,

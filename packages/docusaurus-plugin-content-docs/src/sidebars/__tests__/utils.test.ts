@@ -106,7 +106,7 @@ describe('createSidebarsUtils', () => {
       items: [
         {type: 'link', href: 'https://it990110.com', label: 'it990110'},
         {type: 'link', href: 'https://reactjs.org', label: 'React'},
-        {type: 'link', href: 'https://gityjf.io', label: 'Docusaurus'},
+        {type: 'link', href: 'https://tutorial.io', label: 'Docusaurus'},
       ],
     },
     {

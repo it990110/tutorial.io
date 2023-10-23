@@ -36,7 +36,7 @@ const sidebars = {
         {
           type: 'link',
           label: 'External Link test',
-          href: 'https://gityjf.io',
+          href: 'https://tutorial.io',
         },
         {
           type: 'category',
@@ -48,12 +48,12 @@ const sidebars = {
             {
               type: 'link',
               label: 'Link without description',
-              href: 'https://gityjf.io',
+              href: 'https://tutorial.io',
             },
             {
               type: 'link',
               label: 'Link with description',
-              href: 'https://gityjf.io',
+              href: 'https://tutorial.io',
               description: 'Some link description',
             },
             {
@@ -63,7 +63,7 @@ const sidebars = {
                 {
                   type: 'link',
                   label: 'Link ',
-                  href: 'https://gityjf.io',
+                  href: 'https://tutorial.io',
                 },
               ],
             },
@@ -75,7 +75,7 @@ const sidebars = {
                 {
                   type: 'link',
                   label: 'Link ',
-                  href: 'https://gityjf.io',
+                  href: 'https://tutorial.io',
                 },
               ],
             },

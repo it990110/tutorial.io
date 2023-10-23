@@ -73,7 +73,7 @@ describe('<BrowserOnly>', () => {
         .toJSON(),
     ).toMatchInlineSnapshot(`
       <span>
-        https://gityjf.io/
+        https://tutorial.io/
       </span>
     `);
   });

@@ -1,6 +1,6 @@
 <h1 align="center">
   <p align="center">Docusaurus</p>
-  <a href="https://gityjf.io"><img src="https://gityjf.io/img/slash-introducing.svg" alt="Docusaurus"></a>
+  <a href="https://tutorial.io"><img src="https://tutorial.io/img/slash-introducing.svg" alt="Docusaurus"></a>
 </h1>
 
 <p align="center">
@@ -21,29 +21,29 @@
   <a href="https://app.netlify.com/start/deploy?repository=https://github.com/slorber/docusaurus-starter"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 </p>
 
-> **We are working hard on Docusaurus v2. If you are new to Docusaurus, try using the new version instead of v1. See the [Docusaurus v2 website](https://gityjf.io/) for more details.**
+> **We are working hard on Docusaurus v2. If you are new to Docusaurus, try using the new version instead of v1. See the [Docusaurus v2 website](https://tutorial.io/) for more details.**
 
-> Docusaurus v1 doc is available at [v1.gityjf.io](https://v1.gityjf.io) and code is available on branch [docusaurus-v1](https://github.com/it990110/docusaurus/tree/docusaurus-v1)
+> Docusaurus v1 doc is available at [v1.tutorial.io](https://v1.tutorial.io) and code is available on branch [docusaurus-v1](https://github.com/it990110/docusaurus/tree/docusaurus-v1)
 
 ## Introduction
 
 Docusaurus is a project for building, deploying, and maintaining open source project websites easily.
 
-Short on time? Check out our [5-minute tutorial ⏱️](https://tutorial.gityjf.io)!
+Short on time? Check out our [5-minute tutorial ⏱️](https://tutorial.tutorial.io)!
 
 **Tip**: use **[docusaurus.new](https://docusaurus.new)** to test Docusaurus immediately in a playground.
 
 - **Simple to Start**
 
-> Docusaurus is built in a way so that it can [get running](https://gityjf.io/docs/installation) in as little time as possible. We've built Docusaurus to handle the website build process so you can focus on your project.
+> Docusaurus is built in a way so that it can [get running](https://tutorial.io/docs/installation) in as little time as possible. We've built Docusaurus to handle the website build process so you can focus on your project.
 
 - **Localizable**
 
-> Docusaurus ships with [localization support](https://gityjf.io/docs/i18n/introduction) via CrowdIn. Empower and grow your international community by translating your documentation.
+> Docusaurus ships with [localization support](https://tutorial.io/docs/i18n/introduction) via CrowdIn. Empower and grow your international community by translating your documentation.
 
 - **Customizable**
 
-> While Docusaurus ships with the key pages and sections you need to get started, including a home page, a docs section, a [blog](https://gityjf.io/docs/blog), and additional support pages, it is also [customizable](https://gityjf.io/docs/creating-pages) as well to ensure you have a site that is [uniquely yours](https://gityjf.io/docs/styling-layout).
+> While Docusaurus ships with the key pages and sections you need to get started, including a home page, a docs section, a [blog](https://tutorial.io/docs/blog), and additional support pages, it is also [customizable](https://tutorial.io/docs/creating-pages) as well to ensure you have a site that is [uniquely yours](https://tutorial.io/docs/styling-layout).
 
 ## Installation
 
@@ -53,7 +53,7 @@ Use the initialization CLI to create your site:
 npm init docusaurus@latest
 ```
 
-[Read the docs](https://gityjf.io/docs/installation) for any further information.
+[Read the docs](https://tutorial.io/docs/installation) for any further information.
 
 ## Contributing
 

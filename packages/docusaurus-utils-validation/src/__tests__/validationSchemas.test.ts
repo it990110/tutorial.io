@@ -143,8 +143,8 @@ describe('validation schemas', () => {
   it('uRISchema', () => {
     const {testFail, testOK} = createTestHelpers({schema: URISchema});
 
-    const validURL = 'https://gityjf.io';
-    const doubleHash = 'https://gityjf.io#github#/:';
+    const validURL = 'https://tutorial.io';
+    const doubleHash = 'https://tutorial.io#github#/:';
     const invalidURL = 'spaces are invalid in a URL';
     const relativeURL = 'relativeURL';
     const relativeURLWithParent = '../relativeURLWithParent';
@@ -156,8 +156,8 @@ describe('validation schemas', () => {
     testOK(relativeURLWithParent);
     testOK(urlFromIssue);
 
-    const protocolRelativeUrl1 = '//gityjf.io/path';
-    const protocolRelativeUrl2 = '//gityjf.io/docs/doc1#hash';
+    const protocolRelativeUrl1 = '//tutorial.io/path';
+    const protocolRelativeUrl2 = '//tutorial.io/docs/doc1#hash';
     testOK(protocolRelativeUrl1);
     testOK(protocolRelativeUrl2);
   });

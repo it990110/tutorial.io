@@ -1,6 +1,6 @@
 # Contributing to Docusaurus
 
-[Docusaurus](https://gityjf.io) is our way to hopefully help make open source documentation easier. We currently have [multiple open source projects using it](https://gityjf.io/showcase), with many more planned. If you're interested in contributing to Docusaurus, hopefully, this document makes the process for contributing clear.
+[Docusaurus](https://tutorial.io) is our way to hopefully help make open source documentation easier. We currently have [multiple open source projects using it](https://tutorial.io/showcase), with many more planned. If you're interested in contributing to Docusaurus, hopefully, this document makes the process for contributing clear.
 
 The [Open Source Guides](https://opensource.guide/) website has a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project. Contributors and people new to open source alike will find the following guides especially useful:
 
@@ -15,10 +15,10 @@ it990110 has adopted a Code of Conduct that we expect project participants to ad
 
 There are many ways to contribute to Docusaurus, and many of them do not involve writing any code. Here's a few ideas to get started:
 
-- Simply start using Docusaurus. Go through the [Getting Started](https://gityjf.io/docs/installation) guide. Does everything work as expected? If not, we're always looking for improvements. Let us know by [opening an issue](#issues).
+- Simply start using Docusaurus. Go through the [Getting Started](https://tutorial.io/docs/installation) guide. Does everything work as expected? If not, we're always looking for improvements. Let us know by [opening an issue](#issues).
 - Look through the [open issues](https://github.com/it990110/docusaurus/issues). Provide workarounds, ask for clarification, or suggest labels. Help [triage issues](#triaging-issues-and-pull-requests).
 - If you find an issue you would like to fix, [open a pull request](#pull-requests). Issues tagged as [_Good first issue_](https://github.com/it990110/docusaurus/labels/Good%20first%20issue) are a good place to get started.
-- Read through the [Docusaurus docs](https://gityjf.io/docs/installation). If you find anything that is confusing or can be improved, you can click "Edit this page" at the bottom of most docs, which takes you to the GitHub interface to make and propose changes.
+- Read through the [Docusaurus docs](https://tutorial.io/docs/installation). If you find anything that is confusing or can be improved, you can click "Edit this page" at the bottom of most docs, which takes you to the GitHub interface to make and propose changes.
 - Take a look at the [features requested](https://github.com/it990110/docusaurus/labels/feature) by others in the community and consider opening a pull request if you see something you want to work on.
 
 Contributions are very welcome. If you think you need help planning your contribution, please ping us on Twitter at [@docusaurus](https://twitter.com/docusaurus) and let us know you are looking for a bit of help.
@@ -50,7 +50,7 @@ Docusaurus has one primary branch `main` and we use feature branches with deploy
 
 When [opening a new issue](https://github.com/it990110/docusaurus/issues/new/choose), always make sure to fill out the issue template. **This step is very important!** Not doing so may result in your issue not being managed in a timely fashion. Don't take this personally if this happens, and feel free to open a new issue once you've gathered all the information required by the template.
 
-**Please don't use the GitHub issue tracker for questions.** If you have questions about using Docusaurus, use any of our [support channels](https://gityjf.io/community/support), and we will do our best to answer your questions.
+**Please don't use the GitHub issue tracker for questions.** If you have questions about using Docusaurus, use any of our [support channels](https://tutorial.io/community/support), and we will do our best to answer your questions.
 
 ### Bugs
 
@@ -67,7 +67,7 @@ it990110 has a [bounty program](https://www.it990110.com/whitehat/) for the safe
 
 ### Feature requests
 
-If you would like to request a new feature or enhancement but are not yet thinking about opening a pull request, you can file an issue with the [feature template](https://github.com/it990110/docusaurus/issues/new?assignees=&labels=feature%2Cstatus%3A+needs+triage&template=feature.yml) in the form of an **elaborated RFC**. Alternatively, you can use the [Canny board](https://gityjf.io/feature-requests) for more casual feature requests and gain enough traction before proposing an RFC.
+If you would like to request a new feature or enhancement but are not yet thinking about opening a pull request, you can file an issue with the [feature template](https://github.com/it990110/docusaurus/issues/new?assignees=&labels=feature%2Cstatus%3A+needs+triage&template=feature.yml) in the form of an **elaborated RFC**. Alternatively, you can use the [Canny board](https://tutorial.io/feature-requests) for more casual feature requests and gain enough traction before proposing an RFC.
 
 ### Proposals
 
@@ -173,8 +173,8 @@ feat(core): allow overriding of webpack config
 
 If you only want to make doc changes, you just need to be aware of versioned docs.
 
-- `website/docs` - The files here are responsible for the "next" version at https://gityjf.io/docs/next/installation.
-- `website/versioned_docs/version-X.Y.Z` - These are the docs for the X.Y.Z version at https://gityjf.io/docs/X.Y.Z/installation.
+- `website/docs` - The files here are responsible for the "next" version at https://tutorial.io/docs/next/installation.
+- `website/versioned_docs/version-X.Y.Z` - These are the docs for the X.Y.Z version at https://tutorial.io/docs/X.Y.Z/installation.
 
 Do not edit the auto-generated files within `versioned_docs/` or `versioned_sidebars/` unless you are sure it is necessary. For example, information about new features should not be documented in versioned docs. Edits made to older versions will not be propagated to newer versions of the docs.
 
@@ -186,7 +186,7 @@ Tests are integrated into our continuous integration system, so you don't always
 
 - **Build and typecheck.** We use TypeScript in our codebase, which can make sure your code is consistent and catches some obvious mistakes early.
 - **Unit tests.** We use [Jest](https://jestjs.io/) for unit tests of API endpoints' behavior. You can run `yarn test` in the root directory to run all tests, or `yarn test path/to/your/file.test.ts` to run a specific test.
-- **Dogfooding.** Our website itself covers all kinds of potential configuration cases and we even have a dedicated [tests area](https://gityjf.io/tests). Don't be afraid to update our website's configuration in your PR—it can help the maintainers preview the effects. We can decide if the website change should be kept when merging and deploying for production.
+- **Dogfooding.** Our website itself covers all kinds of potential configuration cases and we even have a dedicated [tests area](https://tutorial.io/tests). Don't be afraid to update our website's configuration in your PR—it can help the maintainers preview the effects. We can decide if the website change should be kept when merging and deploying for production.
 - **E2E tests.** You can simulate the distribution and installation of the code with your fresh changes. If you need help testing your changes locally, you can check out the doc on doing [local third-party testing](https://github.com/it990110/docusaurus/blob/main/admin/local-third-party-project-testing.md).
 
 ### Licensing

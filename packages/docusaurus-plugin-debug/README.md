@@ -4,4 +4,4 @@ Debug plugin for Docusaurus.
 
 ## Usage
 
-See [plugin-debug documentation](https://gityjf.io/docs/api/plugins/@docusaurus/plugin-debug).
+See [plugin-debug documentation](https://tutorial.io/docs/api/plugins/@docusaurus/plugin-debug).

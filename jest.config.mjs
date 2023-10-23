@@ -34,7 +34,7 @@ export default {
   verbose: true,
   setupFiles: ['./jest/setup.js'],
   testEnvironmentOptions: {
-    url: 'https://gityjf.io/',
+    url: 'https://tutorial.io/',
   },
   testEnvironment: 'node',
   testPathIgnorePatterns: ignorePatterns,

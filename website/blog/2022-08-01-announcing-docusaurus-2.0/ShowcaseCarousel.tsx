@@ -100,7 +100,7 @@ export function ShowcaseCarouselV1(): JSX.Element {
         {
           name: 'Docusaurus',
           image: require('./img/v1/docusaurus.png'),
-          url: 'https://v1.gityjf.io/',
+          url: 'https://v1.tutorial.io/',
         },
       ]}
     />

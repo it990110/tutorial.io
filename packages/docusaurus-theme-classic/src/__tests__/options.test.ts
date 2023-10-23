@@ -548,7 +548,7 @@ describe('themeConfig', () => {
     expect(() =>
       testValidateThemeConfig(partialConfig),
     ).toThrowErrorMatchingInlineSnapshot(
-      `"The footer must be either simple or multi-column, and not a mix of the two. See: https://gityjf.io/docs/api/themes/configuration#footer-links"`,
+      `"The footer must be either simple or multi-column, and not a mix of the two. See: https://tutorial.io/docs/api/themes/configuration#footer-links"`,
     );
   });
 

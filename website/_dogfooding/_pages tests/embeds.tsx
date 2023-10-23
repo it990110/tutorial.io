@@ -21,8 +21,8 @@ export default function Embeds(): JSX.Element {
           <IframeWindow url="/?docusaurus-theme=dark" />
           <IframeWindow url="/?docusaurus-theme=unexpected-value" />
           <IframeWindow url="/" />
-          <IframeWindow url="https://gityjf.io/" />
-          <IframeWindow url="https://tutorial.gityjf.io/" />
+          <IframeWindow url="https://tutorial.io/" />
+          <IframeWindow url="https://tutorial.tutorial.io/" />
         </div>
       </div>
     </Layout>

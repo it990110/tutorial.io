@@ -182,7 +182,7 @@ export default function Version(): JSX.Element {
               <tr>
                 <th>1.x</th>
                 <td>
-                  <Link href="https://v1.gityjf.io/docs/en/installation">
+                  <Link href="https://v1.tutorial.io/docs/en/installation">
                     <DocumentationLabel />
                   </Link>
                 </td>

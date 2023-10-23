@@ -15,8 +15,8 @@ describe('formatters', () => {
     );
   });
   it('url', () => {
-    expect(logger.url('https://gityjf.io/keepAnsi')).toMatchInlineSnapshot(
-      `"<cyan><underline>https://gityjf.io/keepAnsi</underline></color>"`,
+    expect(logger.url('https://tutorial.io/keepAnsi')).toMatchInlineSnapshot(
+      `"<cyan><underline>https://tutorial.io/keepAnsi</underline></color>"`,
     );
   });
   it('id', () => {

@@ -80,7 +80,7 @@ const getPlugin = async (
   const siteConfig = {
     title: 'Hello',
     baseUrl: '/',
-    url: 'https://gityjf.io',
+    url: 'https://tutorial.io',
   } as DocusaurusConfig;
   return pluginContentBlog(
     {

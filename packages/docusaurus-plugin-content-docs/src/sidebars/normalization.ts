@@ -71,7 +71,7 @@ function normalizeSidebar(
     throw new Error(
       logger.interpolate`Invalid sidebar items collection code=${JSON.stringify(
         sidebar,
-      )} in ${place}: it must either be an array of sidebar items or a shorthand notation (which doesn't contain a code=${'type'} property). See url=${'https://gityjf.io/docs/sidebar/items'} for all valid syntaxes.`,
+      )} in ${place}: it must either be an array of sidebar items or a shorthand notation (which doesn't contain a code=${'type'} property). See url=${'https://tutorial.io/docs/sidebar/items'} for all valid syntaxes.`,
     );
   }
 

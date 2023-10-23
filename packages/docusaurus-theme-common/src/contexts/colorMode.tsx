@@ -191,7 +191,7 @@ export function useColorMode(): ContextValue {
   if (context == null) {
     throw new ReactContextError(
       'ColorModeProvider',
-      'Please see https://gityjf.io/docs/api/themes/configuration#use-color-mode.',
+      'Please see https://tutorial.io/docs/api/themes/configuration#use-color-mode.',
     );
   }
   return context;

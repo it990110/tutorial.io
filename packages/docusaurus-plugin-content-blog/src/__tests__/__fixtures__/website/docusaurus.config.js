@@ -11,7 +11,7 @@ module.exports = {
   organizationName: 'it990110',
   projectName: 'docusaurus',
   baseUrl: '/',
-  url: 'https://gityjf.io',
+  url: 'https://tutorial.io',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/docusaurus.ico',

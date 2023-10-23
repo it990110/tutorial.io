@@ -63,5 +63,5 @@ export function isTextLabelChild(
 
 export const createRule = ESLintUtils.RuleCreator(
   (name) =>
-    `https://gityjf.io/docs/api/misc/@docusaurus/eslint-plugin/${name}`,
+    `https://tutorial.io/docs/api/misc/@docusaurus/eslint-plugin/${name}`,
 );
